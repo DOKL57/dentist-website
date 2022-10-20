@@ -1,0 +1,3280 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Book an appointment online PRO\n"
+"POT-Creation-Date: 2021-08-16 16:37+0300\n"
+"PO-Revision-Date: 2022-01-27 12:37+0300\n"
+"Last-Translator: \n"
+"Language-Team: Italian\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: book-appointment-online-pro.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.5.2; wp-5.8.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: inc/SMS.php:48
+#, php-format
+msgid "%1$s, thank your for your booking. Time booking: %2$s"
+msgstr "%1$s, grazie per la tua prenotazione. Prenotazione a tempo:%2$s"
+
+#: inc/SMS.php:50
+#, php-format
+msgid "%1$s,do not forget, your appointment will start in %2$s"
+msgstr "%1$s, non dimenticare, l'appuntamento inizierà tra %2$s"
+
+#: inc/templates/email_before.php:45
+msgid "%name%, Thank you for booking!"
+msgstr "%name%, grazie per la prenotazione!"
+
+#: inc/templates/email_register.php:33
+msgid "%name%, thank you for registering!"
+msgstr "%name%, grazie per esserti registrato!"
+
+#: inc/templates/email_thank.php:34
+msgid "%name%, thank you for visiting"
+msgstr "%name%, grazie per la visita"
+
+#: inc/Addons/Email.php:563
+msgid "%name%, thank you for visiting!"
+msgstr "%name%, grazie per la visita!"
+
+#: inc/templates/email_thank.php:45
+msgid "%name%, we are glad to see you among our customers"
+msgstr "%name%, siamo lieti di vederti tra i nostri clienti"
+
+#: inc/Addons/Email.php:624
+msgid "%name%, we changed the status of your appointment"
+msgstr "%name%, abbiamo cambiato lo stato del tuo appuntamento"
+
+#: inc/templates/email_onStatus.php:34
+msgid "%name%, we changed the status of your appointment!"
+msgstr "%name%, abbiamo cambiato lo stato del tuo appuntamento!"
+
+#: inc/templates/email_before.php:34
+msgid "%name%, you booked!"
+msgstr "%name%, hai prenotato!"
+
+#: inc/Addons/Email.php:569
+msgid "%name%, you registered!"
+msgstr "%name%, ti sei registrato!"
+
+#: inc/templates/email_remind.php:45
+msgid "%name%, your appointment will start at %date% %time%"
+msgstr "%name%, l'appuntamento inizierà da %date% % time%"
+
+#: inc/Addons/Email.php:546 inc/templates/email_remind.php:34
+msgid "%name%, your appointment will start soon"
+msgstr "%name%, l'appuntamento inizierà presto"
+
+#: inc/Addons/Recurring.php:89
+#, php-format
+msgid "%s +%d more"
+msgstr "%s +%d altro"
+
+#: inc/Clients.php:298 inc/Clients.php:458
+#, php-format
+msgid "%s : from %s to %s"
+msgstr "%s: da %s a %s"
+
+#: inc/Addons/EmployeeAccount.php:1391
+#, php-format
+msgid "%s across %s from %s to %s. First work day: %s"
+msgstr "%s di fronte %s da %s a %s. Primo giorno lavorativo: %s"
+
+#: inc/templates/emails/canceledbylink_booking.php:20
+#: inc/templates/emails/canceled_booking.php:22
+#, php-format
+msgid "%s, %s booking on %s"
+msgstr "%s, %s prenotazione su %s"
+
+#: inc/SMS.php:53 inc/templates/email_rescheduled.php:34
+#, php-format
+msgid "%s, your appointment %s has been changed!"
+msgstr "%s,abbiamo cambiato lo stato del tuo appuntamento. Nuovo stato: %s"
+
+#: inc/SMS.php:52
+#, php-format
+msgid "%s,we changed the status of your appointment. New status: %s"
+msgstr "%s,abbiamo cambiato lo stato del tuo appuntamento. Nuovo stato: %s"
+
+#: inc/old/class.shortcode-replacer.php:66
+#: inc/old/class.shortcode-replacer.php:121
+msgid "(deprecated)"
+msgstr "(deprecato)"
+
+#: inc/Utils.php:193 inc/old/class.shortcode-replacer.php:81
+#: inc/old/class.shortcode-replacer.php:91
+msgid "(in the customer's time zone)"
+msgstr "(nel fuso orario del cliente)"
+
+#: inc/templates/conference/conference.php:93
+#: inc/templates/conference/conference.php:96
+msgid "(Mute/unmute)"
+msgstr "(Mute / unmute)"
+
+#: inc/templates/email_admin.php:16 inc/templates/email_before.php:16
+#: inc/templates/email_onStatus.php:16 inc/templates/email_remind.php:16
+#: inc/templates/email_rescheduled.php:16 inc/templates/email_thank.php:16
+msgid "(Optional) This demo Email template. You can add your own template."
+msgstr ""
+"(Facoltativo) Questo modello di email di dimostrazione. Puoi aggiungere il "
+"tuo modello."
+
+#: inc/SMS.php:544
+msgid "(to admin, employee)"
+msgstr "(all'amministratore, dipendente)"
+
+#: inc/Addons/EmployeeAccount.php:1344
+msgid "(Untitled)"
+msgstr "(Senza titolo)"
+
+#: inc/includes/helpers.php:735
+msgid "1 day"
+msgstr "1 giorno"
+
+#: inc/Clients.php:144 inc/Addons/EmployeeAccount.php:1296
+#: inc/includes/react-options.php:109
+msgid "1 day before"
+msgstr "1 giorno prima"
+
+#: inc/includes/helpers.php:723
+msgid "1 hour"
+msgstr "1 ora"
+
+#: inc/Clients.php:144 inc/Addons/EmployeeAccount.php:1292
+#: inc/includes/react-options.php:105
+msgid "1 hour before"
+msgstr "1 ora prima"
+
+#: inc/Clients.php:144 inc/Addons/EmployeeAccount.php:1290
+#: inc/includes/react-options.php:103
+msgid "15 min before"
+msgstr "15 minuti prima"
+
+#: inc/includes/helpers.php:717
+msgid "15 minutes"
+msgstr "15 minuti"
+
+#: inc/includes/helpers.php:726
+msgid "2 hours"
+msgstr "2 ore"
+
+#: inc/Clients.php:144 inc/Addons/EmployeeAccount.php:1293
+#: inc/includes/react-options.php:106
+msgid "2 hours before"
+msgstr "2 ore prima"
+
+#: inc/Addons/EmployeeAccount.php:519
+msgid "2-way sync status"
+msgstr "Stato di sincronizzazione a 2 vie"
+
+#: inc/Clients.php:144 inc/Addons/EmployeeAccount.php:1291
+#: inc/includes/react-options.php:104
+msgid "30 min before"
+msgstr "30 minuti prima"
+
+#: inc/includes/helpers.php:720
+msgid "30 minutes"
+msgstr "30 minuti"
+
+#: inc/includes/helpers.php:729
+msgid "4 hours"
+msgstr "4 ore"
+
+#: inc/Clients.php:144 inc/Addons/EmployeeAccount.php:1294
+#: inc/includes/react-options.php:107
+msgid "4 hours before"
+msgstr "4 ore prima"
+
+#: inc/includes/helpers.php:732
+msgid "8 hours"
+msgstr "8 ore"
+
+#: inc/Clients.php:144 inc/Addons/EmployeeAccount.php:1295
+#: inc/includes/react-options.php:108
+msgid "8 hours before"
+msgstr "8 ore prima"
+
+#: inc/SMS.php:433
+msgid ""
+"A four-digit confirmation code will be sent to the customer before creating "
+"an appointment. Without entering this code the appointment will not be "
+"created. SMS cost is the same as regular SMS"
+msgstr ""
+"Un codice di conferma di quattro cifre verrà inviato al cliente prima di "
+"creare un appuntamento. Senza inserire questo codice l'appuntamento non "
+"verrà creato. Il costo degli SMS è lo stesso degli SMS normali"
+
+#: inc/Addons/EmployeeAccount.php:1416
+msgid "About"
+msgstr "A proposito di me"
+
+#: inc/Employees.php:195
+msgid "About employe"
+msgstr "A proposito di employe"
+
+#: inc/Addons/EmployeeAccount.php:425
+msgid "Access"
+msgstr "Accesso"
+
+#: inc/Employees.php:355
+msgid "across"
+msgstr "attraverso"
+
+#: inc/Updater.php:95 inc/Updater.php:405
+msgid "Activate"
+msgstr "Attivare"
+
+#: inc/Employees.php:337 inc/Employees.php:371 inc/Employees.php:411
+#: inc/Firebase.php:210 inc/Addons/Discounts.php:139
+#: inc/Addons/EmployeeAccount.php:1343 inc/includes/admin.php:65
+#: inc/includes/admin.php:173 inc/old/custom-meta-box.php:414
+msgid "Add"
+msgstr "Inserisci"
+
+#: inc/Addons/Conference.php:208
+msgid "Add 5 min"
+msgstr "Aggiungere 5 min"
+
+#: inc/Clients.php:55
+msgid "Add appointment"
+msgstr "Aggiungi un appuntamento"
+
+#: inc/Settings.php:422
+msgid "Add area for users"
+msgstr "Aggiungi area per gli utenti"
+
+#: inc/includes/admin.php:34 inc/includes/admin.php:50
+msgid "Add break hours"
+msgstr "Aggiungi ore di pausa"
+
+#: inc/Addons/Discounts.php:413
+msgid "Add coupon"
+msgstr "Aggiungi Coupon"
+
+#: inc/Addons/Discounts.php:53
+msgid "Add coupons for discount"
+msgstr "Aggiungi coupon per lo sconto"
+
+#: inc/Employees.php:36 inc/Employees.php:37
+msgid "Add employee"
+msgstr "Aggiungi dipendente"
+
+#: inc/Addons/CustomFields.php:75
+msgid "Add field"
+msgstr "Aggiungi campo"
+
+#: inc/Addons/EmployeeAccount.php:1334
+msgid "Add more"
+msgstr "Aggiungi altro"
+
+#: inc/Clients.php:56
+msgid "Add new appointment"
+msgstr "Aggiungi un nuovo appuntamento"
+
+#: inc/Branches.php:115
+msgid "Add new branch"
+msgstr "Aggiungi un nuovo ramo"
+
+#: inc/Addons/Discounts.php:414
+msgid "Add new coupon"
+msgstr "Aggiungi nuovo coupon"
+
+#: inc/Employees.php:329 inc/includes/admin.php:57
+msgid "Add new line"
+msgstr "Aggiungi una nuova linea"
+
+#: inc/Payments.php:39
+msgid "Add new payment"
+msgstr ""
+
+#: inc/Payments.php:38
+msgid "Add payment"
+msgstr ""
+
+#: inc/Settings.php:220
+msgid "Add php code to template"
+msgstr "Aggiungi il codice php al modello"
+
+#: inc/Addons/EmployeeAccount.php:96 inc/Addons/EmployeeAccount.php:189
+msgid "Add profile page for employees"
+msgstr "Aggiungi la pagina del profilo per i dipendenti"
+
+#: inc/Services.php:25 inc/Services.php:26 inc/Addons/EmployeeAccount.php:1360
+msgid "Add service"
+msgstr "Aggiungi servizio"
+
+#: inc/Settings.php:219
+msgid "Add shortcode to page"
+msgstr "Aggiungi shortcode alla pagina"
+
+#: inc/Addons/Widgets.php:787
+msgid "Add widget"
+msgstr "Aggiungi dipendente"
+
+#: inc/Employees.php:322 inc/Strings.php:47
+msgid "Add work hours"
+msgstr "Aggiungi ore di lavoro"
+
+#: inc/Firebase.php:331
+msgid "Add your device"
+msgstr "Aggiungi il tuo dispositivo"
+
+#: inc/Addons/Discounts.php:97
+msgid "Add/edit coupon"
+msgstr "Aggiungi / modifica coupon"
+
+#: inc/Addons/EmployeeAccount.php:1364
+msgid "Additional"
+msgstr "Supplementare"
+
+#: inc/Strings.php:64
+msgid "Addons"
+msgstr "Componenti aggiuntivi"
+
+#: inc/Branches.php:44
+msgid "Address"
+msgstr "Indirizzo"
+
+#: inc/SMS.php:452
+msgid "Admin Phone Number"
+msgstr "Numero di telefono dell'amministratore"
+
+#: inc/Addons/Discounts.php:128 inc/Addons/Discounts.php:134
+msgid "All"
+msgstr "Tutti"
+
+#: inc/Branches.php:110
+msgid "All branches"
+msgstr "Tutti i rami"
+
+#: inc/Dashboard.php:84
+msgid "All Employees"
+msgstr "Tutti gli impiegati"
+
+#: inc/Employees.php:632 inc/Addons/EmployeeAccount.php:1340
+msgid "All services"
+msgstr "Tutti i servizi"
+
+#: inc/Settings.php:443
+msgid "Allow book an appointment only for registered users"
+msgstr "Consenti di prenotare un appuntamento solo per gli utenti registrati"
+
+#: inc/Settings.php:464
+msgid "Allow customer to register"
+msgstr "Consenti al cliente di registrarsi"
+
+#: inc/Addons/Recurring.php:28
+msgid "Always"
+msgstr "Sempre"
+
+#: inc/Settings.php:402
+msgid "AM/PM time Format"
+msgstr "Formato ora AM / PM"
+
+#: inc/Payments.php:84 inc/Payments.php:118 inc/Addons/EmployeeAccount.php:1414
+#: inc/Addons/Export.php:269 inc/old/class.shortcode-replacer.php:136
+msgid "Amount"
+msgstr "Quantità"
+
+#: inc/Addons/Discounts.php:110
+msgid "Amount of discount"
+msgstr "Importo dello sconto"
+
+#: inc/Clients.php:244
+#, php-format
+msgid "An appointment has already passed <b>%s</b> at <b>%s</b>"
+msgstr "Un appuntamento ha già superato <b>%s </ b> a <b>%s </ b>"
+
+#: inc/includes/helpers.php:875
+msgid "Another reason"
+msgstr "Un altro motivo"
+
+#: inc/Utils.php:57
+msgid "Any"
+msgstr "Non hai appuntamenti"
+
+#: inc/includes/react-options.php:304
+msgid "Any employee"
+msgstr "Qualsiasi dipendente"
+
+#: inc/Firebase.php:247
+msgid "API Key"
+msgstr "API Key"
+
+#: inc/Firebase.php:303
+msgid "App ID"
+msgstr "App ID"
+
+#: inc/Strings.php:36 inc/includes/react-options.php:177
+msgid "Apply"
+msgstr "Applica"
+
+#: inc/Addons/EmployeeAccount.php:1379
+msgid "Apply to All"
+msgstr "Applica a tutti"
+
+#: inc/Clients.php:54 inc/Clients.php:461 inc/Addons/Paypal.php:372
+#: inc/Addons/Stripe.php:252 inc/Addons/Stripe.php:326
+#: inc/Addons/Woocommerce.php:556 inc/Addons/Yookassa.php:196
+#: inc/includes/advanced-functions.php:1286
+msgid "Appointment"
+msgstr "Appuntamento"
+
+#: inc/Addons/EmployeeAccount.php:1378
+msgid "appointment"
+msgstr "appuntamento"
+
+#: inc/Addons/Email.php:558
+msgid "Appointment %id% rescheduled"
+msgstr "L'appuntamento %id% inizierà presto"
+
+#: inc/Addons/Email.php:552
+msgid "Appointment %id% will start soon"
+msgstr "L'appuntamento %id% inizierà presto"
+
+#: inc/SMS.php:51
+#, php-format
+msgid "Appointment %s will start in %s"
+msgstr "L'appuntamento %s inizierà tra %s"
+
+#: inc/old/class.shortcode-replacer.php:96
+msgid "Appointment duration"
+msgstr "Durata dell'appuntamento"
+
+#: inc/old/class.shortcode-replacer.php:101
+msgid "Appointment end"
+msgstr "Fine appuntamento"
+
+#: inc/Utils.php:190
+msgid "Appointment ID"
+msgstr "ID appuntamento"
+
+#: inc/Clients.php:335
+msgid "Appointment name"
+msgstr "Nome dell'appuntamento"
+
+#. Description of the plugin
+msgid ""
+"Appointment online to a specialist. Perfectly suitable for beauty salons, "
+"medical centers, car services, etc."
+msgstr ""
+"Appuntamento online a uno specialista. Perfettamente adatto per i saloni di "
+"bellezza, i centri medici, i servizi di auto, ecc."
+
+#: inc/Settings.php:542 inc/includes/advanced-functions.php:310
+msgid "Appointment settings"
+msgstr "Impostazioni dell'appuntamento"
+
+#: inc/includes/advanced-functions.php:220
+msgid "Appointment status"
+msgstr "Stato degli appuntamenti"
+
+#: inc/Payments.php:160 inc/Addons/Conference.php:178
+#: inc/Addons/Woocommerce.php:558 inc/Addons/Yookassa.php:216
+msgid "Appointment №"
+msgstr "Appuntamento №"
+
+#: inc/includes/advanced-functions.php:752
+#, php-format
+msgid "Appointment №%s was canceled successfully"
+msgstr "L'appuntamento № %s è stato annullato con successo"
+
+#: inc/Clients.php:53 inc/Addons/Widgets.php:340 inc/Addons/Widgets.php:735
+msgid "Appointments"
+msgstr "Appuntamenti"
+
+#: inc/Clients.php:63
+msgid "Appointments not found"
+msgstr "Appuntamenti non trovati"
+
+#: inc/Clients.php:64
+msgid "Appointments not found in trash"
+msgstr "Appuntamenti non trovati nel cestino"
+
+#: inc/Settings.php:657 inc/includes/admin.php:374
+msgid ""
+"Appointments with status 'Approved' and 'On hold' will block the selected "
+"employee time slot"
+msgstr ""
+"Gli appuntamenti con stato 'Approvato' e 'In attesa' bloccheranno la fascia "
+"oraria del dipendente selezionata"
+
+#: inc/Clients.php:143 inc/Utils.php:19 inc/Addons/Email.php:674
+#: inc/Addons/EmployeeAccount.php:1347 inc/Addons/Export.php:305
+#: inc/includes/admin.php:242 inc/includes/admin.php:307
+#: inc/includes/admin.php:344 inc/includes/advanced-functions.php:349
+#: inc/includes/advanced-functions.php:383
+#: inc/includes/advanced-functions.php:703
+#: inc/includes/advanced-functions.php:762 inc/includes/helpers.php:636
+#: inc/includes/react-options.php:273
+msgid "Approved"
+msgstr "Approvato"
+
+#: inc/Settings.php:318
+msgid "As popup"
+msgstr "Come popup"
+
+#: inc/Settings.php:314
+msgid "As shortcode"
+msgstr "Come shortcode"
+
+#: inc/Addons/EmployeeAccount.php:1067
+msgid "Assign"
+msgstr "Assegna"
+
+#: inc/Addons/EmployeeAccount.php:314
+msgid "Assign to user"
+msgstr "Assegna all'utente"
+
+#: inc/Clients.php:449 inc/Addons/Conference.php:179
+#: inc/includes/react-options.php:317
+msgid "at"
+msgstr "a"
+
+#: inc/Addons/GoogleCalendar.php:102
+msgid "Authorization"
+msgstr "Autorizzazione"
+
+#: inc/Addons/EmployeeAccount.php:514 inc/Addons/GoogleCalendar.php:172
+msgid "Authorize"
+msgstr "Autorizzare"
+
+#: inc/Addons/EmployeeAccount.php:1409 inc/includes/react-options.php:323
+msgid "Back"
+msgstr "Indietro"
+
+#: inc/Addons/EmployeeAccount.php:1422
+msgid "Back to site"
+msgstr "Torna al sito"
+
+#: inc/Strings.php:75
+msgid "Back to WP"
+msgstr "Torna a WP"
+
+#: inc/Services.php:93
+msgid "Badge"
+msgstr "Badge"
+
+#: inc/Strings.php:49
+msgid "before"
+msgstr "prima"
+
+#: inc/includes/react-options.php:321
+msgid "Book"
+msgstr "Prenotare"
+
+#: inc/templates/email_thank.php:71
+msgid "Book an appointment with a discount"
+msgstr "Prenota un appuntamento con uno sconto"
+
+#: inc/templates/email_thank.php:73
+msgid "Booking"
+msgstr "Prenotazione"
+
+#: inc/Dashboard.php:80 inc/Employees.php:245
+msgid "Booking calendar"
+msgstr "Calendario delle prenotazioni"
+
+#: inc/Clients.php:101
+msgid "Booking date"
+msgstr "Data di prenotazione"
+
+#: inc/Base.php:125 inc/Addons/Woocommerce.php:169
+msgid "Booking online"
+msgstr "Prenotazione online"
+
+#: inc/Settings.php:129 inc/Settings.php:130
+msgid "Booking settings"
+msgstr "Impostazioni di prenotazione"
+
+#: inc/Clients.php:102 inc/Clients.php:142
+msgid "Booking time"
+msgstr "Tempo di prenotazione"
+
+#: inc/Strings.php:21
+msgid "Booking to service"
+msgstr "Prenotazione al servizio"
+
+#: inc/Branches.php:107 inc/Branches.php:108 inc/Branches.php:117
+#: inc/old/class.shortcode-replacer.php:126
+msgid "Branch"
+msgstr "Ramo"
+
+#: inc/includes/react-options.php:330
+msgid "Branches not found"
+msgstr "Filiali non trovate"
+
+#: inc/Branches.php:120
+msgid "Branches not found."
+msgstr "Rami non trovati"
+
+#: inc/Branches.php:119
+msgid "Branches separated by comma"
+msgstr "Filiali separate da virgola"
+
+#: inc/Employees.php:230 inc/Employees.php:231
+msgid "Break list"
+msgstr "Break list"
+
+#: inc/Addons/EmployeeAccount.php:1418 inc/includes/admin.php:33
+#: inc/includes/admin.php:37
+msgid "Breaks"
+msgstr "Pause"
+
+#: inc/Services.php:92
+msgid "Buffer time after"
+msgstr "Tempo di pausa dopo"
+
+#: inc/Services.php:91
+msgid "Buffer time before"
+msgstr "Tempo di buffer prima"
+
+#: inc/Strings.php:68
+msgid "Buy and register PRO version to install addons"
+msgstr ""
+"Acquista e registra la versione PRO per installare i componenti aggiuntivi"
+
+#: inc/Addons/Conference.php:204 inc/templates/conference/conference.php:96
+msgid "Call with audio"
+msgstr "Chiama con audio"
+
+#: inc/Addons/Conference.php:202 inc/templates/conference/conference.php:93
+msgid "Call with video"
+msgstr "Chiama con video"
+
+#: inc/Addons/EmployeeAccount.php:400
+msgid "Can edit appointments"
+msgstr "Può modificare gli appuntamenti"
+
+#: inc/Clients.php:718 inc/Addons/EmployeeAccount.php:1365
+#: inc/includes/react-options.php:309
+#: inc/includes/deprecated/deprecated.php:284
+msgid "Cancel"
+msgstr "Annulla"
+
+#: inc/Utils.php:196 inc/old/class.shortcode-replacer.php:146
+msgid "Cancel appointment link"
+msgstr "Link all'appuntamento"
+
+#: inc/Clients.php:143 inc/Clients.php:560 inc/Clients.php:616 inc/Utils.php:29
+#: inc/Addons/Email.php:676 inc/Addons/EmployeeAccount.php:1349
+#: inc/Addons/Export.php:307 inc/includes/admin.php:252
+#: inc/includes/admin.php:309 inc/includes/admin.php:354
+#: inc/includes/advanced-functions.php:359
+#: inc/includes/advanced-functions.php:393
+#: inc/includes/advanced-functions.php:705
+#: inc/includes/advanced-functions.php:745
+#: inc/includes/advanced-functions.php:764 inc/includes/helpers.php:638
+#: inc/includes/react-options.php:275
+#: inc/templates/emails/canceledbylink_booking.php:20
+msgid "Canceled"
+msgstr "Annullato"
+
+#: inc/includes/advanced-functions.php:760
+#: inc/templates/emails/canceledbylink_booking.php:14
+msgid "Canceled by link"
+msgstr "Annullato tramite link"
+
+#: inc/Clients.php:451
+msgid "changed"
+msgstr "cambiato"
+
+#: inc/Addons/CustomFields.php:170
+msgid "Checkbox"
+msgstr "casella di controllo"
+
+#: inc/Addons/CustomFields.php:173
+msgid "Choices"
+msgstr "scelte"
+
+#: inc/Addons/GoogleCalendar.php:564 inc/old/class.google-calendar.php:294
+msgid "Click here to view appointment details"
+msgstr "Clicca qui per visualizzare i dettagli dell'appuntamento"
+
+#: inc/Addons/GoogleCalendar.php:103
+msgid "Click to authorize"
+msgstr "Clicca per autorizzare"
+
+#: inc/includes/rest-api.php:170
+msgid "Click to view details"
+msgstr "Clicca per visualizzare i dettagli"
+
+#: inc/Clients.php:126 inc/templates/email_admin.php:133
+#: inc/templates/email_remind_emp.php:15
+msgid "Client data"
+msgstr "Dati del cliente"
+
+#: inc/Addons/GoogleCalendar.php:60
+msgid "Client Email"
+msgstr "Email del cliente"
+
+#: inc/old/class.shortcode-replacer.php:106
+#: inc/templates/emails/to_admin.php:27
+msgid "Client email"
+msgstr "Email del cliente"
+
+#: inc/Addons/EmployeeAccount.php:422 inc/Addons/GoogleCalendar.php:74
+#: inc/Addons/Paypal.php:130
+msgid "Client ID"
+msgstr "Client ID"
+
+#: inc/Utils.php:191 inc/old/class.shortcode-replacer.php:71
+msgid "Client name"
+msgstr "Nome del cliente"
+
+#: inc/Utils.php:194 inc/old/class.shortcode-replacer.php:111
+#: inc/templates/emails/to_admin.php:31
+msgid "Client phone"
+msgstr "Telefono del cliente"
+
+#: inc/Addons/EmployeeAccount.php:423 inc/Addons/GoogleCalendar.php:88
+msgid "Client Secret"
+msgstr "Client Secret"
+
+#: inc/Addons/Conference.php:55
+msgid ""
+"Client-to-client video conferencing. Should work only in modern browsers. "
+"You must have active support to use it"
+msgstr ""
+"Rilascio beta di videoconferenza client-to-client. Dovrebbe funzionare solo "
+"nei browser moderni. Devi avere un supporto attivo per usarlo"
+
+#: inc/Employees.php:232
+msgid "Clients"
+msgstr "clienti"
+
+#: inc/Addons/EmployeeAccount.php:1333 inc/includes/react-options.php:326
+msgid "Close"
+msgstr "Chiudi"
+
+#: inc/Employees.php:161
+#, php-format
+msgid "Closest time to booking for current service is %s minute early"
+msgstr ""
+"Il tempo più vicino alla prenotazione per il servizio corrente è di %s "
+"minuto prima"
+
+#: inc/Addons/EmployeeAccount.php:424
+msgid "Code"
+msgstr "Codice"
+
+#: inc/Settings.php:496
+msgid "Color options"
+msgstr "Opzioni di colore"
+
+#: inc/Strings.php:60
+msgid "Communication"
+msgstr "Comunicazione"
+
+#: inc/Strings.php:56
+msgid "Conference"
+msgstr "Conferenza"
+
+#: inc/Addons/Conference.php:452
+msgid "Conference ID"
+msgstr "ID conferenza"
+
+#: inc/Utils.php:195
+msgid "Conference link"
+msgstr "Collegamento conferenza"
+
+#: inc/Strings.php:57
+msgid "Conference Log"
+msgstr "Registro conferenze"
+
+#: inc/Addons/Conference.php:54
+msgid "Conference page"
+msgstr "Pagina della conferenza"
+
+#: inc/Clients.php:270 inc/Addons/EmployeeAccount.php:1354
+#: inc/old/class.shortcode-replacer.php:56
+msgid "Conference URL"
+msgstr "URL della conferenza"
+
+#: inc/Addons/Conference.php:185
+msgid "Conference will start in"
+msgstr "La conferenza avrà inizio"
+
+#: inc/Addons/Conference.php:190
+msgid "Connection failed. Please, try again later..."
+msgstr "Connessione fallita. Per favore riprova più tardi..."
+
+#: inc/Employees.php:302 inc/Addons/EmployeeAccount.php:1336
+msgid "Constant"
+msgstr "Costante"
+
+#: inc/Strings.php:19 inc/includes/react-options.php:237
+msgid "Contact information"
+msgstr "Informazioni sui contatti"
+
+#: inc/Strings.php:46
+msgid "Contact with developers!"
+msgstr "Contatta con gli sviluppatori!"
+
+#: inc/Strings.php:62
+msgid "Copied!"
+msgstr "Copiato!"
+
+#: inc/Addons/Conference.php:180
+#| msgid "Сould not connect to server"
+msgid "Could not connect to server"
+msgstr "Non poteva collegarsi al server"
+
+#: inc/Addons/Discounts.php:412
+msgid "Coupon"
+msgstr "Coupon"
+
+#: inc/Addons/Discounts.php:100 inc/Addons/Discounts.php:694
+#: inc/includes/react-options.php:168
+msgid "Coupon code"
+msgstr "Codice Coupon"
+
+#: inc/Addons/Discounts.php:411
+msgid "Coupons"
+msgstr "Coupon"
+
+#: inc/Addons/Discounts.php:421
+msgid "Coupons not found"
+msgstr "Buoni non trovati"
+
+#: inc/Addons/Discounts.php:422
+msgid "Coupons not found in trash"
+msgstr "Buoni non trovati nel cestino"
+
+#: inc/Addons/EmployeeAccount.php:1383
+msgid "Create"
+msgstr "Crea"
+
+#: inc/Addons/EmployeeAccount.php:1411
+msgid "Create an account"
+msgstr "Crea un account"
+
+#: inc/Settings.php:367 inc/Addons/Yookassa.php:111
+msgid "Currency"
+msgstr "Moneta"
+
+#: inc/Settings.php:386
+msgid "Currency position"
+msgstr "Posizione valuta"
+
+#: inc/Employees.php:304 inc/Addons/EmployeeAccount.php:1338
+msgid "Custom"
+msgstr "Personalizzato"
+
+#: inc/Addons/CustomFields.php:161
+msgid "Custom field name"
+msgstr "Nome del campo personalizzato"
+
+#: inc/Addons/CustomFields.php:410 inc/Addons/CustomFields.php:421
+msgid "Custom fields"
+msgstr "Campi personalizzati"
+
+#: inc/Addons/CustomFields.php:333
+msgid "Custom fields info"
+msgstr "Informazioni sui campi personalizzati"
+
+#: inc/Addons/CustomFields.php:38
+msgid "Custom form field"
+msgstr "Campo modulo personalizzato"
+
+#: inc/Settings.php:773 inc/Settings.php:782
+msgid "Custom placeholder for your country"
+msgstr "Segnaposto personalizzato per il tuo paese"
+
+#: inc/Addons/Export.php:77 inc/Addons/Export.php:265
+msgid "Customer"
+msgstr "Cliente"
+
+#: inc/Clients.php:546
+msgid "Customer (Book an appointment online)"
+msgstr "Cliente (Book an appointment online)"
+
+#: inc/old/class.shortcode-replacer.php:161
+msgid "Customer login"
+msgstr "Accesso cliente"
+
+#: inc/Settings.php:581
+msgid "Customers can choose their time zone"
+msgstr "I clienti possono scegliere il proprio fuso orario"
+
+#: inc/Utils.php:121 inc/includes/admin.php:117 inc/includes/admin.php:134
+msgid "d"
+msgstr "d"
+
+#: inc/Addons/Recurring.php:29 inc/Addons/Recurring.php:62
+msgid "Daily"
+msgstr "Giornaliero"
+
+#: inc/Clients.php:141 inc/Clients.php:264 inc/Clients.php:341
+#: inc/Employees.php:256 inc/Addons/EmployeeAccount.php:1357
+#: inc/Addons/Export.php:249 inc/includes/react-options.php:316
+#: inc/old/class.google-calendar.php:593 inc/templates/email_admin.php:83
+#: inc/templates/email_before.php:83 inc/templates/email_remind.php:83
+#: inc/templates/email_remind_emp.php:13
+#: inc/templates/emails/email_after_booking.php:22
+#: inc/templates/emails/email_before_booking.php:22
+#: inc/templates/emails/to_admin.php:21 inc/templates/emails/to_client.php:22
+msgid "Date"
+msgstr "Data"
+
+#: inc/Utils.php:235
+msgid "Date and time"
+msgstr "Data e ora"
+
+#: inc/Addons/Woocommerce.php:392
+msgid "Date and time in the client's time zone"
+msgstr "Data e ora nel fuso orario del cliente"
+
+#: inc/old/class.shortcode-replacer.php:76
+#: inc/old/class.shortcode-replacer.php:81
+msgid "Date booking"
+msgstr "Data di prenotazione"
+
+#: inc/Strings.php:52
+msgid "Date not set"
+msgstr "Data non impostata"
+
+#: inc/Employees.php:363
+msgid "Date of any first shift"
+msgstr "Data di ogni primo turno"
+
+#: inc/Strings.php:17 inc/Addons/EmployeeAccount.php:1371
+#: inc/Addons/Recurring.php:63
+msgid "Day"
+msgstr "Giorno"
+
+#: inc/Utils.php:134
+msgid "day"
+msgstr "giorno"
+
+#: inc/Addons/EmployeeAccount.php:1380 inc/Addons/Recurring.php:64
+msgid "Days"
+msgstr "Giorni"
+
+#: inc/Addons/Recurring.php:74
+msgid "Days of Week"
+msgstr "Giorni del mese"
+
+#: inc/includes/admin.php:172
+msgid "Days off"
+msgstr "Giorni liberi"
+
+#: inc/Addons/EmployeeAccount.php:1419
+msgid "DaysOff"
+msgstr "Giorni liberi"
+
+#: inc/includes/helpers.php:912
+msgid "Deactivating the plugin..."
+msgstr "Disattivazione del plugin..."
+
+#: inc/Services.php:85
+msgid "Decimal separator is point"
+msgstr "Il separatore decimale è il punto"
+
+#: inc/Employees.php:208 inc/Settings.php:351 inc/Utils.php:40
+#: inc/Addons/EmployeeAccount.php:1263 inc/Addons/EmployeeAccount.php:1424
+msgid "Default"
+msgstr "Predefinito"
+
+#: inc/Addons/Discounts.php:23
+msgid "Default currency"
+msgstr "Valuta predefinita"
+
+#: inc/SMS.php:601
+msgid "Default text on status change"
+msgstr "Testo predefinito sul cambio di stato"
+
+#: inc/SMS.php:478
+msgid "Default text to admin"
+msgstr "Testo predefinito da amministrare"
+
+#: inc/SMS.php:500
+msgid "Default text to user"
+msgstr "Testo predefinito per utente"
+
+#: inc/SMS.php:522 inc/SMS.php:544
+msgid "Default text-reminder"
+msgstr "Promemoria di testo predefinito"
+
+#: inc/Clients.php:718 inc/Addons/Recurring.php:80
+msgid "Delete"
+msgstr "Elimina"
+
+#: inc/Clients.php:616
+msgid "Deleted"
+msgstr "eliminata"
+
+#: inc/Services.php:87 inc/includes/advanced-functions.php:892
+#: inc/includes/react-options.php:332
+msgid "Deposit"
+msgstr "Acconto"
+
+#: inc/Services.php:88
+msgid "Deposit type"
+msgstr "Tipo acconto"
+
+#: inc/Branches.php:65
+msgid "Description"
+msgstr "Descrizione"
+
+#: inc/templates/email_remind.php:46
+msgid "Details of your appointment are presented below."
+msgstr "Di seguito i dettagli del tuo appuntamento."
+
+#: inc/Firebase.php:214
+#, php-format
+msgid "Device %s"
+msgstr "Dispositivi %s"
+
+#: inc/Addons/Recurring.php:27
+msgid "Disabled"
+msgstr "Disabilitato"
+
+#: inc/Addons/Discounts.php:52
+msgid "Discount coupons"
+msgstr "Buoni sconto"
+
+#: inc/Addons/Discounts.php:41
+msgid "Discounts"
+msgstr "Sconti"
+
+#: inc/Addons/Recurring.php:78
+msgid "Does not work"
+msgstr "Non funziona"
+
+#: inc/Addons/Paypal.php:111 inc/Addons/Stripe.php:121
+#: inc/Addons/Yookassa.php:92
+msgid "Don't create an appointment if there is no payment"
+msgstr "Non creare un appuntamento in assenza di pagamento"
+
+#: inc/SMS.php:432
+msgid "Don't create an appointment without SMS confirmation"
+msgstr "Non creare un appuntamento senza conferma SMS"
+
+#: inc/Utils.php:61
+msgid "Don't send email"
+msgstr "Non inviare email"
+
+#: inc/Addons/EmployeeAccount.php:1406
+msgid "Done"
+msgstr "Fatto"
+
+#: inc/templates/email_admin.php:84 inc/templates/email_before.php:84
+#: inc/templates/email_remind.php:84 inc/templates/email_remind_emp.php:14
+msgid "Duration (min)"
+msgstr "Durata (min)"
+
+#: inc/Addons/Email.php:181
+msgid "E-mail must contain domain of your site. eg: "
+msgstr "L'e-mail deve contenere il dominio del tuo sito. per esempio:"
+
+#: inc/Clients.php:245 inc/Employees.php:346
+#: inc/Addons/EmployeeAccount.php:1392 inc/Addons/Recurring.php:79
+msgid "Edit"
+msgstr "modificare"
+
+#: inc/Clients.php:57 inc/Clients.php:58
+msgid "Edit appointment"
+msgstr "Modifica un appuntamento"
+
+#: inc/Branches.php:113
+msgid "Edit branch"
+msgstr "Modifica ramo"
+
+#: inc/Addons/Discounts.php:415 inc/Addons/Discounts.php:416
+msgid "Edit coupon"
+msgstr "Modifica coupon"
+
+#: inc/Employees.php:38 inc/Employees.php:39
+msgid "Edit employee"
+msgstr "Modifica dipendente"
+
+#: inc/Payments.php:40 inc/Payments.php:41
+msgid "Edit payment"
+msgstr ""
+
+#: inc/Services.php:27 inc/Services.php:28
+msgid "Edit service"
+msgstr "Modifica servizio"
+
+#: inc/Clients.php:138 inc/Clients.php:338 inc/Settings.php:720
+#: inc/Addons/EmployeeAccount.php:421 inc/Addons/EmployeeAccount.php:1280
+#: inc/Addons/EmployeeAccount.php:1331 inc/Addons/Export.php:252
+#: inc/includes/admin.php:280 inc/includes/react-options.php:82
+msgid "Email"
+msgstr "E-mail"
+
+#: inc/Addons/EmployeeAccount.php:401
+msgid "Email for notifications"
+msgstr "Email per le notifiche"
+
+#: inc/Settings.php:833
+msgid "Email marketing"
+msgstr "Marketing via email"
+
+#: inc/Addons/EmployeeAccount.php:349
+msgid "Email notification"
+msgstr "Notificazione e-mail"
+
+#: inc/Addons/Email.php:534
+msgid "Email template about booking to the admin"
+msgstr "Modello di email sulla prenotazione all'amministratore"
+
+#: inc/Addons/Email.php:556
+msgid "Email template about reschedule"
+msgstr "Il modello di email ricorda al cliente la prenotazione"
+
+#: inc/Addons/Email.php:561
+msgid "Email template after booking"
+msgstr "Modello di posta elettronica dopo la prenotazione"
+
+#: inc/Addons/Email.php:539
+msgid "Email template on booking"
+msgstr "Modello di email al momento della prenotazione"
+
+#: inc/Addons/Email.php:567
+msgid "Email template on customer register"
+msgstr "Modello e-mail sul registro clienti"
+
+#: inc/Addons/Email.php:622
+msgid "Email template on status change"
+msgstr "Modello di email sul cambio di stato"
+
+#: inc/Addons/Email.php:544
+msgid "Email template reminder"
+msgstr "Email modello di promemoria"
+
+#: inc/Addons/Email.php:550
+msgid "Email template reminder (to employee, admin)"
+msgstr "Promemoria modello di email (a dipendente, amministratore)"
+
+#: inc/Addons/Email.php:545
+msgid "Email template reminds the client about booking"
+msgstr "Il modello di email ricorda al cliente la prenotazione"
+
+#: inc/Addons/Email.php:551
+msgid "Email template reminds the employee and admin about booking"
+msgstr ""
+"Il modello di e-mail ricorda al dipendente e all'amministratore la "
+"prenotazione"
+
+#: inc/Addons/Email.php:562
+msgid "Email template sending after booking"
+msgstr "Invio di modelli email dopo la prenotazione"
+
+#: inc/Addons/Email.php:623
+msgid "Email template sending on change appointment status"
+msgstr "Modello di email che invia lo stato del cambiamento di appuntamento"
+
+#: inc/Addons/Email.php:568
+msgid "Email template sending on customer register"
+msgstr "Modello di email che invia sul registro clienti"
+
+#: inc/Addons/Email.php:535 inc/Addons/Email.php:540
+msgid "Email template when user has booked an appointment"
+msgstr "Modello di email quando l'utente ha prenotato un appuntamento"
+
+#: inc/Addons/Email.php:81
+msgid "Email title"
+msgstr "Titolo email"
+
+#: inc/Addons/Email.php:152
+msgid "Email to"
+msgstr "Email destinatario"
+
+#: inc/Clients.php:340 inc/Employees.php:35 inc/Addons/EmployeeAccount.php:282
+#: inc/Addons/EmployeeAccount.php:1353 inc/Addons/Export.php:104
+#: inc/Addons/Export.php:254 inc/includes/react-options.php:315
+#: inc/templates/email_admin.php:82
+msgid "Employee"
+msgstr "Dipendente"
+
+#: inc/Addons/Email.php:531
+msgid "employee"
+msgstr "specialista"
+
+#: inc/Clients.php:140
+msgid "Employee name"
+msgstr "Nome dipendente"
+
+#: inc/Employees.php:44 inc/includes/react-options.php:314
+msgid "Employee not found"
+msgstr "Dipendente non trovato"
+
+#: inc/Addons/EmployeeAccount.php:1153
+msgid "Employee Profile Page"
+msgstr "Pagina profilo dipendente"
+
+#: inc/Strings.php:53
+msgid "Employee schedule is required!"
+msgstr "È richiesta la pianificazione dei dipendenti!"
+
+#: inc/Addons/EmployeeAccount.php:1377
+msgid "Employee Settings"
+msgstr "Impostazioni dei dipendenti"
+
+#: inc/Addons/EmployeeAccount.php:388
+msgid "Employee settings"
+msgstr "Impostazioni dei dipendenti"
+
+#: inc/Addons/EmployeeAccount.php:107 inc/Addons/EmployeeAccount.php:198
+msgid "Employee's personal account page"
+msgstr "Pagina dell'account personale del dipendente"
+
+#: inc/Employees.php:34 inc/Utils.php:234 inc/Addons/Discounts.php:132
+#: inc/Addons/Discounts.php:520
+msgid "Employees"
+msgstr "I dipendenti"
+
+#: inc/Addons/EmployeeAccount.php:121 inc/Addons/EmployeeAccount.php:209
+msgid "Employees can register"
+msgstr "I dipendenti possono registrarsi"
+
+#: inc/Employees.php:45
+msgid "Employees not found in trash"
+msgstr "Dipendenti non trovati nel cestino"
+
+#: inc/Clients.php:296 inc/Clients.php:297 inc/Clients.php:311
+#: inc/Clients.php:456 inc/Clients.php:457
+msgid "Empty"
+msgstr "Vuoto"
+
+#: inc/Appointment.php:718
+msgid "Empty data"
+msgstr "Dati vuoti"
+
+#: inc/Settings.php:840 inc/SMS.php:412
+msgid "Enable"
+msgstr "Abilitare"
+
+#: inc/Addons/Paypal.php:52
+msgid "Enable Paypal Sandbox"
+msgstr "Abilita Sandbox Paypal"
+
+#: inc/Firebase.php:236
+msgid "Enable Push notification (Firebase)"
+msgstr "Abilita notifica push (Firebase)"
+
+#: inc/Addons/Conference.php:209
+msgid "Enable sound notification of an incoming call?"
+msgstr "Abilitare la notifica audio di una chiamata in arrivo?"
+
+#: inc/Addons/CustomFields.php:175
+msgid "Enter each choice on a new line"
+msgstr "Inserisci ciascuna scelta su una nuova riga"
+
+#: inc/Addons/EmployeeAccount.php:1402
+msgid "Enter email"
+msgstr "Inserisci e-mail"
+
+#: inc/Addons/Twilio.php:52
+msgid ""
+"Enter the number of Twilio WhatsApp to start sending messages via WhatsApp"
+msgstr ""
+"Inserisci il numero di Twilio WhatsApp per iniziare a inviare messaggi "
+"tramite WhatsApp"
+
+#: inc/Addons/EmployeeAccount.php:1397
+msgid "Enter username"
+msgstr "Inserisci il tuo nome utente"
+
+#: inc/Addons/EmployeeAccount.php:1404
+msgid "Enter verification code"
+msgstr "Inserisci codice di verifica"
+
+#: inc/Addons/EmployeeAccount.php:1328
+msgid "Enter your name"
+msgstr "Inserisci il tuo nome"
+
+#: inc/Addons/EmployeeAccount.php:1329
+msgid "Enter your occupation"
+msgstr "Inserisci la tua occupazione"
+
+#: inc/Clients.php:289
+msgid "Error with this log message"
+msgstr "Errore con questo messaggio di registro"
+
+#: inc/Addons/GoogleCalendar.php:311 inc/Addons/Woocommerce.php:341
+#: inc/includes/deprecated/deprecated.php:225
+msgid "Error!"
+msgstr "Errore!"
+
+#: inc/Strings.php:18
+msgid "Evening"
+msgstr "Sera"
+
+#: inc/Addons/GoogleCalendar.php:116
+msgid "Event message"
+msgstr "Messaggio di evento"
+
+#: inc/Addons/GoogleCalendar.php:117
+msgid "Event text in Google Calendar"
+msgstr "Testo dell'evento in Google Calendar"
+
+#: inc/Addons/Recurring.php:73
+msgid "Every"
+msgstr "Ogni"
+
+#: inc/Employees.php:633 inc/Addons/EmployeeAccount.php:1341
+msgid "Exclude services below"
+msgstr "Escludi servizi di seguito"
+
+#: inc/Addons/Export.php:153
+msgid "Export"
+msgstr "Esporta"
+
+#: inc/Addons/EmployeeAccount.php:1045
+msgid "Failed"
+msgstr "Fallito"
+
+#: inc/Addons/Conference.php:194
+msgid "File type not supported"
+msgstr "Tipo di file non supportato"
+
+#: inc/includes/admin.php:313
+msgid "Filter By Status "
+msgstr "Filtra per stato"
+
+#: inc/Settings.php:808
+msgid "Final message"
+msgstr "Messaggio finale"
+
+#: inc/Firebase.php:248 inc/Firebase.php:262 inc/Firebase.php:276
+#: inc/Firebase.php:290 inc/Firebase.php:304 inc/Firebase.php:318
+msgid "Find it in your Firebase console"
+msgstr ""
+
+#: inc/Addons/Recurring.php:86
+msgid "First appointment"
+msgstr "Primo giorno lavorativo:"
+
+#: inc/Firebase.php:219
+msgid ""
+"First specify the Firebase settings. All fields are required. Then save the "
+"settings and add your device."
+msgstr ""
+"Per prima cosa specifica le impostazioni Firebase. Tutti i campi sono "
+"obbligatori. Quindi salva le impostazioni e aggiungi il tuo dispositivo."
+
+#: inc/Strings.php:45 inc/Strings.php:50
+msgid "First work day:"
+msgstr "Primo giorno lavorativo:"
+
+#: inc/Services.php:88
+msgid "Fixed amount"
+msgstr "Importo fisso"
+
+#: inc/Addons/EmployeeAccount.php:1421
+msgid "Forgot Password?"
+msgstr "Ha dimenticato la password?"
+
+#: inc/Utils.php:237
+msgid "Form"
+msgstr "Modulo"
+
+#: inc/Settings.php:712
+msgid "Form fields"
+msgstr "Campi modulo"
+
+#: inc/Settings.php:709
+msgid "Form settings"
+msgstr "Impostazioni del modulo"
+
+#: inc/Employees.php:314 inc/includes/admin.php:42
+msgid "FR"
+msgstr "FR"
+
+#: inc/Addons/EmployeeAccount.php:1388
+msgid "Friday"
+msgstr "Venerdì"
+
+#: inc/Addons/Export.php:50
+msgid "From"
+msgstr "Da"
+
+#: inc/Strings.php:48
+msgid "from"
+msgstr "a partire dal"
+
+#: inc/Addons/Email.php:180
+msgid "From (email)"
+msgstr "Dal (email)"
+
+#: inc/Addons/Email.php:166
+msgid "From name (name)"
+msgstr "Dal nome (nome)"
+
+#: inc/Addons/Recurring.php:71
+msgid "Generate"
+msgstr "Genera"
+
+#: inc/Addons/GoogleCalendar.php:702
+msgid "Get Events"
+msgstr "Ottieni eventi"
+
+#: inc/Addons/Twilio.php:66 inc/Addons/Twilio.php:80 inc/Addons/Twilio.php:94
+msgid "Get it in your account at"
+msgstr "Scaricalo nel tuo account all'indirizzo"
+
+#: inc/Addons/Recaptcha.php:39 inc/Addons/Recaptcha.php:53
+#, php-format
+msgid "Get it in your reCAPTCHA %sadmin console%s"
+msgstr "Ricevilo nella tua reCAPTCHA %sadmin console%s"
+
+#: inc/Addons/GoogleCalendar.php:48 inc/includes/react-options.php:334
+#: inc/old/class.google-calendar.php:612
+msgid "Google Calendar"
+msgstr "Google Calendar"
+
+#: inc/Addons/EmployeeAccount.php:409
+msgid "Google calendar settings"
+msgstr "Impostazioni del calendario di Google"
+
+#: inc/Addons/Recaptcha.php:26
+msgid "Google reCAPTCHA v2 (checkbox)"
+msgstr "Google reCAPTCHA v2 (casella di controllo)"
+
+#: inc/Utils.php:121 inc/includes/admin.php:117 inc/includes/admin.php:134
+msgid "h"
+msgstr "h"
+
+#: inc/Addons/Conference.php:205 inc/templates/conference/conference.php:112
+msgid "Hang up"
+msgstr "Appendere"
+
+#: inc/templates/email_before.php:167
+msgid "Here you can include your special offer!"
+msgstr "Qui puoi includere la tua offerta speciale!"
+
+#: inc/Settings.php:260
+msgid "Hide booking settings"
+msgstr "Nascondi le impostazioni di prenotazione"
+
+#: inc/includes/advanced-functions.php:458
+msgid "Hide button"
+msgstr "Nascondi pulsante"
+
+#: inc/Settings.php:688
+msgid "Hide button - Skip selecting specialist"
+msgstr "Pulsante Nascondi - Salta la selezione dello specialista"
+
+#: inc/Utils.php:128
+msgid "hour"
+msgstr "ora"
+
+#: inc/Utils.php:131
+msgid "hours"
+msgstr "ore"
+
+#: inc/Addons/Email.php:564
+msgid ""
+"How many minutes after the ending of the booking, send email to the user?"
+msgstr ""
+"Quanti minuti dopo la fine della prenotazione, inviare e-mail all'utente?"
+
+#: inc/Addons/Email.php:122 inc/Addons/Email.php:547 inc/Addons/Email.php:553
+msgid ""
+"How many minutes before the starting of the booking, send a reminder to the "
+"user?"
+msgstr ""
+"Quanti minuti prima dell'inizio della prenotazione, invia un promemoria "
+"all'utente?"
+
+#: inc/Settings.php:326
+msgid "How to place"
+msgstr "Come posizionare"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://demo.oz-plugin.ru/"
+msgstr "http://demo.oz-plugin.ru/"
+
+#: inc/includes/react-options.php:335
+msgid "iCal"
+msgstr "iCal"
+
+#: inc/old/class.shortcode-replacer.php:61
+#: inc/old/class.shortcode-replacer.php:66
+msgid "ID of booking (post ID)"
+msgstr "ID della prenotazione (post ID)"
+
+#: inc/Addons/EmployeeAccount.php:524
+msgid "If cron is enabled 2-way sync will be updated automatically"
+msgstr ""
+"Se cron è abilitato, la sincronizzazione a 2 modi verrà aggiornata "
+"automaticamente"
+
+#: inc/Addons/Recurring.php:539 inc/Addons/Recurring.php:540
+msgid "if empty then the customer will specify the number of times"
+msgstr "Se vuoto, il cliente specificherà il numero di volte"
+
+#: inc/Employees.php:634 inc/Addons/EmployeeAccount.php:1342
+msgid "Include services below"
+msgstr "Includi servizi di seguito"
+
+#: inc/Addons/Conference.php:188
+msgid "Incoming call"
+msgstr "Chiamata in arrivo"
+
+#: inc/Employees.php:213
+msgid "Individual time slot duration"
+msgstr "Durata della fascia oraria individuale"
+
+#: inc/Addons/EmployeeAccount.php:1352
+msgid "Info"
+msgstr "Info"
+
+#: inc/Addons/CustomFields.php:167
+msgid "Input"
+msgstr "Ingresso"
+
+#: inc/Strings.php:66
+msgid "Install"
+msgstr "Installa"
+
+#: inc/Strings.php:67
+msgid "Installed"
+msgstr "Installato"
+
+#: inc/Strings.php:65
+msgid "Installing..."
+msgstr "Installando..."
+
+#: inc/Settings.php:867 inc/includes/advanced-functions.php:533
+msgid "Integration"
+msgstr "Integrazione"
+
+#: inc/Addons/Conference.php:196 inc/templates/conference/conference.php:20
+msgid "Interlocutor status"
+msgstr "Stato dell'interlocutore"
+
+#: inc/Addons/Conference.php:207
+msgid "Internet connection lost"
+msgstr "Connessione Internet persa"
+
+#: inc/Addons/EmployeeAccount.php:1394
+msgid "Invalid email"
+msgstr "Email non valida"
+
+#: inc/Addons/EmployeeAccount.php:1399
+msgid "Invalid password"
+msgstr "Password non valida"
+
+#: inc/Addons/EmployeeAccount.php:1396
+msgid "Invalid username"
+msgstr "Nome utente non valido"
+
+#: inc/Addons/EmployeeAccount.php:1405
+msgid "Invalid verification code"
+msgstr "Codice di verifica non valido"
+
+#: inc/Addons/Recurring.php:83
+msgid "is minimum"
+msgstr "è minimo"
+
+#: inc/includes/react-options.php:331
+msgid ""
+"It seems that the order has been placed, but not confirmed by the site "
+"administration. Please contact the site administrator to confirm your order"
+msgstr ""
+"Sembra che l'ordine sia stato effettuato, ma non confermato "
+"dall'amministrazione del sito. Si prega di contattare l'amministratore del "
+"sito per confermare l'ordine"
+
+#: inc/templates/oz_popup.php:14 inc/templates/single-employee.php:47
+#: inc/templates/single-rest-api.php:84
+msgid ""
+"It seems that the plugin is already running somewhere on the site. If not, "
+"please contact our support team."
+msgstr ""
+"Sembra che il plugin sia già in esecuzione da qualche parte sul sito. In "
+"caso contrario, si prega di contattare il nostro team di supporto."
+
+#: inc/templates/emails/to_admin.php:46
+msgid "leave message. Message data:"
+msgstr "lascia un messaggio. Dati del messaggio:"
+
+#: inc/Settings.php:800
+msgid "Leave this field blank if all countries are needed"
+msgstr "Lascia vuoto questo campo se sono necessari tutti i paesi"
+
+#: inc/Settings.php:774
+msgid "Leave this field blank if you want default placeholder"
+msgstr "Lasciare vuoto questo campo se si desidera un segnaposto predefinito"
+
+#: inc/includes/react-options.php:320
+msgid "Leave your contacts!"
+msgstr "Lascia i tuoi contatti!"
+
+#: inc/Settings.php:390
+msgid "Left"
+msgstr "Sinistra"
+
+#: inc/old/class.shortcode-replacer.php:151
+msgid "List of all appointments if this appointment is recurring"
+msgstr "Elenco di tutti gli appuntamenti se l'appuntamento è ricorrente"
+
+#: inc/Addons/Email.php:70
+msgid "Load default template"
+msgstr "Carica il modello predefinito"
+
+#: inc/LocallyPayment.php:16 inc/LocallyPayment.php:42 inc/Payments.php:188
+#: inc/Addons/Email.php:301 inc/includes/react-options.php:279
+msgid "Locally"
+msgstr "localmente"
+
+#: inc/Addons/EmployeeAccount.php:1368 inc/includes/react-options.php:313
+msgid "Log Out"
+msgstr "Esci"
+
+#: inc/includes/react-options.php:310
+msgid "Login"
+msgstr "Accesso"
+
+#: inc/Addons/SMSC.php:51
+msgid "Login of your account at"
+msgstr "Login del tuo account a"
+
+#: inc/Clients.php:277
+msgid "Logs"
+msgstr "Logs"
+
+#: inc/Strings.php:55
+msgid "Lost connection"
+msgstr "Connessione persa"
+
+#: inc/Settings.php:497
+msgid "Main color, second color, background color"
+msgstr "Colore principale, secondo colore, colore di sfondo"
+
+#: inc/Settings.php:237
+msgid "Main settings"
+msgstr "Impostazioni principali"
+
+#: inc/Addons/Discounts.php:537
+msgid "Max"
+msgstr "Max"
+
+#: inc/Addons/Discounts.php:121
+msgid "Max discount"
+msgstr "Sconto massimo"
+
+#: inc/Settings.php:601 inc/includes/admin.php:90
+msgid "Max month for calendar display on front (from now)"
+msgstr ""
+"Max mese per la visualizzazione del calendario sulla parte anteriore (da ora)"
+
+#: inc/Addons/Recurring.php:540
+msgid "Maximum count"
+msgstr "Conteggio massimo"
+
+#: inc/Firebase.php:317
+msgid "measurementId"
+msgstr "measurementId"
+
+#: inc/Firebase.php:289
+msgid "Messaging Sender ID"
+msgstr "Messaging Sender ID"
+
+#: inc/Payments.php:85 inc/Payments.php:118
+msgid "Method"
+msgstr "Metodo"
+
+#: inc/Clients.php:713 inc/Addons/EmployeeAccount.php:1356
+msgid "min"
+msgstr "min"
+
+#: inc/Settings.php:615 inc/includes/admin.php:113
+msgid "Min time for booking (from now)"
+msgstr "Minimo tempo per la prenotazione (da ora)"
+
+#: inc/Settings.php:629 inc/includes/admin.php:130
+msgid "Min time for canceling booking (from now and only for logged in users)"
+msgstr ""
+"Tempo minimo per cancellare la prenotazione (da ora e solo per gli utenti "
+"registrati)"
+
+#: inc/Addons/Recurring.php:539
+msgid "Minimum count"
+msgstr "Conteggio minimo"
+
+#: inc/Employees.php:209 inc/Employees.php:210 inc/Employees.php:211
+#: inc/Employees.php:212 inc/Utils.php:96 inc/Utils.php:125
+#: inc/Addons/EmployeeAccount.php:1264 inc/Addons/EmployeeAccount.php:1265
+#: inc/Addons/EmployeeAccount.php:1266 inc/Addons/EmployeeAccount.php:1267
+msgid "minutes"
+msgstr "minuti"
+
+#: inc/Employees.php:310 inc/includes/admin.php:38
+msgid "MO"
+msgstr "MO"
+
+#: inc/Addons/EmployeeAccount.php:1384
+msgid "Monday"
+msgstr "Lunedì"
+
+#: inc/Addons/EmployeeAccount.php:1373 inc/Addons/Recurring.php:69
+msgid "Month"
+msgstr "Mese"
+
+#: inc/Addons/Recurring.php:31 inc/Addons/Recurring.php:68
+msgid "Monthly"
+msgstr "Mensile"
+
+#: inc/Addons/Recurring.php:70
+msgid "Months"
+msgstr "Mesi"
+
+#: inc/Addons/EmployeeAccount.php:359 inc/includes/react-options.php:305
+msgid "More"
+msgstr "Altro"
+
+#: inc/Addons/Discounts.php:494
+msgid "more"
+msgstr "più"
+
+#: inc/Firebase.php:127 inc/Firebase.php:134
+msgid "More information in the site console"
+msgstr "Maggiori informazioni nella console del sito"
+
+#: inc/Strings.php:16
+msgid "Morning"
+msgstr "Mattina"
+
+#: inc/Settings.php:546 inc/includes/admin.php:15
+msgid "Multiselect for services"
+msgstr "Multiselect per servizi"
+
+#: inc/includes/react-options.php:311
+msgid "My appointments"
+msgstr "I miei appuntamenti"
+
+#: inc/Strings.php:58 inc/Addons/EmployeeAccount.php:1246
+#: inc/Addons/EmployeeAccount.php:1346 inc/Addons/Export.php:253
+#: inc/includes/react-options.php:38
+msgid "Name"
+msgstr "Nome"
+
+#: inc/Addons/EmployeeAccount.php:969
+msgid ""
+"Need to assign appointments to employee. Before performing this operation we "
+"reccomend to make backup of database"
+msgstr ""
+"È necessario assegnare appuntamenti al dipendente. Prima di eseguire questa "
+"operazione, si consiglia di eseguire il backup del database"
+
+#: inc/Addons/EmployeeAccount.php:1375
+msgid "Need to set up a profile"
+msgstr "Necessità di configurare un profilo"
+
+#: inc/Settings.php:355
+msgid "Neumorphism"
+msgstr "Neumorphism"
+
+#: inc/Clients.php:59
+msgid "New appointment"
+msgstr "Nuovo appuntamento"
+
+#: inc/Addons/Email.php:639 inc/old/class.shortcode-replacer.php:156
+msgid "New Appointment status"
+msgstr "Nuovo stato dell'appuntamento"
+
+#: inc/templates/email_admin.php:45
+msgid "New booking from %name%"
+msgstr "Nuova prenotazione da %name%"
+
+#: inc/Firebase.php:126 inc/Firebase.php:133 inc/Addons/Email.php:217
+#: inc/includes/rest-api.php:169
+msgid "New booking on "
+msgstr "Nuova prenotazione su"
+
+#: inc/Addons/Email.php:536 inc/templates/email_admin.php:34
+msgid "New booking on %date%"
+msgstr "Nuova prenotazione su %data%"
+
+#: inc/templates/emails/to_admin.php:45
+msgid "New booking to specialist"
+msgstr "Nuova prenotazione allo specialista"
+
+#: inc/SMS.php:49
+#, php-format
+msgid ""
+"New booking. Name: %1$s, Phone:%2$s, Time booking: %3$s. More information in "
+"site console"
+msgstr ""
+"Nuova prenotazione Nome: %1$s, Telefono: %2$s, Prenotazione a tempo: %3$s. "
+"Maggiori informazioni nella console del sito"
+
+#: inc/Branches.php:116
+msgid "New branch name"
+msgstr "Nuovo nome del ramo"
+
+#: inc/Addons/Discounts.php:417
+msgid "New coupon"
+msgstr "Nuovo coupon"
+
+#: inc/SMS.php:53 inc/templates/email_rescheduled.php:45
+#, php-format
+msgid "New date and time is: %s"
+msgstr "La nuova data e ora è: %s"
+
+#: inc/Employees.php:40
+msgid "New employee"
+msgstr "Nuovo impiegato"
+
+#: inc/Payments.php:42
+msgid "New payment"
+msgstr ""
+
+#: inc/Services.php:29
+msgid "New service"
+msgstr "Nuovo servizio"
+
+#: inc/Utils.php:198
+msgid "New status"
+msgstr "Nuovo stato"
+
+#: inc/templates/email_onStatus.php:45
+msgid "New status: %appointment%"
+msgstr "Nuovo stato: %appointment%"
+
+#: inc/includes/react-options.php:322
+msgid "Next"
+msgstr "Successivo"
+
+#: inc/includes/deprecated/deprecated.php:254
+#: inc/includes/deprecated/deprecated.php:267
+msgid "Next step"
+msgstr "Passo successivo"
+
+#: inc/Strings.php:38 inc/Utils.php:78 inc/Utils.php:285
+#: inc/Addons/Conference.php:211 inc/Addons/EmployeeAccount.php:204
+#: inc/Addons/EmployeeAccount.php:1289 inc/includes/react-options.php:102
+msgid "No"
+msgstr "No"
+
+#: inc/Strings.php:27
+msgid "No available time for selected date"
+msgstr "Nessun orario disponibile per la data selezionata"
+
+#: inc/Addons/Discounts.php:92
+msgid "No coupons found"
+msgstr "Nessun coupon trovato"
+
+#: inc/Strings.php:61
+msgid "No data"
+msgstr "Nessun dato"
+
+#: inc/Addons/EmployeeAccount.php:1335
+msgid "No Days Off"
+msgstr "Nessun giorno libero"
+
+#: inc/Addons/EmployeeAccount.php:1382
+msgid "No Schedule"
+msgstr "Nessun programma"
+
+#: inc/Addons/EmployeeAccount.php:1339
+msgid "No schedule"
+msgstr "Nessuna schedulazione"
+
+#: inc/Settings.php:359
+msgid "No styles"
+msgstr "Nessuno stile"
+
+#: inc/Settings.php:624 inc/Settings.php:639 inc/includes/admin.php:118
+#: inc/includes/admin.php:135
+msgid "None"
+msgstr "Nessuna"
+
+#: inc/Clients.php:144
+msgid "Not"
+msgstr "Non"
+
+#: inc/Addons/EmployeeAccount.php:1047
+msgid "Not found"
+msgstr "Non trovato"
+
+#: inc/Clients.php:139 inc/Clients.php:140
+msgid "Not select"
+msgstr "Non selezionare"
+
+#: inc/Addons/EmployeeAccount.php:523 inc/Addons/EmployeeAccount.php:583
+msgid "Not sync"
+msgstr "Non sincronizzato"
+
+#: inc/Addons/Export.php:333
+msgid "Nothing found"
+msgstr "Nessun risultato"
+
+#: inc/Addons/EmployeeAccount.php:1362 inc/includes/admin.php:279
+msgid "Notify customer by"
+msgstr "Notifica al cliente di"
+
+#: inc/Addons/Conference.php:192 inc/templates/conference/conference.php:20
+msgid "Offline"
+msgstr "Offline"
+
+#: inc/includes/admin.php:284
+msgid "Ok"
+msgstr "Ok"
+
+#: inc/Clients.php:143 inc/Utils.php:24 inc/Addons/Email.php:675
+#: inc/Addons/EmployeeAccount.php:1348 inc/Addons/Export.php:306
+#: inc/includes/admin.php:247 inc/includes/admin.php:308
+#: inc/includes/admin.php:349 inc/includes/advanced-functions.php:354
+#: inc/includes/advanced-functions.php:388
+#: inc/includes/advanced-functions.php:704
+#: inc/includes/advanced-functions.php:763 inc/includes/helpers.php:637
+#: inc/includes/react-options.php:274
+msgid "On hold"
+msgstr "In attesa"
+
+#: inc/Addons/EmployeeAccount.php:108 inc/Addons/EmployeeAccount.php:200
+msgid ""
+"On this page the employees will be able to edit their schedule and manage "
+"their appointments"
+msgstr ""
+"In questa pagina i dipendenti potranno modificare il proprio programma e "
+"gestire i propri appuntamenti"
+
+#: inc/Addons/Conference.php:203
+msgid "On/off"
+msgstr "On/off"
+
+#: inc/Addons/Email.php:153
+msgid "One or more mailboxes separated by commas"
+msgstr "Una o più cassette postali separate da virgole"
+
+#: inc/Strings.php:59 inc/Addons/Conference.php:191
+msgid "Online"
+msgstr "Online"
+
+#: inc/Payments.php:198 inc/Addons/Email.php:304
+#: inc/includes/react-options.php:282
+msgid "Online Card (Yandex Kassa)"
+msgstr "Scheda online (Yandex Kassa)"
+
+#: inc/Base.php:108 inc/includes/react-options.php:329
+msgid "Only registered users can book an appointment"
+msgstr "Solo gli utenti registrati possono prenotare un appuntamento"
+
+#: inc/includes/react-options.php:325
+msgid "Open"
+msgstr "Aperto"
+
+#: inc/Addons/Paypal.php:85
+msgid ""
+"Optional. Link to the page to which the user will return in case of cancel/"
+"error payment. For example"
+msgstr ""
+"Opzionale. Link alla pagina a cui l'utente tornerà in caso di "
+"cancellazione / pagamento di errore. Per esempio"
+
+#: inc/Addons/Paypal.php:72
+msgid ""
+"Optional. Link to the page to which the user will return in case of "
+"successful payment. For example"
+msgstr ""
+"Opzionale. Link alla pagina a cui l'utente tornerà in caso di pagamento "
+"andato a buon fine. Per esempio"
+
+#: inc/Addons/CustomFields.php:156
+msgid "Order"
+msgstr "Ordine"
+
+#: inc/templates/email_admin.php:66 inc/templates/email_before.php:66
+#: inc/templates/email_remind.php:66
+msgid "Order details"
+msgstr "Dettagli dell'ordine"
+
+#: inc/templates/email_admin.php:115 inc/templates/email_before.php:115
+#: inc/templates/email_remind.php:115
+msgid "Order number"
+msgstr "Numero d'ordine"
+
+#: inc/Addons/Recurring.php:85
+msgid "Other appointments"
+msgstr "Questo codice è attivato su altri domini"
+
+#: inc/Addons/Woocommerce.php:395
+msgid "others"
+msgstr "altri"
+
+#. Author of the plugin
+msgid "oz-plugin"
+msgstr "oz-plugin"
+
+#. Name of the plugin
+msgid "OzApp - appointment booking plugin (ex. Book an appointment online)"
+msgstr ""
+"OzApp - plugin per la prenotazione di appuntamenti (es. Book an appointment "
+"online)"
+
+#: inc/Clients.php:65
+msgid "Parent appointment"
+msgstr "Appuntamento genitore"
+
+#: inc/Branches.php:111
+msgid "Parent branch"
+msgstr "Ramo genitore"
+
+#: inc/Branches.php:112
+msgid "Parent branch:"
+msgstr "Parent branch:"
+
+#: inc/Addons/Discounts.php:423
+msgid "Parent coupon"
+msgstr "Codice promozionale genitore"
+
+#: inc/Employees.php:46
+msgid "Parent employee"
+msgstr "Dipendente genitore"
+
+#: inc/Payments.php:48
+msgid "Parent payment"
+msgstr ""
+
+#: inc/Services.php:35
+msgid "Parent service"
+msgstr "Servizio genitore"
+
+#: inc/Addons/EmployeeAccount.php:1398 inc/old/class.shortcode-replacer.php:166
+msgid "Password"
+msgstr "Password"
+
+#: inc/Addons/SMSC.php:65
+msgid "Password of your account at"
+msgstr "La password del tuo account a"
+
+#: inc/Addons/Recurring.php:541
+msgid "Pay for all appointments at once"
+msgstr "Paga tutti gli appuntamenti contemporaneamente"
+
+#: inc/Addons/Recurring.php:541
+msgid "Pay only for the first appointment"
+msgstr "Paga solo per il primo appuntamento"
+
+#: inc/Payments.php:37
+msgid "Payment"
+msgstr ""
+
+#: inc/Payments.php:86
+msgid "Payment ID"
+msgstr "ID pagamento"
+
+#: inc/Payments.php:81 inc/Payments.php:107
+msgid "Payment info"
+msgstr "Informazioni di pagamento"
+
+#: inc/Payments.php:203 inc/old/class.shortcode-replacer.php:141
+msgid "Payment method"
+msgstr "Metodo di pagamento"
+
+#: inc/Settings.php:837
+msgid "Payment options"
+msgstr "Opzioni di pagamento"
+
+#: inc/Payments.php:36
+msgid "Payments"
+msgstr ""
+
+#: inc/Payments.php:46
+msgid "Payments not found"
+msgstr ""
+
+#: inc/Payments.php:47
+msgid "Payments not found in trash"
+msgstr ""
+
+#: inc/Payments.php:192 inc/Addons/Email.php:302
+#: inc/includes/react-options.php:280
+msgid "PayPal"
+msgstr "PayPal"
+
+#: inc/Addons/Paypal.php:27
+msgid "Paypal"
+msgstr "Paypal"
+
+#: inc/Addons/Paypal.php:38
+msgid "Paypal account"
+msgstr "account Paypal"
+
+#: inc/Addons/Paypal.php:84
+msgid "Paypal cancel URL"
+msgstr "Paypal cancella URL"
+
+#: inc/Addons/Paypal.php:97
+msgid "Paypal currency"
+msgstr "Valuta paypal"
+
+#: inc/Addons/Paypal.php:71
+msgid "Paypal return URL"
+msgstr "URL di restituzione Paypal"
+
+#: inc/Services.php:88
+msgid "Percent"
+msgstr "Percentuale"
+
+#: inc/Clients.php:137 inc/Clients.php:337 inc/Settings.php:746
+#: inc/Addons/EmployeeAccount.php:1280 inc/Addons/EmployeeAccount.php:1332
+#: inc/Addons/Export.php:251 inc/includes/react-options.php:328
+msgid "Phone"
+msgstr "Telefono"
+
+#: inc/Addons/EmployeeAccount.php:402
+msgid "Phone for notifications"
+msgstr "Telefono per le notifiche"
+
+#: inc/Updater.php:402
+msgid ""
+"Please activate the plugin before start work with it. Enter your purchase "
+"code please"
+msgstr ""
+"Si prega di attivare il plug-in prima di iniziare a lavorarci. Inserisci il "
+"tuo codice di acquisto"
+
+#: inc/includes/helpers.php:922
+msgid "Please choose or typing a reason"
+msgstr "Si prega di scegliere o digitare un motivo"
+
+#: inc/includes/helpers.php:868 inc/includes/helpers.php:869
+msgid "Please tell us why are you deactivating the plugin?"
+msgstr "Per favore, dicci perché stai disattivando il plugin?"
+
+#: inc/templates/email_remind.php:167
+msgid "Please, contact us, if you have any questions about your appointment."
+msgstr "Per favore, contattaci, se hai qualche domanda sul tuo appuntamento."
+
+#: inc/Updater.php:356
+msgid "Please, extend your support if you want to get this update"
+msgstr ""
+"Per favore, estendere il supporto se si desidera ottenere questo "
+"aggiornamento"
+
+#: inc/Updater.php:401
+msgid "Plugin activation"
+msgstr "Attivazione del plug-in"
+
+#: inc/Settings.php:526
+msgid "Plugin information"
+msgstr "Informazioni sul plugin"
+
+#: inc/includes/helpers.php:873
+msgid "Plugin is buggy on my website"
+msgstr "Plugin è buggy sul mio sito web"
+
+#: inc/Strings.php:63
+msgid "Plugin Settings"
+msgstr "Impostazioni del plugin"
+
+#: inc/includes/helpers.php:871
+msgid "Poor design"
+msgstr "Design scadente"
+
+#: inc/Branches.php:118
+msgid "Popular branches"
+msgstr "Filiali popolari"
+
+#: inc/Addons/EmployeeAccount.php:1351
+msgid ""
+"Possibly saved appointment conflicts with an appointment already created or "
+"with a break, schedule and so on. Proceed?"
+msgstr ""
+"Eventuali conflitti di appuntamento salvati con un appuntamento già creato o "
+"con un'interruzione, una pianificazione e così via. Procedere?"
+
+#: inc/Clients.php:336 inc/includes/advanced-functions.php:681
+#: inc/includes/advanced-functions.php:716
+#: inc/includes/advanced-functions.php:771
+msgid "Post status"
+msgstr "Stato post"
+
+#: inc/Services.php:85
+msgid "Price"
+msgstr "Prezzo"
+
+#: inc/includes/react-options.php:308
+#: inc/includes/deprecated/deprecated.php:205
+msgid "price"
+msgstr "prezzo"
+
+#: inc/includes/react-options.php:333
+msgid "Print"
+msgstr "Stampa"
+
+#: inc/Addons/EmployeeAccount.php:1350
+msgid "Problem with appointment detected"
+msgstr "Problema con l'appuntamento rilevato"
+
+#: inc/Updater.php:86
+msgid "Problem with the activation. Contact our support team"
+msgstr "Problema con l'attivazione. Contatta il nostro team di supporto"
+
+#: inc/Strings.php:32
+msgid "Proceed to checkout?"
+msgstr "Procedere al checkout?"
+
+#: inc/Addons/Recurring.php:541
+msgid "Processing payments for recurring appointments"
+msgstr "Elaborazione dei pagamenti per appuntamenti ricorrenti"
+
+#: inc/Firebase.php:275
+msgid "Project ID"
+msgstr "Project ID"
+
+#: inc/Employees.php:628
+msgid "Provides services"
+msgstr "Fornisce servizi"
+
+#: inc/Addons/Stripe.php:65
+msgid "Publishable key"
+msgstr "Publishable key"
+
+#: inc/Utils.php:328
+msgid "Purchase code"
+msgstr "Codice di acquisto"
+
+#: inc/templates/emails/email_before_booking.php:39
+msgid "Recall your data:"
+msgstr "Ricorda i tuoi dati:"
+
+#: inc/includes/react-options.php:189
+msgid "Recaptcha"
+msgstr "ReCaptcha"
+
+#: inc/Addons/Recurring.php:98
+msgid "Recurring"
+msgstr "Ricorrente"
+
+#: inc/Addons/Recurring.php:527
+msgid "Recurring settings"
+msgstr "Impostazioni dei dipendenti"
+
+#: inc/Settings.php:674 inc/includes/advanced-functions.php:430
+msgid "Redirect to this URL after successful appointment"
+msgstr "Reindirizzare a questo URL dopo un appuntamento riuscito"
+
+#: inc/Addons/EmployeeAccount.php:421 inc/Addons/GoogleCalendar.php:49
+#, php-format
+msgid "Redirect URL: %s"
+msgstr "URL di reindirizzamento:%s"
+
+#: inc/Addons/EmployeeAccount.php:426
+msgid "Refresh"
+msgstr "Aggiorna"
+
+#: inc/Branches.php:114
+msgid "Refresh branch"
+msgstr "Aggiorna il ramo"
+
+#: inc/Strings.php:70 inc/Addons/EmployeeAccount.php:1413
+msgid "Register"
+msgstr "Registrati"
+
+#: inc/includes/react-options.php:136
+msgid "Register me"
+msgstr "Registrami"
+
+#: inc/Updater.php:76
+msgid "Register plugin to get auto updates."
+msgstr "Registrati plug-in per ottenere aggiornamenti automatici."
+
+#: inc/Addons/EmployeeAccount.php:1400
+msgid "Rememeber me"
+msgstr "Rememeber me"
+
+#: inc/Appointment.php:494 inc/Clients.php:144
+#: inc/Addons/EmployeeAccount.php:1300 inc/includes/react-options.php:113
+msgid "Remind at SMS"
+msgstr "Ricorda agli SMS"
+
+#: inc/Addons/Conference.php:416
+msgid "Remote service"
+msgstr "Servizio remoto"
+
+#: inc/Addons/Recurring.php:72
+msgid "Repeat"
+msgstr "Ripeti"
+
+#: inc/Addons/Recurring.php:88 inc/includes/react-options.php:236
+msgid "Repeat this appointment"
+msgstr "Ripeti questo appuntamento"
+
+#: inc/Settings.php:488 inc/Settings.php:730 inc/Settings.php:756
+#: inc/Addons/CustomFields.php:181
+msgid "Required"
+msgstr "necessario"
+
+#: inc/Addons/Stripe.php:94 inc/Addons/Stripe.php:108
+msgid ""
+"Required. Link to the page to which the user will return in case of "
+"successful payment. For example"
+msgstr ""
+"Necessario. Link alla pagina a cui l'utente tornerà in caso di pagamento "
+"riuscito. Per esempio"
+
+#: inc/Addons/EmployeeAccount.php:1408
+msgid "Reset"
+msgstr "Reset"
+
+#: inc/Addons/EmployeeAccount.php:1407
+msgid "Reset link was sent to"
+msgstr "Il collegamento Reimposta è stato inviato a"
+
+#: inc/Settings.php:241 inc/Settings.php:465 inc/Addons/EmployeeAccount.php:97
+#: inc/Addons/EmployeeAccount.php:191
+msgid "Restart plugin if this option has been changed"
+msgstr "Riavvia il plugin se questa opzione è stata cambiata"
+
+#: inc/Addons/Yookassa.php:78
+msgid "Return URL"
+msgstr "URL di ritorno"
+
+#: inc/Settings.php:394
+msgid "Right"
+msgstr "Destra"
+
+#: inc/Employees.php:315 inc/includes/admin.php:43
+msgid "SA"
+msgstr "SA"
+
+#: inc/Addons/EmployeeAccount.php:1389
+msgid "Saturday"
+msgstr "Sabato"
+
+#: inc/Addons/EmployeeAccount.php:1366
+msgid "Save"
+msgstr "Salvare"
+
+#: inc/Addons/CustomFields.php:76
+msgid "Save fields"
+msgstr "Salva campi"
+
+#: inc/Employees.php:218 inc/Employees.php:229 inc/Employees.php:309
+#: inc/Addons/EmployeeAccount.php:1417
+msgid "Schedule"
+msgstr "Programma"
+
+#: inc/Clients.php:62
+msgid "Search appointment"
+msgstr "Cerca un appuntamento"
+
+#: inc/Addons/EmployeeAccount.php:1369
+msgid "Search appointments..."
+msgstr "Cerca appuntamenti..."
+
+#: inc/Branches.php:109
+msgid "Search branches"
+msgstr "Cerca rami"
+
+#: inc/Addons/Discounts.php:420
+msgid "Search coupon"
+msgstr "Cerca coupon"
+
+#: inc/Employees.php:43
+msgid "Search employee"
+msgstr "Cerca dipendente"
+
+#: inc/Payments.php:45
+msgid "Search payment"
+msgstr ""
+
+#: inc/Services.php:32
+msgid "Search service"
+msgstr "Servizio di ricerca"
+
+#: inc/Addons/EmployeeAccount.php:1345
+msgid "Search services..."
+msgstr "Servizi di ricerca..."
+
+#: inc/Addons/Recaptcha.php:52
+msgid "Secret Key"
+msgstr "Secret Key"
+
+#: inc/Addons/Paypal.php:144 inc/Addons/Stripe.php:79
+#: inc/Addons/Yookassa.php:64
+msgid "Secret key"
+msgstr "Secret key"
+
+#: inc/Strings.php:31 inc/Addons/CustomFields.php:169
+#: inc/includes/react-options.php:303
+msgid "Select"
+msgstr "Selezionare"
+
+#: inc/Strings.php:30 inc/includes/react-options.php:230
+msgid "Select branch"
+msgstr "Seleziona un ramo"
+
+#: inc/includes/react-options.php:234
+msgid "Select category"
+msgstr "Seleziona categoria"
+
+#: inc/Strings.php:23 inc/includes/react-options.php:232
+msgid "Select date"
+msgstr "Seleziona la data"
+
+#: inc/Strings.php:29 inc/includes/react-options.php:231
+#: inc/includes/react-options.php:302
+msgid "Select employee"
+msgstr "Seleziona dipendente"
+
+#: inc/Addons/CustomFields.php:165
+msgid "Select field type"
+msgstr "Seleziona il tipo di campo"
+
+#: inc/Strings.php:20 inc/includes/react-options.php:235
+#: inc/includes/deprecated/deprecated.php:48
+msgid "Select service"
+msgstr "Seleziona il servizio"
+
+#: inc/Strings.php:24
+msgid "Select specialist"
+msgstr "Seleziona specialista"
+
+#: inc/Strings.php:22 inc/includes/react-options.php:233
+msgid "Select time booking"
+msgstr "Seleziona la prenotazione del tempo"
+
+#: inc/Addons/Woocommerce.php:96
+msgid "Send email about booking on Woocommerce status"
+msgstr "Invia e-mail sulla prenotazione sullo stato di Woocommerce"
+
+#: inc/includes/advanced-functions.php:829
+msgid "Send email to the customer"
+msgstr "Inviare messaggi di posta elettronica al cliente"
+
+#: inc/Addons/EmployeeAccount.php:1412
+msgid "Send reset link"
+msgstr "Invia il link per il reset"
+
+#: inc/SMS.php:470
+msgid "Send SMS about booking to admin"
+msgstr "Invia SMS sulla prenotazione per l'amministratore"
+
+#: inc/includes/advanced-functions.php:835
+msgid "Send sms to the customer"
+msgstr "Invia sms al cliente"
+
+#: inc/Addons/SMSC.php:79
+msgid "Sender ID"
+msgstr "Sender ID"
+
+#: inc/Settings.php:268
+msgid "Sequence of steps"
+msgstr "Sequenza di passaggi"
+
+#: inc/Firebase.php:261
+msgid "Server Key (for Cloud Messaging)"
+msgstr "Server Key (per Cloud Messaging)"
+
+#: inc/Services.php:24 inc/Addons/Export.php:58
+#: inc/includes/react-options.php:318 inc/templates/email_admin.php:81
+#: inc/templates/email_before.php:81 inc/templates/email_remind.php:81
+#: inc/templates/email_remind_emp.php:11
+#: inc/templates/emails/email_after_booking.php:28
+#: inc/templates/emails/email_before_booking.php:28
+#: inc/templates/emails/to_admin.php:35 inc/templates/emails/to_client.php:28
+msgid "Service"
+msgstr "Servizio"
+
+#: inc/Employees.php:233 inc/old/class.shortcode-replacer.php:131
+msgid "Service name"
+msgstr "Nome di Servizio"
+
+#: inc/Services.php:34
+msgid "Service not found"
+msgstr "Servizio non trovato"
+
+#: inc/Strings.php:51
+msgid "Service not set"
+msgstr "Servizio non impostato"
+
+#: inc/Strings.php:25
+msgid "Service not worked at now"
+msgstr "Il servizio non ha funzionato ora"
+
+#: inc/Services.php:55
+msgid "Service params"
+msgstr "Parametri del servizio"
+
+#: inc/Services.php:90
+msgid "Service time"
+msgstr "Tempo di servizio"
+
+#: inc/Clients.php:139 inc/Clients.php:339 inc/Services.php:23
+#: inc/Utils.php:236 inc/Addons/Conference.php:199 inc/Addons/Discounts.php:126
+#: inc/Addons/Discounts.php:517 inc/Addons/EmployeeAccount.php:1355
+#: inc/Addons/EmployeeAccount.php:1420 inc/Addons/Export.php:255
+#: inc/templates/conference/conference.php:22
+msgid "Services"
+msgstr "Servizi"
+
+#: inc/Employees.php:237
+msgid "Services list"
+msgstr "Elenco dei servizi"
+
+#: inc/Services.php:33
+msgid "Services not found"
+msgstr "Servizi non trovati"
+
+#: inc/includes/deprecated/deprecated.php:220
+msgid "Services not found! Choose employee"
+msgstr "Servizi non trovati! Scegli dipendente"
+
+#: inc/Addons/EmployeeAccount.php:1363
+msgid "Set a color"
+msgstr "Impostare un colore"
+
+#: inc/Addons/Recurring.php:538
+msgid "Set recurring appointment"
+msgstr "Imposta appuntamenti ricorrenti"
+
+#: inc/Addons/Woocommerce.php:81
+msgid "Set status on booking"
+msgstr "Imposta lo stato alla prenotazione"
+
+#: inc/Employees.php:303 inc/Addons/EmployeeAccount.php:1337
+msgid "Shift"
+msgstr "Cambio"
+
+#: inc/Employees.php:349
+msgid "Shift work"
+msgstr "Lavoro a turni"
+
+#: inc/Addons/Yookassa.php:50
+msgid "Shop ID"
+msgstr "Shop ID"
+
+#: inc/Utils.php:205
+msgid "Shortcode values"
+msgstr "Valori shortcode"
+
+#: inc/Addons/Recurring.php:81
+msgid "Show more"
+msgstr "Mostra di più"
+
+#: inc/Addons/Conference.php:201 inc/templates/conference/conference.php:70
+msgid "Show screen"
+msgstr "Mostra schermo"
+
+#: inc/Settings.php:799
+msgid "Show the flag of only those countries"
+msgstr "Mostra la bandiera solo di quei paesi"
+
+#: inc/Addons/Conference.php:206 inc/templates/conference/conference.php:128
+msgid "Show/hide sidebar"
+msgstr "Mostra/Nasconde la barra laterale"
+
+#: inc/Addons/EmployeeAccount.php:1401
+msgid "Sign in"
+msgstr "Accedi"
+
+#: inc/Addons/EmployeeAccount.php:1410
+msgid "Sign in to your account"
+msgstr "Accedi al tuo conto"
+
+#: inc/Addons/EmployeeAccount.php:526 inc/Addons/GoogleCalendar.php:175
+msgid "Sign Out"
+msgstr "Disconnessione"
+
+#: inc/Addons/EmployeeAccount.php:1403
+msgid "Sign up"
+msgstr "Registrati"
+
+#: inc/Addons/Recaptcha.php:38
+msgid "Site key"
+msgstr "Site key"
+
+#: inc/old/class.shortcode-replacer.php:51
+msgid "Site URL"
+msgstr "indirizzo del sito"
+
+#: inc/Strings.php:26 inc/includes/advanced-functions.php:458
+#: inc/includes/react-options.php:327
+msgid "Skip selecting specialist"
+msgstr "Salta la selezione dello specialista"
+
+#: inc/Settings.php:282 inc/includes/advanced-functions.php:450
+msgid "Skip step if one employee/service"
+msgstr "Salta il passaggio se un dipendente / servizio"
+
+#: inc/Addons/Recurring.php:77
+msgid "Slot busy"
+msgstr "Slot occupato"
+
+#: inc/Settings.php:863 inc/SMS.php:409 inc/includes/admin.php:281
+msgid "SMS"
+msgstr "sms"
+
+#: inc/SMS.php:623
+msgid "SMS about reschedule"
+msgstr "SMS sulla riprogramma"
+
+#: inc/Strings.php:34 inc/includes/react-options.php:204
+msgid "SMS code"
+msgstr "Codice SMS"
+
+#: inc/Addons/SMSC.php:111 inc/Addons/Twilio.php:224
+msgid "SMS Error! Curl error"
+msgstr "SMS Error! Curl error"
+
+#: inc/Addons/SMSC.php:33
+msgid "SMSC (Russia)"
+msgstr "SMSC (Russia)"
+
+#: inc/Addons/SMSC.php:120
+msgid "SMSC Error!"
+msgstr "Errore SMSC!"
+
+#: inc/Addons/SMSC.php:50
+msgid "Smsc login"
+msgstr "Smsc login"
+
+#: inc/Addons/SMSC.php:64
+msgid "SMSC password"
+msgstr "SMSC password"
+
+#: inc/Addons/SMSC.php:78
+msgid "SMSC sender (optional)"
+msgstr "SMSC mittente (opzionale)"
+
+#: inc/Addons/Conference.php:193
+msgid "Some file already uploading. Please wait and try again"
+msgstr "Alcuni file sono già in caricamento. Attendi e riprova"
+
+#: inc/includes/functions-front.php:260
+msgid "Someone has already taken the selected time. Please choose another"
+msgstr ""
+"Qualcuno ha già impiegato il tempo selezionato. Per favore scegline un altro"
+
+#: inc/Addons/Conference.php:50
+msgid ""
+"Something going wrong. Please enter your Envato purchase code again on the "
+"main tab settings!"
+msgstr ""
+"Qualcosa non va. Inserisci di nuovo il tuo codice di acquisto Envato nelle "
+"impostazioni della scheda principale!"
+
+#: inc/templates/page-employee.php:22
+msgid "sorry, you do not have permission to view this page"
+msgstr "scusa, non hai il permesso di visualizzare questa pagina"
+
+#: inc/templates/email_thank.php:54 inc/templates/email_thank.php:59
+#: inc/templates/email_thank.php:64
+msgid "Special service"
+msgstr "Servizio speciale"
+
+#: inc/Clients.php:103 inc/templates/email_before.php:82
+#: inc/templates/email_remind.php:82 inc/templates/email_remind_emp.php:12
+#: inc/templates/emails/email_after_booking.php:31
+#: inc/templates/emails/email_before_booking.php:31
+#: inc/templates/emails/to_admin.php:38 inc/templates/emails/to_client.php:31
+msgid "Specialist"
+msgstr "Specialista"
+
+#: inc/Employees.php:206
+msgid "Specialty"
+msgstr "Specialità"
+
+#: inc/old/class.shortcode-replacer.php:116
+#: inc/old/class.shortcode-replacer.php:121
+msgid "Staff name"
+msgstr "Nome del personale"
+
+#: inc/Addons/Conference.php:198 inc/templates/conference/conference.php:21
+msgid "Start"
+msgstr "Inizio"
+
+#: inc/Clients.php:143 inc/Clients.php:343 inc/Addons/EmployeeAccount.php:1361
+#: inc/Addons/Export.php:258
+msgid "Status"
+msgstr "Stato"
+
+#: inc/Settings.php:656 inc/includes/admin.php:373
+msgid "Status by default"
+msgstr "Stato per impostazione predefinita"
+
+#: inc/Payments.php:197 inc/Addons/Email.php:303 inc/Addons/Stripe.php:54
+#: inc/Addons/Stripe.php:218 inc/includes/react-options.php:281
+msgid "Stripe"
+msgstr "Stripe"
+
+#: inc/Addons/Stripe.php:107
+msgid "Stripe Cancel URL"
+msgstr "Stripe Annulla URL"
+
+#: inc/Addons/Stripe.php:140
+msgid "Stripe currency"
+msgstr "Stripe - Valuta"
+
+#: inc/Addons/Stripe.php:93
+msgid "Stripe Success URL"
+msgstr "URL di successo di Stripe"
+
+#: inc/Employees.php:316 inc/includes/admin.php:44
+msgid "SU"
+msgstr "SU"
+
+#: inc/Addons/EmployeeAccount.php:1370 inc/includes/helpers.php:876
+msgid "Submit"
+msgstr "Invia"
+
+#: inc/Addons/EmployeeAccount.php:1043
+msgid "Success"
+msgstr "Successo"
+
+#: inc/Strings.php:71
+msgid "Success! The page will refresh automatically"
+msgstr "Successo! La pagina si aggiornerà automaticamente"
+
+#: inc/Addons/EmployeeAccount.php:1390
+msgid "Sunday"
+msgstr "Domenica"
+
+#: inc/Utils.php:329
+msgid "Support expires"
+msgstr "Il supporto scade"
+
+#: inc/Addons/EmployeeAccount.php:556 inc/Addons/EmployeeAccount.php:569
+msgid "Synced. Expires"
+msgstr "Sincronizzati. Scade"
+
+#: inc/Settings.php:340
+msgid "Template"
+msgstr "Modello"
+
+#: inc/Addons/CustomFields.php:168
+msgid "Textarea"
+msgstr "Textarea"
+
+#: inc/Employees.php:313 inc/includes/admin.php:41
+msgid "TH"
+msgstr "TH"
+
+#: inc/Addons/Email.php:228 inc/Addons/Email.php:541 inc/Addons/Email.php:833
+#: inc/Addons/Email.php:898
+msgid "Thank you for booking"
+msgstr "Grazie per aver prenotato"
+
+#: inc/templates/emails/email_after_booking.php:38
+msgid "thank you for visiting!"
+msgstr "grazie per la visita!"
+
+#: inc/templates/emails/to_client.php:38
+msgid "Thank you!"
+msgstr "Grazie!"
+
+#: inc/Strings.php:35 inc/includes/react-options.php:216
+msgid "The code is valid for"
+msgstr "Il codice è valido per"
+
+#: inc/Addons/Conference.php:184
+msgid "The conference is already over"
+msgstr "La conferenza è già finita"
+
+#: inc/Settings.php:582
+msgid ""
+"The customer can choose how to show the time on the site. In his time zone "
+"or in the site's time zone"
+msgstr ""
+"Il cliente può scegliere come mostrare l'ora sul sito. Nel suo fuso orario o "
+"nel fuso orario del sito"
+
+#: inc/Branches.php:76
+msgid ""
+"The description is not prominent by default; however, some themes may show "
+"it."
+msgstr ""
+"La descrizione non è prominente per impostazione predefinita; tuttavia, "
+"alcuni temi potrebbero mostrarlo."
+
+#: inc/Addons/EmployeeAccount.php:122 inc/Addons/EmployeeAccount.php:211
+msgid "The option activates the registration form for employees on the site"
+msgstr "L'opzione attiva il modulo di registrazione per i dipendenti sul sito"
+
+#: inc/includes/react-options.php:324
+msgid "The payment form will open in a new window. Proceed?"
+msgstr "Il modulo di pagamento si aprirà in una nuova finestra. Procedere?"
+
+#: inc/Strings.php:72
+msgid ""
+"The plugin version has changed. Need to link old translations with the "
+"current version of the plugin"
+msgstr ""
+"La versione del plugin è cambiata. Necessità di collegare le vecchie "
+"traduzioni con la versione corrente del plugin"
+
+#: inc/Addons/Conference.php:186
+msgid ""
+"The site does not have SSL certificate or your device does not support video "
+"calling"
+msgstr ""
+"Il sito non ha un certificato SSL o il tuo dispositivo non supporta le "
+"videochiamate"
+
+#: inc/includes/helpers.php:27
+msgid ""
+"There is no role \"Administrator\" on this site. Without it, the plugin will "
+"not work correctly."
+msgstr ""
+"Non vi è alcun ruolo di \"amministratore\" su questo sito. Senza di esso, il "
+"plugin non funzionerà correttamente."
+
+#: inc/Clients.php:438
+msgid "There were changes in appointment"
+msgstr "Ci sono stati cambiamenti nell'appuntamento"
+
+#: inc/Updater.php:88
+msgid "This code is activated on other domain"
+msgstr "Questo codice è attivato su altri domini"
+
+#: inc/Addons/Email.php:557
+msgid ""
+"This email will be sent to the client if the date or time of appointments "
+"changes"
+msgstr ""
+"Questa e-mail verrà inviata al cliente se la data o l'ora degli appuntamenti "
+"cambia"
+
+#: inc/includes/helpers.php:874
+msgid "This is a temporary deactivation"
+msgstr "Si tratta di una disattivazione temporanea"
+
+#: inc/Settings.php:809
+msgid ""
+"This message is visible at the last stage when the appointment is made. HTML "
+"is allowed"
+msgstr ""
+"Questo messaggio è visibile nell'ultima fase dell'appuntamento. HTML è "
+"consentito"
+
+#: inc/Addons/Widgets.php:802
+msgid "This month"
+msgstr "Questo mese"
+
+#: inc/Firebase.php:237
+msgid ""
+"This technology is supported only by some browsers. Firebase registration "
+"required"
+msgstr ""
+"Questa tecnologia è supportata solo da alcuni browser. È richiesta la "
+"registrazione Firebase"
+
+#: inc/Addons/Widgets.php:803
+msgid "This week"
+msgstr "Questa settimana"
+
+#: inc/includes/react-options.php:306
+msgid "This window will be closed. please try again."
+msgstr "Questa finestra sarà chiusa. riprovare."
+
+#: inc/Addons/EmployeeAccount.php:1387
+msgid "Thursday"
+msgstr "Giovedì"
+
+#: inc/Clients.php:342 inc/Addons/EmployeeAccount.php:1381
+#: inc/Addons/Export.php:250 inc/old/class.google-calendar.php:602
+msgid "Time"
+msgstr "Orario"
+
+#: inc/includes/react-options.php:307
+#: inc/includes/deprecated/deprecated.php:200
+msgid "time (min)"
+msgstr "tempo (min)"
+
+#: inc/Utils.php:192 inc/Utils.php:193 inc/old/class.shortcode-replacer.php:86
+#: inc/old/class.shortcode-replacer.php:91
+#: inc/templates/emails/email_after_booking.php:25
+#: inc/templates/emails/email_before_booking.php:25
+#: inc/templates/emails/to_admin.php:24 inc/templates/emails/to_client.php:25
+msgid "Time booking"
+msgstr "Prenotazione del tempo"
+
+#: inc/Employees.php:336 inc/Employees.php:369 inc/Employees.php:408
+#: inc/Addons/EmployeeAccount.php:1359 inc/includes/admin.php:64
+msgid "Time end"
+msgstr "Fine del tempo"
+
+#: inc/Services.php:92
+msgid "Time needed after appointment"
+msgstr "Reindirizzare a questo URL dopo un appuntamento riuscito"
+
+#: inc/Services.php:91
+msgid "Time needed to prepare for the appointment"
+msgstr "Tempo necessario per prepararsi all'appuntamento"
+
+#: inc/Settings.php:566 inc/Addons/EmployeeAccount.php:1423
+msgid "Time slot duration"
+msgstr "Durata della fascia oraria"
+
+#: inc/Employees.php:335 inc/Employees.php:366 inc/Employees.php:405
+#: inc/Addons/EmployeeAccount.php:1358 inc/includes/admin.php:63
+msgid "Time start"
+msgstr "Inizio del tempo"
+
+#: inc/Addons/Recurring.php:76
+msgid "Time(s)"
+msgstr "Volte"
+
+#: inc/Utils.php:197
+msgid "Time-reminder"
+msgstr "Time-promemoria"
+
+#: inc/Addons/Export.php:51
+msgid "To"
+msgstr "A"
+
+#: inc/Updater.php:77
+msgid "To do this, enter your Envato (Codecanyon) purchase code"
+msgstr "Per fare ciò, inserisci il tuo codice d'acquisto Envato (Codecanyon)"
+
+#: inc/SMS.php:578
+msgid "To employee only"
+msgstr "Solo ai dipendenti"
+
+#: inc/Addons/EmployeeAccount.php:1374 inc/Addons/Widgets.php:804
+msgid "Today"
+msgstr "Oggi"
+
+#: inc/Addons/Widgets.php:806
+msgid "Tomorrow"
+msgstr "Domani"
+
+#: inc/includes/helpers.php:872
+msgid "Too few features"
+msgstr "Troppo poche funzionalità"
+
+#: inc/Addons/Recurring.php:82 inc/Addons/Widgets.php:344
+#: inc/includes/react-options.php:319
+msgid "Total"
+msgstr "Totale"
+
+#: inc/Employees.php:311 inc/includes/admin.php:39
+msgid "TU"
+msgstr "TU"
+
+#: inc/Addons/EmployeeAccount.php:1385
+msgid "Tuesday"
+msgstr "Martedì"
+
+#: inc/Addons/Twilio.php:34
+msgid "Twilio"
+msgstr "Twilio"
+
+#: inc/Addons/Twilio.php:93
+msgid "Twilio Account Phone Number or Alphanumeric Sender ID"
+msgstr "Numero telefonico dell'account Twilio o Alphanumeric Sender ID"
+
+#: inc/Addons/Twilio.php:65
+msgid "Twilio Account SID"
+msgstr "Twilio Account SID"
+
+#: inc/Addons/Twilio.php:79
+msgid "Twilio Account Token"
+msgstr "Token conto Twilio"
+
+#: inc/Addons/Twilio.php:135
+msgid "Twilio SMS response"
+msgstr "Twilio risposta SMS"
+
+#: inc/Addons/Twilio.php:51
+msgid "Twilio WhatsApp"
+msgstr "Twilio WhatsApp"
+
+#: inc/Addons/Conference.php:195
+msgid "Type a message"
+msgstr "Scrivi un messaggio"
+
+#: inc/Addons/EmployeeAccount.php:1330
+msgid "Type your description here"
+msgstr "Digita qui la tua descrizione"
+
+#: inc/Addons/Conference.php:197
+msgid "Typing"
+msgstr "Digitando"
+
+#: inc/Appointment.php:650 inc/Appointment.php:653
+msgid "Unknown"
+msgstr "Sconosciuto"
+
+#: inc/Addons/EmployeeAccount.php:521
+msgid "Unsync"
+msgstr "Annulla sincronizzazione"
+
+#: inc/Addons/Recurring.php:75
+msgid "Until"
+msgstr "Fino a"
+
+#: inc/Strings.php:73 inc/Strings.php:74 inc/Addons/EmployeeAccount.php:520
+#: inc/Addons/EmployeeAccount.php:1367
+msgid "Update"
+msgstr "Aggiorna"
+
+#: inc/Clients.php:559
+msgid "User"
+msgstr "Utente"
+
+#: inc/Clients.php:647 inc/includes/advanced-functions.php:796
+msgid "User canceled booking"
+msgstr "Prenotazione annullata dall'utente"
+
+#: inc/Strings.php:54
+msgid "User online"
+msgstr "Utente online"
+
+#: inc/Clients.php:476
+msgid ""
+"User with this email address already exists. Try to sign in and book an "
+"appointment again"
+msgstr ""
+"Esiste già un utente con questo indirizzo email. Prova ad accedere e prenota "
+"di nuovo un appuntamento"
+
+#: inc/Addons/EmployeeAccount.php:1395
+msgid "Username"
+msgstr "Nome utente"
+
+#: inc/Addons/Conference.php:212
+msgid "Users are already in the room. Wait a minute and try again"
+msgstr "Gli utenti sono già nella stanza. Aspetta un minuto e riprova"
+
+#: inc/Addons/Discounts.php:103
+msgid "Valid until"
+msgstr "Valida fino al"
+
+#: inc/Clients.php:60 inc/Clients.php:61
+msgid "View appointment"
+msgstr "Visualizza l'appuntamento"
+
+#: inc/Addons/Discounts.php:418 inc/Addons/Discounts.php:419
+msgid "View coupon"
+msgstr "Visualizza coupon"
+
+#: inc/Employees.php:41 inc/Employees.php:42
+msgid "View employee"
+msgstr "Visualizza dipendente"
+
+#: inc/Settings.php:303
+msgid "View option"
+msgstr "Visualizza l'opzione"
+
+#: inc/Payments.php:43 inc/Payments.php:44
+msgid "View payment"
+msgstr ""
+
+#: inc/Services.php:30 inc/Services.php:31
+msgid "View service"
+msgstr "Visualizza il servizio"
+
+#: inc/Addons/EmployeeAccount.php:1071
+msgid "Waiting"
+msgstr "Attendi"
+
+#: inc/Strings.php:33
+msgid "Waiting for confirmation of payment"
+msgstr "In attesa di conferma del pagamento"
+
+#: inc/Addons/Paypal.php:406
+msgid "Waiting for payment confirmation. This window will close automatically"
+msgstr ""
+"In attesa di conferma del pagamento. Questa finestra si chiuderà "
+"automaticamente"
+
+#: inc/Addons/Conference.php:181 inc/templates/conference/conference.php:62
+msgid "Waiting for the interlocutor..."
+msgstr "In attesa dell'interlocutore ..."
+
+#: inc/Employees.php:312 inc/includes/admin.php:40
+msgid "WE"
+msgstr "NOI"
+
+#: inc/templates/email_thank.php:46
+#, php-format
+msgid ""
+"We look forward to new meetings. Specially for you, we have prepared a 10\\"
+"% discount on our new services"
+msgstr ""
+"Non vediamo l'ora di nuovi incontri. Specialmente per te, abbiamo preparato "
+"uno sconto del 10\\% sui nostri nuovi servizi"
+
+#: inc/Addons/EmployeeAccount.php:1386
+msgid "Wednesday"
+msgstr "Mercoledì"
+
+#: inc/Employees.php:352 inc/Employees.php:358
+#: inc/Addons/EmployeeAccount.php:1372 inc/Addons/Recurring.php:66
+msgid "Week"
+msgstr "Settimana"
+
+#: inc/Addons/Recurring.php:30 inc/Addons/Recurring.php:65
+msgid "Weekly"
+msgstr "Settimanale"
+
+#: inc/Addons/Recurring.php:67
+msgid "Weeks"
+msgstr "Settimane"
+
+#: inc/Strings.php:69 inc/Updater.php:407
+msgid "Where is my purchase code?"
+msgstr "Dov'è il mio codice di acquisto?"
+
+#: inc/Settings.php:240
+msgid "Who can manage calendar"
+msgstr "Chi può gestire il calendario"
+
+#: inc/Settings.php:783
+msgid "Without your country code. Point is a number. Example:"
+msgstr "Senza il prefisso internazionale. Il punto è un numero. Esempio:"
+
+#: inc/Addons/Woocommerce.php:70 inc/Addons/Woocommerce.php:594
+msgid "Woocommerce"
+msgstr "Woocommerce"
+
+#: inc/templates/conference/conference.php:40
+msgid "Write..."
+msgstr "Scrivi..."
+
+#: inc/Addons/Yookassa.php:167
+msgid "Yandex Kassa"
+msgstr "Yandex Kassa"
+
+#: inc/Settings.php:476 inc/Settings.php:726 inc/Settings.php:752
+#: inc/Strings.php:37 inc/Addons/Conference.php:210
+#: inc/Addons/EmployeeAccount.php:1415 inc/includes/advanced-functions.php:895
+msgid "Yes"
+msgstr "sì"
+
+#: inc/Addons/Widgets.php:805
+msgid "Yesterday"
+msgstr "Ieri"
+
+#: inc/Addons/Yookassa.php:39
+msgid "Yookassa"
+msgstr "Yookassa ·"
+
+#: inc/Addons/GoogleCalendar.php:311 inc/Addons/GoogleCalendar.php:322
+msgid "You are signed out"
+msgstr "Sei disconnesso"
+
+#: inc/Strings.php:15
+msgid "You booked!"
+msgstr "Hai prenotato!"
+
+#: inc/Settings.php:118
+msgid "You do not have enough permissions to change the settings"
+msgstr ""
+"Non si dispone di autorizzazioni sufficienti per modificare le impostazioni"
+
+#: inc/Clients.php:667 inc/includes/react-options.php:312
+msgid "You dont have any appointments"
+msgstr "Non hai appuntamenti"
+
+#: inc/Strings.php:28 inc/includes/react-options.php:301
+#, php-format
+msgid ""
+"You will be moved to the payment page in %s seconds. if not, %s click here %s"
+msgstr ""
+"Sarai spostato alla pagina di pagamento in %s secondi. in caso contrario, %s "
+"clicca qui %s"
+
+#: inc/Addons/EmployeeAccount.php:1393
+msgid "Your account is not activated"
+msgstr "Il tuo account non è attivato"
+
+#: inc/templates/emails/email_before_booking.php:38
+msgid "Your appointment will start in 1 hour"
+msgstr "L'appuntamento inizierà tra 1 ora"
+
+#: inc/Addons/GoogleCalendar.php:75
+msgid "Your Client ID in google account"
+msgstr "Il tuo Client ID nell'account google"
+
+#: inc/Addons/GoogleCalendar.php:89
+msgid "Your Client Secret in google account"
+msgstr "Il Client Secret nell'account google"
+
+#: inc/templates/email_before.php:133 inc/templates/email_remind.php:133
+msgid "Your data"
+msgstr "I tuoi dati"
+
+#: inc/templates/emails/to_client.php:39
+msgid "Your data:"
+msgstr "I tuoi dati:"
+
+#: inc/Addons/Conference.php:200
+msgid "Your device does not support this feature!"
+msgstr "Il tuo dispositivo non supporta questa funzione!"
+
+#: inc/Addons/GoogleCalendar.php:61
+msgid "Your email address in google account"
+msgstr "Il tuo indirizzo email nell'account google"
+
+#: inc/Addons/Conference.php:182
+msgid "Your interlocutor hung up"
+msgstr "Il tuo interlocutore ha riattaccato"
+
+#: inc/Addons/Conference.php:183
+msgid "Your interlocutor is not online"
+msgstr "Il tuo interlocutore non è in linea"
+
+#: inc/templates/email_register.php:44
+msgid "Your login"
+msgstr "Il tuo login"
+
+#: inc/templates/email_register.php:45
+msgid "Your password"
+msgstr "La tua password"
+
+#: inc/Strings.php:39
+#, php-format
+msgid ""
+"Your time zone is different from the site's time zone (%s). Show the time in "
+"your time zone?"
+msgstr ""
+"Il tuo fuso orario è diverso dal fuso orario del sito (%s). Mostrare l'ora "
+"nel tuo fuso orario?"
+
+#: inc/includes/advanced-functions.php:1033
+msgid "Your verification code is"
+msgstr "Il tuo Codice di Verifica è"
+
+#: inc/SMS.php:90
+#, php-format
+msgid "Your verification code is: %s"
+msgstr "Il tuo codice di verifica è: %s"
+
+#: inc/Settings.php:645 inc/includes/admin.php:367
+msgid "Аppointment statuses"
+msgstr "Аstati di appuntamenti"
+
+#: inc/Addons/Conference.php:189
+msgid "Сall the interlocutor"
+msgstr "Tutto l'interlocutore"
+
+#: inc/Addons/EmployeeAccount.php:1376
+msgid "Сlick on this icon to start setting up your profile."
+msgstr "Сlick su questa icona per iniziare a configurare il tuo profilo."
+
+#: inc/Addons/Conference.php:187
+msgid "Сonference time has not yet begun"
+msgstr "Il tempo di conferenza non è ancora iniziato"
+
+#: inc/includes/advanced-functions.php:1035
+msgid "Сonfirm your registration on the site"
+msgstr "Conferma la tua registrazione sul sito"
+
+#: inc/Updater.php:84
+msgid "Сopy is activated. Auto Update until"
+msgstr "Сopy è attivato. Aggiornamento automatico fino al"

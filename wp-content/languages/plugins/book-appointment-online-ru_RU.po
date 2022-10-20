@@ -1,0 +1,558 @@
+# Translation of Plugins - Book appointment online - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Book appointment online - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-01 09:39:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Book appointment online - Stable (latest release)\n"
+
+#: inc/includes/helpers.php:921
+msgid "Please choose or typing a reason"
+msgstr "Пожалуйста выберите или напишите причину"
+
+#: inc/includes/helpers.php:911
+msgid "Deactivating the plugin..."
+msgstr "Отключаю плагин..."
+
+#: inc/includes/helpers.php:875
+msgid "Submit"
+msgstr "Отправить"
+
+#: inc/includes/helpers.php:874
+msgid "Another reason"
+msgstr "Другая причина"
+
+#: inc/includes/helpers.php:873
+msgid "This is a temporary deactivation"
+msgstr "Это временная деактивация"
+
+#: inc/includes/helpers.php:872
+msgid "Plugin is buggy on my website"
+msgstr "Плагин глючит на моем сайте"
+
+#: inc/includes/helpers.php:871
+msgid "Too few features"
+msgstr "Слишком мало возможностей"
+
+#: inc/includes/helpers.php:870
+msgid "Poor design"
+msgstr "Плохой дизайн"
+
+#: inc/includes/helpers.php:867 inc/includes/helpers.php:868
+msgid "Please tell us why are you deactivating the plugin?"
+msgstr "Пожалуйста скажите нам, почему вы отключаете плагин?"
+
+#: inc/Settings.php:497
+msgid "Main color, second color, background color"
+msgstr "Основной цвет, второй цвет, фоновый цвет"
+
+#: inc/Settings.php:496
+msgid "Color options"
+msgstr "Настройки цвета"
+
+#: inc/Settings.php:488 inc/Settings.php:730 inc/Settings.php:756
+msgid "Required"
+msgstr "Обязательно"
+
+#: inc/includes/advanced-functions.php:735 inc/Settings.php:476
+#: inc/Settings.php:726 inc/Settings.php:752 inc/Strings.php:37
+msgid "Yes"
+msgstr "Да"
+
+#: inc/Settings.php:712
+msgid "Form fields"
+msgstr "Поля формы"
+
+#: inc/Settings.php:709
+msgid "Form settings"
+msgstr "Настройки формы"
+
+#: inc/Settings.php:237
+msgid "Main settings"
+msgstr "Основные настройки"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "http://demo.oz-plugin.ru/"
+msgstr "http://demo.oz-plugin.ru/"
+
+#: inc/Settings.php:566
+msgid "Time slot duration"
+msgstr "Временной интервал"
+
+#: inc/Employees.php:209 inc/Employees.php:210 inc/Employees.php:211
+#: inc/Employees.php:212 inc/Utils.php:96 inc/Utils.php:125
+msgid "minutes"
+msgstr "минут"
+
+#: inc/Clients.php:245
+msgid "An appointment has already passed <b>%s</b> at <b>%s</b>"
+msgstr "Запись уже прошла <b>%s</b> в <b>%s</b>"
+
+#: inc/Clients.php:140 inc/Clients.php:141
+msgid "Not select"
+msgstr "Не выбрано"
+
+#: inc/includes/deprecated/deprecated.php:225
+msgid "Error!"
+msgstr "Ошибка!"
+
+#: inc/includes/deprecated/deprecated.php:220
+msgid "Services not found! Choose employee"
+msgstr "Услуги не найдены. Выберите специалиста"
+
+#: inc/Employees.php:161
+msgid "Closest time to booking for current service is %s minute early"
+msgstr "Ближайшее время для записи на данную услугу на %s минут ранее"
+
+#: inc/Assets.php:165
+msgid "Previous"
+msgstr "Предыдущий"
+
+#: inc/Assets.php:164 inc/includes/react-options.php:322
+msgid "Next"
+msgstr "Следующий"
+
+#: inc/Assets.php:161
+msgid "Today"
+msgstr "Сегодня"
+
+#: inc/Assets.php:160 inc/includes/react-options.php:326
+msgid "Close"
+msgstr "Закрыть"
+
+#: inc/Employees.php:632
+msgid "All services"
+msgstr "Все услуги"
+
+#: inc/Employees.php:628
+msgid "Provides services"
+msgstr "Оказываемые услуги"
+
+#: inc/Employees.php:633
+msgid "Exclude services below"
+msgstr "Все услуги, кроме указанных ниже"
+
+#: inc/Employees.php:634
+msgid "Include services below"
+msgstr "Только указанные ниже"
+
+#: inc/Employees.php:322 inc/Strings.php:47
+msgid "Add work hours"
+msgstr "Добавьте часы работы"
+
+#: inc/Employees.php:329 inc/includes/admin.php:44
+msgid "Add new line"
+msgstr "Добавить строку"
+
+#: inc/Settings.php:129 inc/Settings.php:130
+msgid "Booking settings"
+msgstr "Онлайн запись"
+
+#: inc/Strings.php:45 inc/Strings.php:50
+msgid "First work day:"
+msgstr "Первый рабочий день:"
+
+#: inc/Strings.php:46
+msgid "Contact with developers!"
+msgstr "Свяжитесь с разработчиками!"
+
+#: inc/Strings.php:48
+msgid "from"
+msgstr "с"
+
+#: inc/Strings.php:49
+msgid "before"
+msgstr "до"
+
+#: inc/Settings.php:326
+msgid "How to place"
+msgstr "Как разместить форму"
+
+#: inc/Settings.php:219
+msgid "Add shortcode to page"
+msgstr "Добавить шорткод на страницу"
+
+#: inc/Settings.php:220
+msgid "Add php code to template"
+msgstr "Вставить php код в шаблон"
+
+#: inc/Settings.php:340
+msgid "Template"
+msgstr "Тема"
+
+#: inc/Settings.php:359
+msgid "No styles"
+msgstr "Без стилей"
+
+#: inc/Employees.php:208 inc/Settings.php:351 inc/Utils.php:40
+msgid "Default"
+msgstr "Стандартная"
+
+#: inc/Settings.php:367
+msgid "Currency"
+msgstr "Валюта"
+
+#: inc/Employees.php:34 inc/Utils.php:234
+msgid "Employees"
+msgstr "Сотрудники"
+
+#: inc/Employees.php:45
+msgid "Employees not found in trash"
+msgstr "Сотрудники не найдены в корзине"
+
+#: inc/Employees.php:232
+msgid "Clients"
+msgstr "Клиенты"
+
+#: inc/Clients.php:140 inc/Clients.php:340 inc/Services.php:23
+#: inc/Utils.php:236
+msgid "Services"
+msgstr "Услуги"
+
+#: inc/includes/react-options.php:318 inc/Services.php:24
+#: inc/templates/emails/email_after_booking.php:28
+#: inc/templates/emails/email_before_booking.php:28
+#: inc/templates/emails/to_admin.php:35 inc/templates/emails/to_client.php:28
+#: inc/templates/email_admin.php:81 inc/templates/email_before.php:81
+#: inc/templates/email_remind.php:81 inc/templates/email_remind_emp.php:11
+msgid "Service"
+msgstr "Сервис"
+
+#: inc/Services.php:25 inc/Services.php:26
+msgid "Add service"
+msgstr "Добавить услугу"
+
+#: inc/Services.php:27 inc/Services.php:28
+msgid "Edit service"
+msgstr "Редактировать услугу"
+
+#: inc/Services.php:29
+msgid "New service"
+msgstr "Новая услуга"
+
+#: inc/Services.php:30 inc/Services.php:31
+msgid "View service"
+msgstr "Показать услугу"
+
+#: inc/Services.php:32
+msgid "Search service"
+msgstr "Поиск услуги"
+
+#: inc/Services.php:33
+msgid "Services not found"
+msgstr "Услуги не найдены"
+
+#: inc/Services.php:34
+msgid "Service not found"
+msgstr "Услуга не найдена"
+
+#: inc/Services.php:35
+msgid "Parent service"
+msgstr "Родительская услуга"
+
+#: inc/Branches.php:44
+msgid "Address"
+msgstr "Введите адрес"
+
+#: inc/Branches.php:65
+msgid "Description"
+msgstr "Описание"
+
+#: inc/Clients.php:101
+msgid "Booking date"
+msgstr "Дата записи"
+
+#: inc/Clients.php:102 inc/Clients.php:143
+msgid "Booking time"
+msgstr "Время записи"
+
+#: inc/Clients.php:103 inc/templates/emails/email_after_booking.php:31
+#: inc/templates/emails/email_before_booking.php:31
+#: inc/templates/emails/to_admin.php:38 inc/templates/emails/to_client.php:31
+#: inc/templates/email_before.php:82 inc/templates/email_remind.php:82
+#: inc/templates/email_remind_emp.php:12
+msgid "Specialist"
+msgstr "Специалист"
+
+#: inc/Strings.php:15
+msgid "You booked!"
+msgstr "Вы записаны!"
+
+#: inc/Strings.php:16
+msgid "Morning"
+msgstr "Утро"
+
+#: inc/Strings.php:17
+msgid "Day"
+msgstr "День"
+
+#: inc/Strings.php:18
+msgid "Evening"
+msgstr "Вечер"
+
+#: inc/includes/react-options.php:237 inc/Strings.php:19
+msgid "Contact information"
+msgstr "Контактная информация"
+
+#: inc/includes/deprecated/deprecated.php:48 inc/includes/react-options.php:235
+#: inc/Strings.php:20
+msgid "Select service"
+msgstr "Выберите услугу"
+
+#: inc/includes/react-options.php:233 inc/Strings.php:22
+msgid "Select time booking"
+msgstr "Выберите время записи"
+
+#: inc/includes/react-options.php:232 inc/Strings.php:23
+msgid "Select date"
+msgstr "Выберите дату"
+
+#: inc/Strings.php:24
+msgid "Select specialist"
+msgstr "Выберите специалиста"
+
+#: inc/Strings.php:25
+msgid "Service not worked at now"
+msgstr "Сервис временно недоступен"
+
+#: inc/includes/react-options.php:327 inc/Strings.php:26
+msgid "Skip selecting specialist"
+msgstr "Пропустить выбор специалиста"
+
+#: inc/Addons/Email.php:228 inc/Addons/Email.php:542 inc/Addons/Email.php:834
+#: inc/Addons/Email.php:899
+msgid "Thank you for booking"
+msgstr "Спасибо за Ваше обращение"
+
+#: inc/Dashboard.php:80 inc/Employees.php:245
+msgid "Booking calendar"
+msgstr "Календарь записи"
+
+#: inc/Clients.php:127 inc/templates/email_admin.php:133
+#: inc/templates/email_remind_emp.php:15
+msgid "Client data"
+msgstr "Данные клиента"
+
+#: inc/Clients.php:138 inc/Clients.php:338 inc/includes/react-options.php:328
+#: inc/Settings.php:746
+msgid "Phone"
+msgstr "Телефон"
+
+#: inc/Clients.php:139 inc/Clients.php:339 inc/includes/admin.php:197
+#: inc/includes/react-options.php:82 inc/Settings.php:720
+msgid "Email"
+msgstr "Email"
+
+#: inc/Clients.php:142 inc/Clients.php:265 inc/Clients.php:342
+#: inc/Employees.php:256 inc/includes/react-options.php:316
+#: inc/templates/emails/email_after_booking.php:22
+#: inc/templates/emails/email_before_booking.php:22
+#: inc/templates/emails/to_admin.php:21 inc/templates/emails/to_client.php:22
+#: inc/templates/email_admin.php:83 inc/templates/email_before.php:83
+#: inc/templates/email_remind.php:83 inc/templates/email_remind_emp.php:13
+msgid "Date"
+msgstr "Дата"
+
+#: inc/Employees.php:195
+msgid "About employe"
+msgstr "О сотруднике"
+
+#: inc/Employees.php:206
+msgid "Specialty"
+msgstr "Специальность"
+
+#: inc/Employees.php:218 inc/Employees.php:229 inc/Employees.php:309
+msgid "Schedule"
+msgstr "Расписание"
+
+#: inc/Employees.php:233 inc/old/class.shortcode-replacer.php:131
+msgid "Service name"
+msgstr "Название услуги"
+
+#: inc/Employees.php:237
+msgid "Services list"
+msgstr "Список услуг"
+
+#: inc/Services.php:55
+msgid "Service params"
+msgstr "Параметры услуги"
+
+#: inc/Services.php:85
+msgid "Price"
+msgstr "Цена"
+
+#: inc/Services.php:90
+msgid "Service time"
+msgstr "Продолжительность услуги"
+
+#: inc/Employees.php:310 inc/includes/admin.php:25
+msgid "MO"
+msgstr "ПН"
+
+#: inc/Employees.php:311 inc/includes/admin.php:26
+msgid "TU"
+msgstr "ВТ"
+
+#: inc/Employees.php:312 inc/includes/admin.php:27
+msgid "WE"
+msgstr "СР"
+
+#: inc/Employees.php:313 inc/includes/admin.php:28
+msgid "TH"
+msgstr "ЧТ"
+
+#: inc/Employees.php:314 inc/includes/admin.php:29
+msgid "FR"
+msgstr "ПТ"
+
+#: inc/Employees.php:315 inc/includes/admin.php:30
+msgid "SA"
+msgstr "СБ"
+
+#: inc/Employees.php:316 inc/includes/admin.php:31
+msgid "SU"
+msgstr "ВС"
+
+#: inc/Employees.php:337 inc/Employees.php:371 inc/Employees.php:411
+#: inc/includes/admin.php:52 inc/includes/admin.php:90
+#: inc/old/custom-meta-box.php:414
+msgid "Add"
+msgstr "Добавить"
+
+#: inc/Employees.php:335 inc/Employees.php:366 inc/Employees.php:405
+#: inc/includes/admin.php:50
+msgid "Time start"
+msgstr "Время начала"
+
+#: inc/Employees.php:336 inc/Employees.php:369 inc/Employees.php:408
+#: inc/includes/admin.php:51
+msgid "Time end"
+msgstr "Время завершения"
+
+#: inc/Clients.php:246 inc/Employees.php:346
+msgid "Edit"
+msgstr "Изменить"
+
+#: inc/Employees.php:349
+msgid "Shift work"
+msgstr "Сменный график"
+
+#: inc/Employees.php:352 inc/Employees.php:358
+msgid "Week"
+msgstr "Неделя"
+
+#: inc/Employees.php:355
+msgid "across"
+msgstr "через"
+
+#: inc/Employees.php:363
+msgid "Date of any first shift"
+msgstr "Дата любой первой смены"
+
+#: inc/includes/deprecated/deprecated.php:200
+#: inc/includes/react-options.php:307
+msgid "time (min)"
+msgstr "время (мин)"
+
+#: inc/includes/deprecated/deprecated.php:205
+#: inc/includes/react-options.php:308
+msgid "price"
+msgstr "цена"
+
+#: inc/includes/react-options.php:303 inc/Strings.php:31
+msgid "Select"
+msgstr "Выбрать"
+
+#: inc/includes/react-options.php:323
+msgid "Back"
+msgstr "Назад"
+
+#: inc/Clients.php:450 inc/includes/react-options.php:317
+msgid "at"
+msgstr "в"
+
+#: inc/includes/react-options.php:320
+msgid "Leave your contacts!"
+msgstr "Оставьте Ваши контактные данные!"
+
+#: inc/includes/react-options.php:38 inc/Strings.php:58
+msgid "Name"
+msgstr "Имя"
+
+#: inc/templates/email_thank.php:73
+msgid "Booking"
+msgstr "Бронирование"
+
+#: inc/old/class.shortcode-replacer.php:86
+#: inc/old/class.shortcode-replacer.php:91
+#: inc/templates/emails/email_after_booking.php:25
+#: inc/templates/emails/email_before_booking.php:25
+#: inc/templates/emails/to_admin.php:24 inc/templates/emails/to_client.php:25
+#: inc/Utils.php:192 inc/Utils.php:193
+msgid "Time booking"
+msgstr "Время записи"
+
+#: inc/templates/emails/to_client.php:38
+msgid "Thank you!"
+msgstr "Спасибо!"
+
+#: inc/templates/emails/to_client.php:39
+msgid "Your data:"
+msgstr "Ваши данные"
+
+#: inc/old/class.shortcode-replacer.php:106
+#: inc/templates/emails/to_admin.php:27
+msgid "Client email"
+msgstr "Имя клиента"
+
+#: inc/old/class.shortcode-replacer.php:111
+#: inc/templates/emails/to_admin.php:31 inc/Utils.php:194
+msgid "Client phone"
+msgstr "Телефон клиента"
+
+#: inc/templates/emails/to_admin.php:45
+msgid "New booking to specialist"
+msgstr "Новая запись к специалисту"
+
+#: inc/templates/emails/to_admin.php:46
+msgid "leave message. Message data:"
+msgstr "оставил сообщение. Данные сообщения:"
+
+#. Description of the plugin
+msgid "Appointment online to a specialist. Perfectly suitable for beauty salons, medical centers, car services, etc."
+msgstr "Автоматизация процедуры записи к специалисту. Идеально подходит для салонов красоты, медицинских центров, автосервисов и т. д."
+
+#. Author of the plugin
+msgid "oz-plugin"
+msgstr "oz-plugin"
+
+#: inc/old/custom-meta-box.php:1927 inc/old/custom-meta-box.php:1935
+msgid "Sorry, you cannot upload this file type for this field."
+msgstr "Извините, вы не можете загрузить данный файл"
+
+#: inc/old/custom-meta-box.php:958
+msgid "Select ..."
+msgstr "Выберите"
+
+#: inc/old/custom-meta-box.php:856
+msgid "Select a color"
+msgstr "Выберите цвет"
+
+#: inc/old/custom-meta-box.php:441
+msgid "Remove"
+msgstr "Убрать"
+
+#: inc/Branches.php:76
+msgid "The description is not prominent by default; however, some themes may show it."
+msgstr "Описание по умолчанию не видно; однако некоторые темы могут показать это."
+
+#: inc/includes/react-options.php:231 inc/includes/react-options.php:302
+#: inc/Strings.php:29
+msgid "Select employee"
+msgstr "Выбрать сотрудника"

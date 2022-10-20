@@ -1,0 +1,18 @@
+<wpml-config>
+  <admin-texts>
+    <key name="oz_default_email_name"/>
+    <key name="oz_default_cur"/>
+    <key name="oz_e_before_template"/>
+    <key name="oz_e_before_title"/>
+    <key name="oz_e_admin_template"/>
+    <key name="oz_e_admin_title"/>
+    <key name="oz_e_remind_template"/>
+    <key name="oz_e_remind_title"/>
+    <key name="oz_e_thank_template"/>
+    <key name="oz_e_thank_title"/>
+    <key name="oz_Twilio_user_text"/>
+    <key name="oz_Twilio_user_textAdmin"/>
+    <key name="oz_Twilio_user_textRemind"/>
+	<key name="oz_cust_fields"/>
+  </admin-texts>
+</wpml-config>

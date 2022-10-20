@@ -1,0 +1,3019 @@
+/*-----------------------------------------------------------------------------
+
+- neumorphism Front Theme -
+
+author:		ozplugin
+email:     	client@ozplugin.ru
+website:   	http://www.ozplugin.ru
+version:	3.1.0
+-----------------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700&display=swap&subset=cyrillic');
+
+/* body .oz_hid .oz_hid_carousel > *:not(#timeForm) {
+	display:none;
+}
+
+body .oz_hid .oz_hid_carousel > * {
+	max-height: 100% !important;
+} */
+
+:root {
+	--main: #f2f7fd;
+	--main-gradient: linear-gradient(-90deg, rgb(242, 247, 253), rgb(246, 249, 252));
+	--btn: #e3edf7;
+	--btn-color:#577a9e;
+	--accent-color: #4671f4;
+	--accent-color-hover: #6a8fff;
+	--card-shadow: 
+				9px 9px 16px rgba(70, 113, 244, 0.13), 
+				-9px -9px 11px #ffffff;
+	--card-shadow-hover:
+				9px 9px 26px rgba(70, 113, 244, 0.33), 
+				-9px -9px 16px #ffffff;
+	--min-shadow: 
+						5px 5px 8px rgba(193, 210, 230, 0.6), 
+					 -1px -1px 0px rgb(255, 255, 255), 
+					 1px 1px 0px rgba(197, 209, 224, 0.44), 
+					 -5px -5px 6px rgb(255, 255, 255);
+	--min-shadow-hover: 
+						5px 5px 16px rgba(193, 210, 230, 0.8), 
+						-5px -5px 6px rgb(255,255,255,0.8);
+	--btn-shadow: 
+				inset 1px 1px 2px rgba(255, 255, 255, 0.43), 
+				inset -1px -1px 2px rgba(0, 0, 0, 0.34);
+	--btn-shadow-outset: 
+				inset 7px 7px 16px rgba(181, 198, 216, 0.56), 
+				inset -7px -7px 16px rgba(138, 158, 179, 0.56), 
+				4px 4px 9px rgba(70, 113, 244, 0.31),
+				-4px -4px 3px rgb(255, 255, 255);
+	--font: 'Montserrat', sans-serif;
+	--font-color:#91a3ba;
+	--red: #f44336;
+}
+
+body .oz_hid .oz_hid_carousel {
+font-family: 'Montserrat', sans-serif;
+}
+
+#timeForm {
+   font-size: 16px;
+}
+
+.oz_container {
+   background: var(--main);
+   position: relative;
+   padding-top: 15px;
+   padding-bottom: 30px;
+   height: 100%;
+}
+
+.oz_hid_carousel  > * {
+width: 16.666667%;
+}
+
+.oz_hid_carousel * {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+.text-center {
+	text-align:center;
+}
+
+.oz_hid .ui-datepicker-inline {
+    margin: 20px;
+}
+
+body .oz_container .oz_hid .oz_hid_carousel .ui-datepicker-inline {
+    float: none;
+}
+
+.oz_hid_carousel  > #timeForm .oz_form_wrap {
+transition: transform 1s cubic-bezier(0.65, 0.05, 0.36, 1) .2s;
+max-width: 100%;
+width: 480px;
+margin: 20px auto;
+}
+
+#timeForm .oz_form_wrap {
+-webkit-transform: translateY(0px) scale(1);
+transform: translateY(0px) scale(1);
+box-shadow: var(--card-shadow);
+border-radius: 20px;
+background: var(--main-gradient);
+padding: 20px 0 30px;
+}
+
+.oz_width_mob #timeForm.tf-ten .oz_form_wrap {
+
+}
+
+body .oz_form_wrap input[type="text"],
+body .oz_form_wrap input[type="tel"],
+body .oz_form_wrap input[type="email"],
+body .oz_container input.oz_input {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    padding: 13px 20px;
+	-webkit-transition:all .3s ease;
+	transition:all .3s ease;
+	box-shadow: 
+				inset 4px 4px 10px rgba(181, 198, 216, 0.56), 
+				inset -4px -4px 10px rgba(255, 255, 255);
+    background-color: var(--main-gradient);
+    border: 1px solid #ebf2fd;
+	text-align: center;
+	font-family: var(--font);
+	height: auto;
+    font-weight: 400;
+    font-size: 16px;
+	}
+	
+body .oz_form_wrap input[type="text"]:focus,
+body .oz_form_wrap input[type="tel"]:focus,
+body .oz_form_wrap input[type="email"]:focus,
+body .oz_container input.oz_input:focus {
+outline:none;	
+border-color: var(--accent-color-hover);
+}
+
+body .oz_hid_carousel ul  {
+	padding: 20px;
+	text-align: center;
+	margin:0 0 20px;
+	color: #1a1a1a;
+}
+
+
+body .oz_form_wrap input::placeholder {
+	color: #8e9eb1;
+	font-family: var(--font);
+}
+
+body .oz_form_wrap textarea::placeholder {
+	color: #8e9eb1;
+	font-family: var(--font);
+}
+
+.oz_hid ul li {
+	list-style: none;
+}
+
+ul.filials:after,
+.personal:after,
+.params_usl:after,
+.listUslug:after,
+.oz_skip_pers:after,
+.oz_clear,
+.clear {
+	content:'';
+	display:table;
+	clear:both;
+}
+
+.oz_skip_pers {
+margin:0 20px 20px;
+float:left;
+}
+
+.oz_hid_carousel ul li {
+list-style: none;
+padding: 7px 20px;
+box-shadow: var(--card-shadow);
+border: 0px;
+padding: 20px;
+border-radius: 30px;
+margin-bottom: 20px;
+width: 30.33333%;
+margin: 0 1% 20px;
+background: var(--main-gradient);
+display: inline-block;
+vertical-align: top;
+}
+
+.oz_hid_carousel ul li.filial {
+	margin-bottom:20px !important;
+}
+
+.oz_container.oz_width_tablet ul li.personal,
+.oz_container.oz_width_tablet .oz_hid_carousel ul li.oz_service,
+.oz_container.oz_width_tablet .usluga,
+.oz_container.oz_width_tablet .oz_hid_carousel ul li.filial {
+    width: 47.33333%;
+	position: relative;
+}
+
+.oz_container.oz_width_mob ul li.personal,
+.oz_container.oz_width_mob .oz_hid_carousel ul li.oz_service,
+.oz_container.oz_width_mob .usluga,
+.oz_container.oz_width_mob .oz_hid_carousel ul li.filial {
+    width: 98%;
+}
+
+.oz_container.oz_width_tablet .oz_hid .ui-datepicker-title,
+.oz_container.oz_width_tablet .oz_back_btn,
+.oz_container.oz_width_tablet .oz_hid_carousel ul li.filial,
+.oz_container.oz_width_mob .oz_hid .ui-datepicker-title,
+.oz_container.oz_width_mob .oz_back_btn,
+.oz_container.oz_width_mob .oz_hid_carousel ul li.filial 
+ {
+    font-size: 16px;
+	font-weight:bold;
+}
+
+@media (min-width:768px) {
+.oz_container.oz_width_tablet .oz_hid .ui-datepicker-title,
+.oz_container.oz_width_tablet .oz_back_btn,
+.oz_container.oz_width_tablet .oz_hid_carousel ul li.filial,
+.oz_container.oz_width_mob .oz_hid .ui-datepicker-title,
+.oz_container.oz_width_mob .oz_back_btn,
+.oz_container.oz_width_mob .oz_hid_carousel ul li.filial 
+ {
+	 font-size: 26px;
+ }
+ }
+
+.oz_hid .ui-datepicker-title {
+    font-size: 26px;
+    color: var(--accent-color);
+    font-weight: bold;
+    letter-spacing: 0px;
+	order:1;
+    margin-left: 0;
+    text-align: left;
+}
+
+.oz_container.oz_width_tablet .stepname,
+	.oz_container.oz_width_mob  .stepname {
+margin-top:50px;
+}
+
+.oz_text_cont {
+	margin-bottom:10px;
+    color: #6f7a87;
+    text-align: left;
+}
+
+.oz_container.oz_width_tablet.oz_width_mob ul li.personal {
+    width: 99%;
+	margin:0 .5%;
+	display:block;
+}
+
+.oz_container .pers-content {
+float:none;
+width:99%;
+margin: 0 .5% 20px;
+text-align:center;
+font-size: 15px;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+}
+
+.oz_container.oz_width_tablet .oz_skip_pers {
+    margin: 0 10px 20px;
+    float: left;
+    font-size: 15px;
+    box-shadow: var(--min-shadow);
+    background: var(--min-gradient) !important;
+	color:var(--btn-color);
+	}
+	
+.oz_container.oz_width_tablet .oz_skip_pers:hover { 
+	background: var(--min-gradient) !important;
+}
+	
+.oz_container.oz_width_mob .oz_skip_pers {
+	float:none;
+	margin:0 auto 20px;
+}
+
+.oz_container.oz_width_tablet .oz_skip_pers:hover {
+	box-shadow: var(--min-shadow-hover);
+}
+
+.oz_container.oz_width_tablet .oz_image,
+.oz_container.oz_width_xl_tablet  .oz_image,
+.oz_container.oz_width_mob  .oz_image {
+    width: 100%;
+    float: none; 
+	}
+
+.oz_hid .text-center {
+text-align:center;
+display:block;
+}
+
+.oz_hid .ui-datepicker-calendar {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 14px;
+    line-height: 2;
+    padding: 0 0 20px;
+    width: 100%;
+	background: var(--main-gradient);
+    border-bottom: 0;
+    margin-bottom: 0;
+	box-shadow: var(--card-shadow);
+    border-radius: 30px;
+    overflow: hidden;
+    font-family: var(--font);
+	border:0px;
+	margin-top:0;
+	}
+	
+.oz_hid .oz_datepicker {
+    padding: 20px;
+}
+
+.oz_hid_carousel h5 {
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: inherit;
+    letter-spacing: 2px;
+    font-size: 17px;
+	color:#000;
+}
+
+.oz_btn.oz_spec_btn {
+color: #fff;
+font-weight: bold;
+}
+
+.oz_btn, .oz_hid input[type="submit"] {
+	background: var(--accent-color);
+	border-radius: 12px;
+	color: #fff;
+	font-weight: bold;
+	padding: 12px 15px;
+	display: inline-block;
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;
+	cursor:pointer;
+	border: 0px;
+	outline:none;
+    box-shadow: var(--btn-shadow);
+	position:relative;
+	outline: none;
+	font-size:15px;
+	position:relative;
+	text-decoration:none;
+}
+
+.oz_btn {
+	    transform-style: preserve-3d;
+}
+
+.oz_btn-small {
+	font-size:13px;
+	padding: 7px 10px;
+}
+
+.oz_btn-group {
+	display:flex;
+}
+
+.oz_btn-group .oz_btn { 
+	margin-right: 15px;
+}
+
+.oz_finalBlock .oz_btn-group {
+	margin-top: 20px;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.oz_btn::after {
+	    transform: translateZ(-1px);
+}
+
+
+.oz_btn.oz_spec_btn:hover,
+.oz_btn:hover,
+.oz_hid input[type="submit"]:hover,
+.oz_btn.oz_spec_btn:active,
+.oz_btn:active,
+.oz_hid input[type="submit"]:active,
+.oz_btn.oz_spec_btn:focus,
+.oz_btn:focus,
+.oz_hid input[type="submit"]:focus  {
+	background:var(--accent-color-hover);
+}
+
+input[type="submit"].oz_btn:active {
+padding:7px 20px;
+}
+
+input[type="submit"].oz_submit.oz_btn,
+input[type="submit"].oz_submit.oz_btn:active {
+    padding: 20px 30px;
+	height: auto;
+	background:var(--accent-color);
+	color:#fff;
+    font-size: 16px;
+    font-family: var(--font);
+    font-weight: 400;
+    outline: none;
+	box-shadow: var(--btn-shadow);
+}
+
+.oz_submit_label,
+.oz_btn {
+	position:relative;	
+	z-index: 1;
+}
+
+.oz_submit_label span {
+	display:block;
+	position:relative;
+}
+
+.oz_submit_label span:after,
+.oz_btn::after {
+	content:'';
+	z-index: -1;
+	position:absolute;
+    left: -3px;
+    top: -3px;
+    right: -3px;
+    bottom: -3px;
+    border: 1px solid #bdd0e4;
+    border-radius: 14px;
+    box-shadow: var(--btn-shadow-outset);
+    background: var(--main);
+    box-sizing: border-box;
+}
+
+.oz_btn.oz_skip_pers:after {
+	border:0px;
+}
+
+.oz_back_btn,
+body .oz_hid .ui-datepicker-next span, 
+body .oz_hid .ui-datepicker-prev span {
+line-height:0;
+}
+
+.oz_btn.oz_usl_btn,
+html .oz_btn.oz_btn_link {
+    padding: 10px 0px 1px;
+    color: var(--accent-color);
+    border-bottom: 2px dotted var(--accent-color);
+	background: none !important;
+    font-weight: 400;
+	border-radius:0px;
+	text-decoration:none !important;
+	box-shadow:none;
+}
+
+.oz_btn.oz_usl_btn:after,
+html .oz_btn.oz_btn_link:after {
+	display:none;
+}
+
+html .oz_btn.oz_btn_link {
+	display:inline-block;
+	padding: 10px 5px 1px;
+}
+
+.pers-content .oz_btn.oz_btn_link {
+	margin-left:10px;
+	align-self: center;
+}
+
+.oz_btn.oz_usl_btn:hover,
+html .oz_btn.oz_btn_link:hover,
+html .oz_btn.oz_btn_link:focus,
+html .oz_btn.oz_btn_link:active {
+color:var(--accent-color-hover);
+border-color:transparent;
+background: none !important;
+}
+
+
+.oz_hid_carousel address {
+font-style: normal;
+display: inline-block;
+padding: 0px 0 10px;
+color: #848484;
+}
+
+.oz_container h3.stepname {
+font-family: var(--font);
+text-transform: uppercase;
+letter-spacing: 0px;
+font-weight: bold;
+position:relative;
+display: inline-block;
+color: var(--btn-color);
+font-size: 26px;
+}
+
+.oz_container.oz_width_mob .stepname  {
+    font-size: 17px
+}
+.stepname:after {
+	content:'';
+	position:absolute;
+	top: 3px;
+    right: -35px;
+    width: 24px;
+    height: 24px;
+	background-image:url('./../images/oz_loading.gif');
+	background-position:center center;
+	background-size:100% 100%;
+	-webkit-transition:all .3s ease;
+	transition:all .3s ease;
+	opacity:0;
+}
+
+.oz_load .stepname:after {
+	opacity:1;
+}
+
+.oz_hid {
+		-webkit-transition:all .3s ease;
+	transition:all .3s ease;
+}
+
+.oz_load .oz_hid {
+	opacity:0.5;
+}
+
+.oz_image {
+	width: 100%;
+	float: left;
+	position:relative;
+}
+
+.oz_image img {
+    border-radius: 50%;
+    height: auto;
+	display:none !important;
+}
+.oz_image:before {
+	content:'';
+	display:table;
+	padding-top:110%;
+}
+
+.oz_spec_back {
+	position:absolute;
+	height:100%;
+    background-position: left top;
+	background-size:cover;
+	background-repeat:no-repeat;
+    left: 0;
+    right: 0;
+    top: 0;
+    border-radius: 25px 25px 0 0;
+    background-color: #c5cbe5;
+}
+
+.oz_hid_carousel ul li.personal,
+.oz_hid_carousel ul li.oz_service {
+	cursor:pointer;
+	-webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.oz_hid_carousel ul li.oz_service.deactive {
+	cursor:default;
+	opacity:0.6;
+}
+
+
+.oz_hid_carousel ul li.oz_service {
+	font-size:21px;
+	position:relative;
+}
+
+.oz_hid_carousel ul li.personal:hover,
+.oz_hid_carousel ul li.oz_service:hover {
+box-shadow: var(--card-shadow-hover);
+}
+
+.pers-content {
+    float: left;
+    width: 75%;
+    padding: 10px 0px;
+    text-align: left;
+	margin: 0;
+}
+
+.pers-content > br {
+	display:none;
+}
+
+.pers-content .pname, .oz_employee_info .oz_name {
+font-size: 20px;
+font-weight: bold;
+font-family: inherit;
+letter-spacing: 0px;
+margin-bottom: 0px;
+color: var(--btn-color);
+text-align: left;
+line-height:23px;
+margin:0 0 15px;
+width: 100%;
+font-family:var(--font);
+}
+
+.pers-content .special, .oz_prof {
+    display: inline-block;
+    color: #8994C6;
+	padding: 0 8px 0 0;
+    border-radius: 4px;
+    order: -1;
+	margin: 0;
+    text-align: left;
+    width: 100%;
+	padding-right: 0;
+    line-height: 21px;
+    font-size: 14px;
+    font-weight: bold;
+	font-family:var(--font);
+}
+
+.oz_hid .ui-datepicker-calendar thead th {
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-align: center;
+	padding: 0;
+    padding-top: 10px;
+    border: 0px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #7a899c;
+	background:none;
+}
+
+.oz_hid .ui-datepicker-calendar tbody td {
+border:0px;
+text-align: center;
+font-size: 21px;
+background: transparent;
+}
+
+.oz_width_mob .oz_hid .ui-datepicker-calendar tbody td {
+	    font-size: 13px;
+}
+
+.oz_hid .ui-datepicker-calendar tbody td.ui-datepicker-unselectable {
+opacity:0.2;
+}
+
+.oz_hid .ui-datepicker-calendar tbody td[data-handler="selectDay"] a {
+    color: var(--accent-color);
+    position: relative;
+    font-weight: bold;
+	display: inline;
+	border: none;
+    text-decoration: none;
+    box-shadow: none;			  					 
+}
+
+.oz_hid .ui-datepicker-calendar tbody td[data-handler="selectDay"] a:hover {
+	color: var(--accent-color-hover);
+}
+
+.oz_hid .ui-datepicker-calendar tbody td[data-handler="selectDay"] a:after {
+	content: '';
+	display: table;
+	border-radius: 50%;
+	background: #2dde98;
+	width: 4px;
+	height: 4px;
+	position: absolute;
+	bottom: -2px;
+	left: 50%;
+	margin-left: -2px;
+}
+
+
+.oz_hid  .ui-datepicker-header {
+    background: none;
+    color: #fff;
+    padding: 0px 5px 15px;
+    font-size: 21px;
+	text-align:right;
+    display: flex;
+    align-items: center;
+	border:0px;
+	}
+	
+.oz_hid  .ui-datepicker-header:after {
+	content:'';
+	display:table;
+	clear:both;
+}
+	
+.oz_hid  .ui-datepicker-calendar thead {
+	background: none;
+	position:relative;
+}
+
+body .oz_hid .ui-datepicker-title {
+	float: none;
+    width: auto;
+    text-align: left;
+    margin-top: -2px;
+	font-size: 26px;
+}
+
+body .oz_hid .ui-datepicker-next,
+body .oz_hid .ui-datepicker-prev {
+    font-size: 13px;
+    color: #fff;
+    padding: 5px;
+    display: inline-block;
+	cursor:pointer;
+	float:none;
+	top:0;
+	left:0;
+    width: auto;
+    height: auto;
+	box-shadow: none;
+    border: none;
+    outline: none;	
+	order:2;
+}
+
+body .oz_hid .ui-datepicker-next:hover,
+body .oz_hid .ui-datepicker-prev:hover,
+body .oz_hid .ui-datepicker-next:focus,
+body .oz_hid .ui-datepicker-prev:focus {
+	box-shadow: none;
+    border: none;
+    outline: none;
+}		
+
+body .oz_hid .ui-datepicker-next:before,
+body .oz_hid .ui-datepicker-prev:before {
+	display:none;
+}
+
+body .oz_hid .ui-datepicker-next span.ui-icon,
+body .oz_hid .ui-datepicker-prev span.ui-icon {
+	font-size: 0px !important;
+    width: 40px;
+    height: 40px;
+    box-shadow: var(--min-shadow);
+    border-radius: 11px;
+    display: inline-block;
+}
+
+body .oz_hid .ui-datepicker-next span:hover, 
+body .oz_hid .ui-datepicker-prev span:hover {
+	box-shadow: var(--min-shadow-hover);
+}
+
+body .oz_hid .ui-datepicker-next span:after {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-top: 3px solid #5b6c82;
+    border-right: 3px solid #5b6c82;
+    transform: rotate(45deg);
+    margin-left: 12px;
+    margin-top: 14px;
+    border-radius: 3px;
+}
+
+body .oz_hid .ui-datepicker-prev span:after {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-top: 3px solid #5b6c82;
+    border-left: 3px solid #5b6c82;
+    transform: rotate(-45deg);
+    margin-left: 15px;
+    margin-top: 14px;
+    border-radius: 3px;	
+}
+
+.oz_hid .zagday.squaredThree {
+    clear: both;
+    width: 100%;
+    border: 0px;
+    box-shadow: none;
+    font-weight: bold;
+    font-size: 21px;
+    letter-spacing: 1px;
+    padding: 0 10px;
+	color: var(--btn-color);
+}
+
+.oz_hid .zagday.squaredThree.zagday {
+background:none;
+} 
+
+.oz_hid_carousel ul li.squaredThree {
+	float: none;
+	display: inline-block;
+	width: auto;
+	padding: 0px;
+	position: relative;
+	box-shadow: none;
+	border:0px;
+	line-height: 21px;
+	margin: 0 1% 20px;
+}
+
+.oz_hid_carousel ul li.squaredThree label {
+    position: relative;
+    z-index: 2;
+    background: var(--main-gradient);
+    padding: 5px 10px;
+    border: 0px;
+    border-radius: 4px;
+    color: var(--btn-color);
+	cursor:pointer;
+	margin: 0;
+	font-size: 16px;
+	font-weight: 400;
+	display: inline-block !important;
+	box-shadow: var(--min-shadow);
+    -webkit-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+.oz_hid_carousel ul li.squaredThree label:hover {
+	box-shadow: var(--min-shadow-hover);
+	}
+
+.oz_hid_carousel ul li.squaredThree input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: none;
+    font-size: 0;
+	margin:0;
+    text-indent: -9999px;
+}
+
+.oz_hid_carousel .params_usl {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap:center;
+  flex-wrap:wrap;
+}
+
+.params_usl > div {
+width: 50%;
+padding: 0 10px;
+text-align: center;
+font-size: 23px;
+font-weight: bold;
+color: #737272;
+-webkit-flex-grow: 1;
+flex-grow: 1;
+display: flex;
+flex-direction: column;
+}
+
+.params_usl > div.oz_serv_content {
+width: 100%;
+font-size: initial;
+font-weight: initial;
+margin-top:20px;
+}
+
+
+
+.oz_hid .usluga {
+    text-align: center;
+    font-size: 21px;
+    border-bottom: 1px solid #f1f1f1;
+    padding-bottom: 10px;
+	cursor:pointer;
+	-webkit-transition: all .3s ease;
+    transition: all .3s ease;
+	}	
+
+.oz_hid .usluga:hover {
+	box-shadow: var(--card-shadow-hover);
+}
+
+.oz_hid .usluga p.uslname {
+	color: var(--btn-color);
+	font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+	padding-top:15px;
+}
+
+.oz_usl_price {	
+   border-left: 1px solid #f1f1f1;
+}
+
+
+.oz_usl_price span,
+.oz_usl_time span {
+display:block;
+font-size: 11px;
+text-transform: uppercase;
+color: #adabab;
+font-weight: 400;
+order:-1;
+}
+
+.usluga {
+cursor:pointer;
+}
+
+.oz_zapis_info {
+    padding: 0px;
+    background: none;
+    border-radius: 4px;
+    width: 75%;
+    margin: auto;
+    text-align: left !important;
+}
+
+.oz_zapis_info > p {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_fields {
+	width: 75%;
+    margin: 0 auto;
+}
+
+.form_fields .oz_submit.oz_btn {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.req:not(.intl-tel-input) {
+box-shadow: inset 4px 4px 10px rgba(242, 40, 40, 0.36), inset -4px -4px 10px rgba(242, 40, 40, 0.16) !important;
+-webkit-animation: shake 1s ease both;
+animation: shake 1s ease both;
+}
+
+@-webkit-keyframes shake {
+  from, to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    -webkit-transform: translate3d(-5px, 0, 0);
+    transform: translate3d(-5px, 0, 0);
+  }
+
+  20%, 40%, 60%, 80% {
+    -webkit-transform: translate3d(5px, 0, 0);
+    transform: translate3d(5px, 0, 0);
+  }
+}
+
+@keyframes shake {
+  from, to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    -webkit-transform: translate3d(-5px, 0, 0);
+    transform: translate3d(-5px, 0, 0);
+  }
+
+  20%, 40%, 60%, 80% {
+    -webkit-transform: translate3d(5px, 0, 0);
+    transform: translate3d(5px, 0, 0);
+  }
+}
+
+.oz_back_btn {   
+    position: absolute;
+    top: 20px;
+    left: 20px;
+	cursor:pointer;
+    -webkit-transition: .3s all ease;
+    transition: .3s all ease;
+	font-size: 0px !important;
+    width: 40px;
+    height: 40px;
+    box-shadow: var(--min-shadow);
+    border-radius: 11px;
+    display: inline-block;
+}
+
+.oz_back_btn:after { 
+	content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-top: 3px solid #5b6c82;
+    border-left: 3px solid #5b6c82;
+    transform: rotate(-45deg);
+    margin-left: 15px;
+    margin-top: 14px;
+    border-radius: 3px;
+}
+
+.oz_back_btn:hover {    
+    box-shadow: var(--min-shadow-hover);
+   }
+   
+.oz_back_btn.fadeOutTop { 
+transform:translateY(-20px);
+opacity:0;
+pointer-events:none;
+}
+
+.rtl .oz_back_btn:before {
+	margin-left: 5px;
+	margin-right: 0px;
+}
+
+.oz_spec_info {
+display:block;
+}
+
+body .oz_amount_info {
+	padding-bottom:10px;
+	order:-1;
+}
+
+.oz_zapis_info,
+.oz_zapis_info p,
+.oz_zapis_info span {
+	color:var(--font-color);
+}
+
+.oz_zapis_info span.oz_usluga_info,
+.oz_zapis_info span.oz_itog_mess {
+	display:block;
+}
+
+.oz_zapis_info span.oz_usluga_info.hide {
+	display:none;
+}
+
+.remList {
+position:relative;
+}
+
+.remList li.remDef {
+    float: none;
+    width: 100%;
+    display: block;
+    box-shadow: none;
+    margin: 0 auto;
+	position:relative;
+	box-shadow: var(--min-shadow);
+	border-radius:12px;
+    color: var(--btn-color);
+}
+
+.remList li.spisokRem {
+	position:absolute;
+    bottom: 85px;
+    left: 0;
+    width: 100%;
+	padding: 0;
+	margin:0 auto;
+    display: none;
+    box-shadow: 0px 5px 49px 0px rgba(24, 5, 72, 0.2);
+}
+
+.oz_hid_carousel ul.remList {
+    margin: 0 auto;
+	position:relative;
+}
+
+.remList li.remDef:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    margin-top: -9px;
+    right: 10px;
+    width: 12px;
+    height: 12px;
+    border-left: 2px solid #95b9ab;
+    border-bottom: 2px solid #95b9ab;
+	-webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+	-webkit-transform-origin: 35% 75%;
+    transform-origin: 35% 75%;
+    -webkit-transform-origin: 35% 75%;
+	transition: all .3s ease;
+}
+
+.remList.oz_open li.remDef:before {
+	-webkit-transform: rotate(-225deg);
+    transform: rotate(-225deg);
+}
+
+.spisokRem ul {
+    padding: 0;
+}
+
+.spisokRem ul li {
+    float: none;
+    width: 100%;
+    display: block;
+    box-shadow: none;
+    border-top: 0;
+    margin: 0;
+    padding: 12px;
+	cursor:pointer;
+    -webkit-transition: .3s all ease;
+    transition: .3s all ease;
+	opacity:0;
+}
+
+.remDef {
+    -webkit-transition: .3s all ease;
+    transition: .3s all ease;
+	cursor:pointer;
+}
+
+.spisokRem ul li:hover,
+.remDef:hover {
+    background: #fff;
+}
+
+.remList.oz_open .spisokRem {
+display:block;
+}
+
+.remList.oz_open .spisokRem ul li {
+opacity:1;
+}
+
+label[for="rememSms"] {
+padding: 0px 10px 10px;
+display: inline-block;
+}
+
+.oz_pop_btn {
+	position: fixed;
+	right: 0;
+	top: 50%;
+	z-index: 99;
+	transform: rotate(-90deg) translateX(100%);
+	transform-origin: bottom right;
+	background: #fb397d;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 4px 4px 0px 0px;
+	cursor:pointer;
+    -webkit-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+.oz_pop_btn:hover {
+background: #ff639a;
+}
+
+#oz_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.35);
+    z-index: 999;
+    display:none;
+	overflow-y: scroll;
+}
+
+.oz_popup {
+    width: 960px;
+    max-width:100%;
+    margin: 0 auto;
+    background: var(--main);
+    position: absolute;
+    top: 10%;
+    left:0;
+    right:0;
+    padding: 15px;
+    -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+    opacity: 0;
+    display:none;
+}
+
+.oz_popup.open {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
+
+.close {
+    position: absolute;
+    top: 4px;
+    right: 15px;
+    font-size: 2em;
+    z-index: 1;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .2;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.close:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    filter: alpha(opacity=50);
+    opacity: .5;
+    }
+    
+    div.wpcf7-validation-errors {
+    background: #F44336;
+}
+div.wpcf7-response-output {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    color: #fff;
+    border: 0px;
+    padding: 2em;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-name: fadeOutUp;
+    animation-name: fadeOutUp;
+    pointer-events:none;
+    }
+    
+    div.wpcf7-response-output.wpcf7-display-none {
+    opacity:0;
+    display:none;
+    }
+    
+#oz_overlay div.wpcf7-response-output {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width:100%;
+    bottom:initial;
+    }
+    
+    div.wpcf7-mail-sent-ok {
+    background:#4CAF50;
+    }
+            
+        @-webkit-keyframes fadeOutUp {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+@keyframes fadeOutUp {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    -ms-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+.fadeOutUp {
+  -webkit-animation-name: fadeOutUp;
+  animation-name: fadeOutUp;
+}
+    
+    @media (max-width:480px) {
+    .oz_popup {
+    top:0px;
+    }
+    }
+	
+
+.ea_my_app {
+	position:relative;
+}
+
+.ea_my_app small {
+    position: absolute;
+    top: -5px;
+    right: -9px;
+    background: #f44336;
+    width: 13px;
+    height: 13px;
+    font-size: 9px;
+    line-height: 12px;
+    border-radius: 50%;
+    color: #fff;
+}
+	
+.oz_booking_list {
+	margin-bottom:0;
+}
+	
+.oz_booking_list li,
+.oz_book_cont_top,
+.oz_book_cont_bottom {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items:center;
+  align-items:center;
+  margin-bottom: 0;	
+  list-style:none !important;
+  text-align: left;
+}
+
+.oz_container .oz_user_popup_overlay {
+	padding:0;
+}
+
+.oz_container .oz_user_popup_overlay .oz_user_popup {
+	max-height:400px;
+	overflow:auto;
+}
+
+.oz_employee_calendar .oz_container .oz_user_popup_overlay .oz_user_popup {
+	max-height:50vh;
+}
+
+.oz_booking_list li {
+	padding:15px 15px 15px 20px;
+	border-bottom:1px solid #eee;
+	position:relative;
+	-webkit-align-items:center;
+	align-items:center;
+}
+
+.oz_spec_img {
+width: 60px;
+}
+
+
+.oz_spec_img div {
+    width: 48px;
+    height: 48px;
+	border-radius:50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.oz_book_cont {
+	width:100%;
+	padding-left:15px;
+}
+
+.oz_book_cont_top {
+	font-size:13px;
+}
+
+.oz_book_cont_name {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+.oz_link.oz_book_cont_dec {
+    display: block;
+    height: auto;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+	color: #f44336;
+	border-color: #f44336;
+	font-size:12px;
+    line-height: 15px;
+    border-width: 1px;
+}
+
+.oz_book_cont_bottom {
+	font-size:12px;
+	color:#888;
+}
+
+.oz_book_cont_bottom > div {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;	
+}
+
+.oz_book_cont_name {
+    letter-spacing: 0.05em;
+    color: #777;
+}
+
+.oz_book_cont_serv {
+	font-size:15px;
+	font-weight:bold;
+	color: var(--btn-color);
+}
+
+.oz_past .oz_book_cont_serv {
+	color:#777;
+}
+
+.oz_book_cont_bottom svg {
+	max-width: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    fill: #777;
+	height: 12px;
+}
+
+.oz_book_cont_timing {
+	text-align:right;
+}
+
+.oz_book_cont_price {
+	padding: 0 10px;
+}
+
+.oz_future:before {
+    content: '';
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    border: 1px solid #2dde98;
+    background: #2dde98;
+    position: absolute;
+    top: 50%;
+    left: 7px;
+    margin-top: -3px;
+}
+
+.oz_past {
+	background:#f7f7f7;
+}
+
+.oz_past:before {
+    content: '';
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    border: 1px solid #777;
+    position: absolute;
+    top: 50%;
+    left: 7px;
+    margin-top: -3px;
+}
+
+body .oz_red {
+	color:var(--red) !important;
+}
+
+.oz_canc_stat {
+    position: absolute;
+    width: 0%;
+    height: 0%;
+    top: 0;
+    left: 0;
+    background-image: url(./../images/oz_loading.gif);
+    background-position: center center;
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    -webkit-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+    opacity: 0;
+    background-color: rgba(238, 238, 238, 0.88);
+    text-align: center;
+    margin: auto;
+}
+
+.oz_load.oz_book_li .oz_canc_stat {
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.oz_loaded.oz_book_li .oz_canc_stat {
+	background-image:none;
+}
+
+.oz_canc_stat > div {
+    display: table;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.oz_canc_stat > div > span {
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 16px;
+    color: #595959;
+	opacity:0;
+    -webkit-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+}
+
+.oz_loaded.oz_book_li .oz_canc_stat > div > span {
+	opacity:1;
+}
+
+.oz_booking_list {
+	margin-left:0;
+}
+
+@media (max-width:480px) {
+	.admin-bar .oz_popup {
+	    padding-top: 50px;
+	}
+}
+
+@media (max-width:380px) {
+	.oz_container .oz_user_popup_overlay {
+		right:0;
+		width:100%;
+	}
+	
+	.oz_book_cont_top {
+		font-size:11px;
+	}
+	
+	.oz_book_cont_serv {
+		font-size:13px;
+	}
+	
+	.oz_book_cont_bottom {
+    font-size: 9px;
+	}
+	
+	.oz_book_cont {
+	padding-left:10px;	
+	}
+	
+	.oz_book_cont_bottom svg {
+		max-width:10px;
+		height:10px;
+	}
+}
+
+.intl-tel-input.separate-dial-code .selected-flag,
+.intl-tel-input.allow-dropdown .flag-container:hover .selected-flag {
+    border-radius: 12px 0px 0 12px;
+}
+
+.intl-tel-input.allow-dropdown .flag-container:hover .selected-flag {
+	outline:none;
+}
+
+body .oz_hid_carousel ul.country-list li {
+    list-style: none;
+    box-shadow: none;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    border: 0;
+    display: block;
+}
+
+
+.oz_phone_input input::-webkit-outer-spin-button,
+.oz_phone_input input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.rtl .vnut {
+ text-align: right;
+}
+
+.rtl .oz_booking_list li,
+.rtl .oz_book_cont_top,
+.rtl .oz_book_cont_bottom {
+	    text-align: right;
+}
+
+.form_fields label {
+	margin-bottom:10px;
+	display:block;
+    color: var(--btn-color);
+    font-weight: bold;
+    text-align: left;
+}
+
+.oz_hid_carousel ul.remList {
+	padding:0 0 20px;
+}
+
+.form_fields label[for="rememSms"] {
+	padding:0;
+}
+
+.oz_hid_carousel ul li {
+	padding: 15px 20px;
+}
+
+.remList li.spisokRem {
+	z-index:1;
+}
+
+body .oz_hid_carousel .spisokRem ul {
+    margin: 0;
+    padding: 0;
+}
+
+body .oz_hid_carousel ul.oz_select, 
+body .oz_hid_carousel ul.oz_select .oz_li,
+body .oz_hid_carousel ul.oz_select .oz_li_sub ul {
+    margin: 0;
+    padding: 0;
+	width:100%;
+}
+
+body .oz_hid_carousel ul.oz_select {
+	margin-bottom:15px;
+}
+
+body .oz_hid_carousel ul.oz_select .oz_li_sub {
+	position:relative;
+	height: 56px;
+    box-shadow: none;
+    border: 0px;
+    margin: 0;
+}
+
+body .oz_hid_carousel ul.oz_select .oz_li_sub ul {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+	-webkit-transition: all .3s ease;
+    transition: all .3s ease;
+	border-top: 0;
+	overflow: hidden;
+    border-radius: 12px;
+	box-shadow: var(--min-shadow);
+}
+
+body .cat_zag.oz_li-as-acc {
+	position:relative;
+}
+
+body .oz_hid_carousel ul.oz_select .oz_li_sub ul:after,
+body .cat_zag.oz_li-as-acc:after {
+    content: '';
+    position: absolute;
+    bottom: 24px;
+    right: 10px;
+    width: 12px;
+    height: 12px;
+    border-left: 2px solid var(--btn-color);
+    border-bottom: 2px solid var(--btn-color);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 35% 75%;
+    transform-origin: 35% 75%;
+    -webkit-transform-origin: 35% 75%;
+	-webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+body .oz_hid_carousel ul.oz_select.open .oz_li_sub ul:after,
+body .cat_zag.oz_li-as-acc.active:after {
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);	
+}
+
+body .oz_hid_carousel ul.oz_select .oz_li_sub ul li {
+    width: 100%;
+    margin: 0 auto;
+	display:none;
+	box-shadow: none;
+	cursor:pointer;
+    border-top: 0px;
+    border-radius: 0px;
+	-webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    color: var(--btn-color);
+    background: var(--main);
+}
+
+body .oz_hid_carousel ul.oz_select.open .oz_li_sub ul li.active {
+    background: #f8f8f8;
+}
+
+body .oz_hid_carousel ul.oz_select.open .oz_li_sub ul li:hover,
+body .oz_hid_carousel ul.oz_select .oz_li_sub ul li:hover {
+    background: #fff;
+}
+
+body .oz_hid_carousel ul.oz_select .oz_li_sub ul li.active {
+	display:block;
+}
+
+body .oz_hid_carousel ul.oz_select.open .oz_li_sub ul li {
+	display:block;
+}
+
+body .oz_hid_carousel ul.oz_select.open .oz_li_sub ul {
+	box-shadow: 0px 5px 49px 0px rgba(24, 5, 72, 0.06);
+}
+
+.oz_hid_carousel ul li.oz_li_as_div {
+	padding:0;
+	margin:0;
+	width:100%;
+	float:none;
+	background:none;
+	border:0;
+	box-shadow:none;
+}
+
+.oz_hid .usluga.deactive:not(.checked),
+.oz_hid .usluga.deactive_buffer:not(.checked) {
+	opacity: 0.3;
+	cursor: not-allowed;
+}
+
+#oz_ok_icon path {
+	stroke:#2dde98;
+	stroke-dasharray: 51px;
+	stroke-dashoffset: 51px;
+	-webkit-transition: all .3s ease-in;
+	transition: all .3s ease-in;
+}
+
+.usluga.checked #oz_ok_icon path {
+	stroke-dashoffset: 0px;
+	-webkit-transition: all .3s ease-out .3s;
+	transition: all .3s ease-out .3s;
+}
+
+.oz_hid .usluga {
+	position:relative;
+}
+
+.oz_book_flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.oz_multi_block .oz_book_flex { 
+	width: 100%;
+	height: 100%;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.oz_multi_block {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,0.6);
+	pointer-events:none;
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;
+	opacity:0;
+}
+
+.usluga.checked .oz_multi_block {
+	pointer-events:initial;
+	background: rgba(255,255,255,0.8);
+	opacity:1;
+	border-radius:30px;
+}
+
+.oz_ok_multi {
+	width:100%;
+}
+
+.oz_return_multi {
+	width:100%;
+	color: #f44336;
+	border-color: #f44336;
+	line-height: 14px;
+	margin-top: -35px;
+	font-size: 14px;
+}
+
+.oz_return_multi .oz_link {
+	color: #f44336;
+	border-color: #f44336;
+	font-weight: bold;
+}
+
+#oz_ok_icon {
+	max-width: 100%;
+	max-height: 100%;
+	width: 110px;
+	margin:auto;
+}
+
+.uslugas .oz_multiselect_step {
+	display:none;
+}
+
+.oz_multiselect_step {
+	opacity:0;
+	-webkit-transform:translateY(40px);
+	transform:translateY(40px);
+	-webkit-transition: transform .3s ease, opacity .3s ease;
+	transition: transform .3s ease, opacity .3s ease;
+}
+
+.oz_multiselect_step.active {
+	opacity:1;
+	-webkit-transform:translateY(0);
+	transform:translateY(0);
+}
+
+.oz_multiselect_step.oz_btn::after {
+	display:none;
+}
+
+.oz_li_as_div.multiselect-block .oz_multiselect_step:not(.active) {
+	display:none;
+}
+
+.oz_li_as_div.multiselect-block:last-child .oz_multiselect_step {
+	display:inline-block;
+}
+
+ul.oz_booking_list {
+padding:0;
+margin:0;
+}	
+
+.oz_multiselect_step_on_mob {
+	display:none;
+}
+
+@media (max-width:767px) {
+	.oz_multiselect_step_on_mob {
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+	display:block;
+	text-align:center;
+	}
+	
+	.oz_li_as_div.multiselect-block {
+		display:none;
+	}
+	
+	.oz_width_mob .oz_employee_section .oz_li_as_div.multiselect-block  {
+		display:block;
+	}
+
+	.oz_width_mob #timeForm.tf-ten .oz_form_wrap {
+    padding: 10px 0;
+	}
+	
+	body .oz_hid .ui-datepicker-next, body .oz_hid .ui-datepicker-prev {
+		width: auto;
+		float: none;
+	}
+	
+	body .oz_hid .ui-datepicker-prev {
+		text-align:left;
+	}
+	
+	body .oz_hid .ui-datepicker-title {
+		width:100%;
+		text-align:left;
+		padding-top: 15px;
+	}
+	
+	.oz_hid .ui-datepicker-header {
+		padding: 5px 10px;
+	}
+}
+
+.oz_cust_checkbox {
+    line-height: 28px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.oz_cust_checkbox * {
+	display:inline-block;
+}
+
+.oz_cust_checkbox input {
+	width: 20px !important;
+	height: 20px !important;
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;
+    top: 3px;
+    position: relative;
+	padding-left: 3px;
+	padding-top:3px;
+    display: inline-block;
+    margin: 0px 5px 0px 0;
+    font-size: 16px;
+    vertical-align: sub;
+}
+
+.oz_hid #register_me,
+.oz_hid #rememSms {
+	width: 20px !important;
+	height: 20px !important;	
+	padding-left: 3px;
+	padding-top:3px;
+    display: inline-block;
+    margin: 0px 5px 0px 0;
+    font-size: 16px;
+    vertical-align: sub;
+}
+
+.oz_cust_textarea textarea {
+    padding: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    border-radius: 12px;
+	min-height: 120px;
+	width:100%;
+	font-family:var(--font) !important;
+    box-shadow: inset 4px 4px 10px rgba(181, 198, 216, 0.56), inset -4px -4px 10px rgba(255, 255, 255);
+    background-color: var(--main-gradient);
+    border: 1px solid #ebf2fd;
+    color: var(--font-color);
+}
+
+.oz_cust_textarea textarea:focus {
+	outline: none;
+	border-color: var(--accent-color-hover);
+	color: #8e9eb1;
+}
+
+.oz_cust_select_label {
+	margin-bottom:0;
+}
+
+.intl-tel-input.allow-dropdown {
+	border-radius:12px;
+}
+
+body .oz_hid .oz_hid_carousel .filials {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.oz_hid_carousel ul li.oz_li-as-acc {
+	width: 96%;
+	cursor:pointer;
+	margin-bottom:5px;
+	text-align:left;
+}
+
+.oz_hid_carousel ul li.oz_li-as-acc.cat_zag {
+	margin-bottom:20px;
+	color: var(--btn-color);
+	font-size:20px;
+	border-radius:12px;
+}
+
+.oz_hide,
+body .oz_container .oz_hid_carousel ul li.oz_service.oz_hide,
+body .oz_container .oz_hid_carousel ul li.oz_tab_item.oz_hide {
+	display:none !important;
+}
+
+.oz_hid_carousel ul li.personal:before, 
+.oz_hid_carousel ul li.oz_service:before,
+.oz_hid_carousel ul li.oz_li-as-acc:before,
+.oz_hid .zagday.squaredThree.zagday:before,
+.oz_hid .usluga:before,
+.oz_hid_carousel ul li.oz_li_as_div:before {
+	display:none;
+}
+
+.oz_hid_carousel .ui-datepicker-prev, 
+.oz_hid_carousel .ui-datepicker-next {
+	position:relative;
+}
+
+.oz_hid_carousel .ui-datepicker-prev {
+	margin-left:auto;
+	margin-right:0;
+}
+
+ 
+.oz_hid_carousel .ui-datepicker-next {
+	margin-left:0;
+	margin-right:0;
+}
+
+.oz_hid_carousel .ui-datepicker-prev.ui-state-disabled, 
+.oz_hid_carousel .ui-datepicker-next.ui-state-disabled {
+	opacity:1;
+}
+
+body .oz_hid .ui-datepicker-title {
+	border-color:transparent;
+	margin-bottom:0;
+	margin-top:0;
+	padding-bottom: 0;
+	text-transform: initial;
+	font-weight: bold;
+}
+
+body .oz_hid_carousel ul.oz_select.open .oz_li_sub ul {
+    max-height: 286px;
+    overflow: auto;
+	}
+	
+@media (max-width:767px) {
+	.oz_hid_carousel ul li.oz_filial {
+	width:100%;	
+	}
+}
+
+.oz_employee_container {
+	width:100%;
+	max-width:980px;
+	margin:0 auto;
+	padding:0 15px;
+}
+
+.oz_employee_calendar .oz_container {
+	position:initial;
+}
+
+.oz_employee_section {
+	  -webkit-flex-wrap: wrap;
+		flex-wrap: wrap;
+		position:relative;
+		
+}
+
+.oz_employee_calendar .oz_container > .text-center {
+	position: absolute;
+	top: 0;
+	left: -15px;
+	right: -15px;
+	text-align: left;
+	min-height: 40px;
+	text-align: left !important;
+	border-bottom: 1px solid #ccd9e9;
+    border-radius: 2px;
+    box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.74);
+}
+
+.oz_employee_calendar .oz_container > .text-center .oz_back_btn {
+	position: relative;
+	display: inline-block;
+	font-size: 16px;
+	vertical-align: initial;
+	line-height: 0px;
+	top: -10px;
+	left: 15px;
+	margin-right: 15px;
+}
+
+.oz_employee_calendar .oz_container > .text-center .oz_back_btn.fadeOutTop ~ h3.stepname {
+	position: absolute;
+	left: 0;
+	top: 18px;
+}
+
+.oz_employee_calendar .oz_container .oz_hid {
+	margin-top:40px;
+	padding:0 0 15px;
+}
+
+	body .oz_hid .oz_hid_carousel > * {
+		padding:20px 25px;
+	}
+
+@media (max-width:767px) {
+	
+	body .oz_hid .oz_hid_carousel > * {
+		padding:0 15px;
+	}
+}
+
+.oz_employee_calendar .oz_container > .text-center h3.stepname {
+	font-size: 15px;
+	padding: 0 15px;
+	margin: 0;
+	line-height: 40px;
+	color: #6b6a6a;
+	top:18px;
+	color: var(--btn-color);
+    font-family: var(--font);
+}
+
+.oz_employee_calendar .oz_hid .ui-datepicker-inline {
+	margin:0;
+}
+
+.oz_employee_info {
+	width:30%;
+	padding: 0 15px 0 0;
+	margin-bottom: 20px;
+}
+
+.oz_employee_info_wrap {
+    box-shadow: var(--card-shadow);
+    background: var(--main-gradient);
+	border-radius: 25px;
+	padding:0 15px;
+	text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.oz_employee_info_wrap > * {
+	order:10;
+}
+
+.oz_employee_img {
+	order:1;
+}
+
+.oz_emp_meta {
+	order:2;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.oz_name {
+	order:3;
+}
+.oz_employee_calendar {
+	width:70%;
+}
+
+	.oz_width_tablet .oz_employee_info {
+		width:40%;
+	}
+	.oz_width_tablet .oz_employee_calendar {
+		width:60%;
+	}
+	
+	 .oz_employee_info {
+		margin-top: 80px;
+	 }
+
+	 
+	.oz_width_mob .oz_employee_info,
+	.oz_width_mob .oz_employee_calendar	{
+		width:100%;
+		padding: 0;
+	}
+	
+	.oz_width_tablet .oz_employee_info,
+	.oz_width_mob .oz_employee_info {
+	  display: -webkit-box;
+	  display: -moz-box;
+	  display: -ms-flexbox;
+	  display: -webkit-flex;
+	  display: flex;
+	  -webkit-flex-wrap: wrap;
+		flex-wrap: wrap;
+		border-radius: 6px;		
+	}
+	
+	.oz_employee_section .oz_container.oz_width_tablet .stepname,
+	.oz_employee_section .oz_container.oz_width_mob .stepname {
+		margin-top:0;
+	}
+	
+	.oz_width_tablet .oz_employee_section .oz_container  .oz_hid .ui-datepicker-inline,
+	.oz_width_mob .oz_employee_section .oz_container   .oz_hid .ui-datepicker-inline {
+		margin:0;
+	}
+
+	
+	.oz_width_mob .oz_employee_section .oz_back_btn {
+		top:-15px;
+	}
+	
+	.oz_employee_calendar .oz_width_mob.oz_container > .text-center {
+		position:initial;
+		border-bottom:0;
+	}
+	
+	.oz_employee_calendar .oz_width_mob.oz_container > .text-center .oz_back_btn.fadeOutTop ~ h3.stepname {
+		position:relative;
+		line-height:0;
+	    top: -30px;
+	}
+	
+	.oz_employee_calendar .oz_width_mob.oz_container > .text-center h3.stepname {
+		display:block;
+		text-align:center;
+	    top: -30px;
+		line-height:0;
+	}
+	
+	.oz_employee_calendar .oz_width_mob.oz_container .oz_hid {
+		margin-top:0;
+	}
+	
+	.oz_employee_info_wrap {
+	  -webkit-flex-basis: 100%;
+	  flex-basis: 100%;
+	}
+
+
+.oz_employee_img {
+	padding-top:15px;
+}
+
+.oz_emp_img {
+	max-height: 230px;
+	width: auto;
+	display: block;
+	margin: 0 auto 15px;
+	background: #c5cbe5;
+	border-radius: 25px 25px 0 0;
+}
+
+.oz_emp_branch {
+	margin: 0;
+    font-size: 15px;
+    color: #837f7f;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-style: italic;
+    text-align: left;
+}
+
+.oz_emp_description,
+.oz_emp_description p {
+	font-size: 16px;
+	line-height: 1.3;
+}
+
+.oz_emp_description {
+	padding-bottom: 20px;
+    color: #726a84;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 0;
+    text-align: left;
+	font-family:var(--font);
+}
+
+.oz_employee_section .oz_hid_carousel > #timeForm .oz_form_wrap {
+	margin-top:0;
+}
+
+.oz_employee_container.oz_container.oz_width_xl_tablet ul li.personal, 
+.oz_employee_container.oz_container.oz_width_xl_tablet .oz_hid_carousel ul li.oz_service, 
+.oz_employee_container.oz_container.oz_width_xl_tablet .usluga, 
+.oz_employee_container.oz_container.oz_width_xl_tablet .oz_hid_carousel ul li.filial {
+	width: 47.33333%;
+}
+
+#oz_recaptcha {
+	width: auto;
+	padding: 10px 0;
+	margin: auto;
+	text-align: center;
+	display: inline-block;
+	max-width: 100%;
+}
+
+@media screen and (max-width: 480px){
+#oz_recaptcha {
+	transform:scale(0.77);
+	-webkit-transform:scale(0.77);
+	transform-origin:0 0;
+	-webkit-transform-origin:0 0;
+}
+}
+
+.oz_rel {
+	position:relative;
+}
+
+.oz_abs_btn {
+position: absolute;
+top: 50%;
+padding: 0;
+font-size: .8em;
+cursor: pointer;
+border-bottom: 1px dashed;
+margin-top: -.7em;
+right: 1.5em;
+line-height: 1.4em;
+-webkit-transition: all .3s ease;
+transition: all .3s ease;
+}
+
+.oz_abs_btn:hover {
+	border-color:transparent;
+}
+
+.oz_input_group {
+	border-radius:12px;
+	margin: 20px 0;
+	box-shadow:none !important;
+}
+
+.oz_input_group.req .oz_rel {
+	box-shadow: inset 4px 4px 10px rgba(242, 40, 40, 0.36), inset -4px -4px 10px rgba(242, 40, 40, 0.16) !important;
+    -webkit-animation: shake 1s ease both;
+    animation: shake 1s ease both;
+	border-radius:12px;
+}
+
+body .oz_input_group.req {
+	box-shadow:none !important;
+	animation:none;
+}
+
+.oz_valid input {
+	border-color:#2dde98 !important;
+	color:#2dde98 !important
+}
+
+.oz_input_group .svgok {
+	position: absolute;
+	right: 0;
+	top:0;
+	width: auto;
+	height: 100%;
+}
+
+.svgok .svgok__ok {
+	transform-origin: 50% 50%;
+	stroke-dasharray: 48;
+	stroke-dashoffset: 48;
+	-webkit-animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+	animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+	stroke:#2dde98 !important;
+}
+
+.oz_flex_wrap {
+	-webkit-flex-wrap:wrap;
+	flex-wrap:wrap;
+}
+
+.w-100 {
+	width:100%;
+}
+
+.oz_hid .ui-datepicker-calendar td {
+padding: 0;
+}
+
+.oz_hid .ui-datepicker-calendar thead th, .oz_hid .ui-datepicker-calendar td {
+padding: 10px 0 0;
+}
+
+.oz_hid .ui-datepicker-calendar thead th {
+	padding: 20px 0 0;
+}
+
+.oz_hid .ui-datepicker-calendar tbody tr td {
+	padding:5px 0;
+}
+
+.oz_hid .ui-datepicker-inline {
+	width: auto;
+}
+
+.oz_hid .ui-datepicker-header {
+    background: none !important;
+}
+
+.oz_hid .ui-datepicker-calendar tbody td[data-handler="selectDay"] a {
+	background: none !important;
+}
+
+.oz_hid .ui-datepicker .ui-datepicker-title span {
+    color: inherit;
+}
+
+.oz_hid_carousel .ui-datepicker.ui-widget .ui-datepicker-next .ui-icon {
+    position: initial;
+}
+
+.oz_hid_carousel .ui-datepicker.ui-widget .ui-datepicker-prev .ui-icon:before, 
+.oz_hid_carousel .ui-datepicker.ui-widget .ui-datepicker-next .ui-icon:before {
+display:none;
+}
+
+.oz_hid_carousel .ui-datepicker .ui-datepicker-prev, 
+.oz_hid_carousel .ui-datepicker .ui-datepicker-next {
+	position:initial;
+}
+
+/* для сафари*/
+
+.inlinedatepicker {
+	height:100% !important;
+	max-height:100% !important;
+}
+
+.oz_not_allowed,
+.oz_busy, .oz_breaks, .no_slots,
+.oz_serv_dur,
+.oz_today_past {
+	display:none !important;
+}
+
+.oz_busy, .oz_breaks, .oz_today_past {
+	opacity: 0.6;
+	pointer-events:none;
+	cursor:default;
+}
+
+.oz_busy label, .oz_breaks label, .oz_today_past label {
+    background: #f20505;
+    color: #000;
+    opacity: 1;
+}
+
+.oz_loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.81);
+    z-index: 1;
+}
+
+.oz_loading::after {
+    content: '';
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: 48px;
+    height: 48px;
+	margin-left:-24px;
+    background-image: url(./../images/oz_loading.gif);
+    background-position: center center;
+    background-size: 100% 100%;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    opacity: 1;
+}
+
+.oz_datetime_info {
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: flex-start;
+    text-align: left;
+    width: 100%;
+    order: 4;
+    border-top: 1px solid #ccd9e9;
+	border-radius:2px;
+    box-shadow: inset 0px 2px 0px rgba(255, 255, 255, 0.74);
+    margin-top: 15px;
+    padding-top: 15px;
+}
+
+.oz_zapis_info span.oz_date_info,
+.oz_zapis_info span.oz_time_info,
+.oz_spec_info span,
+.oz_usluga_info span,
+.oz_amount_info span {
+	display: block;
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
+.oz_amount_info span {
+	display:inline;
+}
+
+.oz_datetime_time {
+	padding-left:20px;
+}
+
+.oz_zapis_info > p {
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	width:100%;
+}
+
+.oz_zapis_info > p.payment_timeout {
+	display:block;
+}
+
+.oz_itog_mess {
+	order:5;
+}
+
+.oz_zapis_info span.oz_usluga_info {
+	order:2;
+	width:100%;
+}
+
+.oz_spec_info, .oz_amount_info {
+	order:1;
+	width:100%;
+}
+
+body .checkmark__circle,
+body .checkmark__check {
+   stroke: var(--accent-color);
+}
+
+p.oz_check {
+    color: var(--accent-color);
+    font-weight: bold;
+	text-align: center;
+}
+
+body .checkmark {
+    margin: auto;
+    display: block;
+}
+
+.oz_hid_carousel h5 {
+    font-size: 20px;
+    font-family: var(--font) !important;
+    color: var(--btn-color);
+    text-transform: inherit;
+}
+
+.oz_service > p {
+    color: var(--btn-color);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+	padding-top: 15px;	
+}
+
+body .oz_link {
+	color: var(--accent-color);
+    border-bottom: 1px dotted;
+	font-family: var(--font) !important;
+	font-size:15px;
+}
+
+body .oz_link:hover {
+	color: var(--accent-color-hover);
+    border-bottom: 1px dotted;
+}
+
+body #oz_arrow {
+	fill: var(--accent-color);
+}
+
+.oz_booking_list {
+	font-size:15px;
+	font-family: var(--font) !important;
+	color: var(--font-color);
+}
+
+.oz_employee_section .oz_my_app_block {
+	    top: 15px;
+}
+
+.oz_employee_section #timeForm {
+	padding-top:20px;
+}
+
+body .oz_container.oz_width_mob .oz_hid_carousel {
+	padding-top:15px;
+}
+
+.oz_employee_calendar .oz_container.oz_width_mob > .text-center .oz_back_btn {
+	left:0;
+}
+
+body .oz_hid_carousel .ui-datepicker.ui-widget .ui-datepicker-next .ui-icon {
+font-size:0;
+}
+
+.ea_my_app small {
+	text-align:center;
+}
+
+body.rtl .oz_hid .ui-datepicker-prev span:after {
+  position: relative;
+    left: -8px;
+}
+  
+body.rtl .oz_hid .ui-datepicker-next span:after {
+    position: relative;
+    left: -12px;
+  margin-top: 13px;
+}
+
+body.rtl .oz_hid_carousel .ui-datepicker-next {
+  margin-left: 0;
+    margin-right: auto;
+}
+
+body.rtl .oz_hid_carousel .ui-datepicker-prev {
+  margin-left: 0;
+    margin-right: 0;  
+}
+
+body.rtl .oz_back_btn:after {
+    position: relative;
+    left: -8px;
+}
+
+body.rtl .form_fields label[for="rememSms"],
+body.rtl .oz_hid #register_me {
+  display: flex;
+}
+
+body.rtl .oz_hid #register_me, 
+body.rtl .oz_hid #rememSms {
+    margin: 0px 0px 0px 5px;
+  }
+
+@media (max-width:480px) {
+	
+	.oz_abs_btn {
+		font-size:0px;
+	}
+	
+	.oz_abs_btn:after {
+		content: '';
+		position: absolute;
+		top: -9px;
+		left: -20px;
+		width: 12px;
+		height: 12px;
+		border-left: 2px solid var(--btn-color);
+		border-bottom: 2px solid var(--btn-color);
+		-webkit-transform: rotate(-45deg);
+		transform: rotate(-135deg);
+		-webkit-transform-origin: 35% 75%;
+		transform-origin: 35% 75%;
+		-webkit-transform-origin: 35% 75%;
+		-webkit-transition: all .3s ease;
+		transition: all .3s ease;
+	}
+}
+
+html body .ui-datepicker.ui-widget.oz_recur_date_selector {
+	border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 14px;
+    line-height: 2;
+    background: var(--main-gradient);
+    border-bottom: 0;
+    margin-bottom: 0;
+    box-shadow: var(--card-shadow);
+    border-radius: 30px;
+    overflow: hidden;
+    font-family: var(--font);
+    border: 0px;
+    margin-top: 0;
+	padding:10px 15px;
+}
+
+html body .ui-datepicker.ui-widget.oz_recur_date_selector table.ui-datepicker-calendar {
+	font-size: 12px;
+	margin-bottom:0;
+}
+
+html body .ui-datepicker.ui-widget.oz_recur_date_selector a {
+	font-size:12px;
+	color: var(--accent-color);
+    font-weight: bold;
+	cursor:pointer;
+}
+
+html body .ui-datepicker.ui-widget.oz_recur_date_selector a:hover {
+	color:var(--accent-color-hover);
+}
+
+html body .ui-datepicker.ui-widget.oz_recur_date_selector .ui-datepicker-header {
+	display: flex;
+}
+
+html body .ui-datepicker.ui-widget.oz_recur_date_selector  .ui-datepicker-header a.ui-datepicker-next {
+	order:3;
+}
+
+html body .ui-datepicker.ui-widget.oz_recur_date_selector  .ui-datepicker-header .ui-datepicker-title {
+	margin:auto;
+	font-size:12px;
+	padding: 0 15px;
+}
+
+html body .ui-datepicker.ui-widget.oz_recur_date_selector table.ui-datepicker-calendar td {
+    padding: 3px;
+    text-align: center;
+    vertical-align: top;
+    border:0;
+}
+
+html body .ui-datepicker.ui-widget.oz_recur_date_selector table.ui-datepicker-calendar th {
+	padding:5px;
+	font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.oz_checkbox_btn {
+	background: var(--main-gradient);
+    padding: 3px 5px;
+    border: 0px;
+    border-radius: 4px;
+    color: var(--btn-color);
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 400;
+    display: inline-block;
+    box-shadow: var(--min-shadow);
+    -webkit-transition: .3s all ease;
+    transition: .3s all ease;	
+}
+
+.oz_checkbox_btn:hover {
+	box-shadow: var(--min-shadow-hover);
+}
+
+.oz_checkbox_btn.oz_checkbox_btn_checked {
+    box-shadow: var(--btn-shadow);
+    font-weight: bold;
+}
+
+.oz_recur-block label {
+	display:block;
+	margin-bottom:5px;
+}
+
+.oz_disabled, .oz_disabled:hover, .oz_disabled:focus {
+	background-color: rgb(70 113 244 / 35%);
+    box-shadow: none;
+	cursor:default;
+}
+
+.oz_disabled::after {
+	box-shadow:none;
+	border-color:transparent;
+}
+
+body input.oz_recur-change-day, body select.oz_recur-change-time {
+	text-align: left;
+    line-height: 13px;
+    outline: none;
+    background: var(--main-gradient);
+    padding: 3px 5px;
+    border: 0px;
+    border-radius: 4px;
+    color: var(--btn-color);
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 400;
+    display: inline-block;
+    box-shadow: var(--min-shadow);
+    -webkit-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+body input.oz_recur-change-day:hover, body select.oz_recur-change-time:hover {
+	 box-shadow: var(--min-shadow-hover);
+	 background: #fcfdfe;
+}
+
+body select.oz_recur-change-time {
+    height: 22px;
+}
+
+.oz_recur-schedule-line {
+    border: 2px solid transparent;
+	border-bottom-color: var(--btn);
+    padding: 5px;
+    border-radius: 4px;
+	transition: border-color .3s ease;
+	font-size:13px;
+	transition: opacity .3s ease;
+	position:relative;
+}
+
+.oz_recur-schedule-line.oz_loading {
+	background:transparent;
+}
+
+.oz_recur-schedule-line.oz_loading > div {
+	opacity:0.6;
+}
+
+.oz_recur-schedule-line.oz_loading::after {
+    width: 24px;
+    height: 24px;
+	margin-left:0;
+	margin-top: -12px;
+	top:50%;
+}
+
+.oz_recur-schedule-line .oz_link {
+	font-size:13px;
+}
+
+.oz_recur-schedule-line:hover, .oz_recur-schedule-line.oz_recur-editing  {
+	border-color:var(--accent-color-hover);
+}
+
+.oz_recur-number {
+    min-width: 15px;
+    font-weight: bold;
+    color: var(--btn-color);
+}
+
+.oz_recur-schedule-line .oz_recur-date,
+.oz_recur-schedule-line .oz_recur-time {
+    color: var(--accent-color);
+    font-weight: bold;	
+}
+
+.oz_recur-schedule-line.oz_recur-busy .oz_recur-date, 
+.oz_recur-schedule-line.oz_recur-busy .oz_recur-time {
+	color:var(--red);
+	font-weight:400;
+}
+
+.oz_recur-schedule-line.oz_recur-disabled:not(.oz_recur-editing) .oz_recur-date,
+.oz_recur-schedule-line.oz_recur-disabled:not(.oz_recur-editing) .oz_recur-time {
+	opacity: 0.6;
+}
+
+.oz_recur-schedule-line.oz_recur-disabled .oz_recur-date,
+.oz_recur-schedule-line.oz_recur-disabled .oz_recur-time {
+    color: var(--font-color);
+	font-weight:normal;	
+}
+
+.oz_recur-schedule-line.oz_recur-editing .oz_recur-delete.oz_link {
+	cursor:default;
+	opacity:0.6;
+}
+
+.oz_recur-schedule-line.req {
+    background: rgb(255 23 5 / 23%);
+	box-shadow: none !important;
+}
+
+.recur-schedule.oz_recur-shedule-editing .oz_recur-schedule-line:not(.oz_recur-editing) {
+	opacity:0.3;
+}
+
+.oz_recurring_info {
+	order:4;
+}
+
+.oz_recurring_info span {
+    display: block;
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
+.oz_input-date_placeholder {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    pointer-events: none;
+    font-weight: 400;
+    color: var(--btn-color);
+    font-size: 13px;
+}
+
+body label.oz_input-date_placeholder + input.oz_recur-change-day {
+	text-indent:-9999px;
+}
+
+.oz_recur-schedule-line .oz_recur-date {
+	position:relative;
+}
+
+.oz_recur-min {
+	display:block;
+}
+
+.oz_user_popup-bar-wrap {
+	padding:10px;
+	box-shadow: 0px -2px 24px rgb(70 113 244 / 27%);
+}
+
+.oz_user_popup-logout {
+	margin-left:auto;
+}
+
+body .oz_user_popup-logout.oz_link {
+	line-height: 16px;
+	font-size: 13px;
+}
+
+.oz_badge {
+	box-shadow: inset 4px 4px 10px rgba(181, 198, 216, 0.56), inset -4px -4px 10px rgb(255, 255, 255);
+	background-color: transparent;
+	color: #ff5858;
+	font-size: 11px;
+	font-weight: 600;
+	border: 1px solid #d1d9e6;	
+	text-transform:uppercase;
+	display: inline-block;
+	padding: 1px 2px;
+	line-height: 12px;
+	border-radius: 3px;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+}
+
+.oz_badge-right { 
+	position: absolute;
+	top: 10px;
+	right: 20px;
+}
+
+@media (max-width:480px) {
+	.oz_recur-container .oz_recur-block {
+		width:100%;
+	}
+	
+	.oz_recur-schedule-line .oz_recur-delete {
+		width:50%;
+		margin-left:auto;
+		border-color:transparent;
+	}
+	
+	.oz_recur-schedule-line .oz_recur-edit {
+		width:50%;
+		margin:0;
+		border-color:transparent;
+	}
+	
+	.recur-schedule-line.oz_nav > * {
+		width: 100%;
+		margin-top: 20px;
+		text-align: center;	
+		order:3;		
+	}
+	
+	.recur-schedule-line.oz_nav .oz_recur-nav-notice {
+		order:4;
+	}
+	
+}
+
+.oz_hid_carousel ul li.squaredThree label:before {
+	display:none;
+}
+
+.oz_hid .ui-datepicker-calendar {
+		display: table;
+} 
+
+.oz_hid_carousel tr {
+	border:0px;
+}

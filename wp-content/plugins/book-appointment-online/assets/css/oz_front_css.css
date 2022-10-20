@@ -1,0 +1,542 @@
+/*-----------------------------------------------------------------------------
+
+- Default Front CSS -
+
+author:		ozplugin
+email:     	client@ozplugin.ru
+website:   	http://www.ozplugin.ru
+version:	3.0.7
+-----------------------------------------------------------------------------*/
+.hide {
+	display:none;
+}
+
+#oz_overlay,
+#oz_overlay *,
+.oz_container,
+.oz_container * {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+.clearfix:after {
+	content:'';
+	display:table;
+	clear:both;
+}
+
+.oz_hid {
+	overflow:hidden;
+}
+
+.oz_hid_carousel {
+	width:700%;
+	position:relative;
+	transition: transform .7s cubic-bezier(0.65, 0.05, 0.36, 1);
+}
+
+body .oz_hid .oz_hid_carousel > * {
+	float:left;
+	width:14.28571%;
+	min-height:1px;
+	max-height:1px;
+	-webkit-transition: max-height .3s;
+	transition: max-height .3s;
+}
+
+body.rtl .oz_hid .oz_hid_carousel > * {
+	max-height:initial;
+}
+
+body .oz_hid .oz_hid_carousel > *.active {
+	max-height:999999px;
+	-webkit-transition: max-height .3s;
+	transition: max-height .3s;
+}
+
+.inlinedatepicker {
+	position:relative;
+}
+
+.oz_err {
+    text-transform: initial;
+    font-weight: 400;
+    letter-spacing: 0;
+    font-size: 0.7em;
+    color: #F44336;
+}
+
+@-webkit-keyframes fadeOutLeft {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes fadeOutLeft {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.fadeOutLeft {
+  -webkit-animation: fadeOutLeft 1s ease both;
+  animation: fadeOutLeft 1s ease both;
+}
+
+@-webkit-keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInRight {
+  -webkit-animation: fadeInRight 1s ease both;
+  animation: fadeInRight 1s ease both;
+}
+
+.oz_zapis_info {
+    text-align: center;
+}
+
+p.oz_check {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 15px;
+    font-size: 1.4em;
+}
+
+.checkmark__circle {
+  stroke-dasharray: 166;
+  stroke-dashoffset: 166;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+  stroke: #2DDE98;
+  fill: none;
+  -webkit-animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+  animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+
+.checkmark {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  stroke-width: 2;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  box-shadow: inset 0px 0px 0px #fff;
+  animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both;
+}
+
+.checkmark__check {
+  transform-origin: 50% 50%;
+  stroke-dasharray: 48;
+  stroke-dashoffset: 48;
+  animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+  stroke: #2dde98;
+}
+
+@keyframes stroke {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes scale {
+  0%, 100% {
+    transform: none;
+  }
+  50% {
+    transform: scale3d(1.1, 1.1, 1);
+  }
+}
+@keyframes fill {
+  100% {
+    box-shadow: inset 0px 0px 0px 30px #fff;
+  }
+}
+
+.oz_my_app_block {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    padding: 10px;
+}
+
+.oz_link {	
+    color: #777;
+    border-bottom: 2px dotted #ddd;
+    background: none;
+    font-weight: 400;
+    border-radius: 0px;
+	display:inline-block;
+    -webkit-transition: .3s all ease;
+    transition: .3s all ease;
+    cursor: pointer;
+	text-decoration:none !important;
+	box-shadow:none !important;
+	
+}
+
+.oz_link.ea_my_app {
+    display: flex;
+	align-items:center;	
+}
+
+#oz_arrow {
+	width: 10px;
+    height: 10px;
+    fill: #777;
+	-webkit-transition: all .4s ease;
+	transition: all .4s ease;
+	margin-right:5px;
+}
+
+.oz_link:hover,
+.oz_link:hover #oz_arrow {
+    color: #333;
+	fill: #333;
+    border-color: transparent;
+}
+
+.oz_user_popup_overlay {
+    position: absolute;
+    width: 340px;
+    background: #fff;
+    z-index: 2;
+    right: 10px;
+    top: 50px;
+    box-shadow: 0px 5px 49px 0px rgba(24, 5, 72, 0.27);
+    padding: 20px;
+    border-radius: 2px;
+	-webkit-transition: all .4s ease;
+	transition: all .4s ease;
+	-webkit-transform:scale(0) translateY(-50px);
+	transform:scale(0) translateY(-50px);
+	-webkit-transform-origin:top right;
+	transform-origin:top right;
+}
+
+.oz_user_open .oz_user_popup_overlay {
+	-webkit-transform:scale(1) translateY(0px);
+	transform:scale(1) translateY(0px);
+}
+
+.oz_user_open #oz_arrow {
+	-webkit-transform:rotate(180deg);
+	transform:rotate(180deg);
+}
+
+body.rtl .oz_hid_carousel > * {
+	float:right;
+}
+
+.noSkipSteps:not(.onlyServices) .oz_spec_info {
+	display:block !important;
+}
+
+.oz_container .ui-widget-content {
+	    height:auto !important;
+}
+
+.oz_container .ui-datepicker .ui-datepicker-prev span, 
+.oz_container .ui-datepicker .ui-datepicker-next span {
+    position: initial;
+    margin-left: 0;
+    margin-top: 0;
+	background-image: none;
+}
+
+.oz_container .ui-state-hover, 
+.oz_container .ui-widget-content .ui-state-hover, 
+.oz_container .ui-widget-header .ui-state-hover, 
+.oz_container .ui-state-focus, 
+.oz_container .ui-widget-content .ui-state-focus, 
+.oz_container .ui-widget-header .ui-state-focus {
+	border-color:transparent;
+	background:none;
+	font-weight:inherit;
+	cursor:pointer;
+}
+
+.oz_container .ui-state-default, 
+.oz_container .ui-widget-content .ui-state-default, 
+.oz_container .ui-widget-header .ui-state-default {
+	border:0px;
+	background:none;
+	font-weight:inherit;
+}
+
+.oz_container .ui-datepicker td span, 
+.oz_container .ui-datepicker td a {
+	text-align: center;
+}
+
+.ui-state-highlight, 
+.ui-widget-content .ui-state-highlight, 
+.ui-widget-header .ui-state-highlight {
+	border:0px;
+	background:none;
+}
+
+body .oz_hid .ui-datepicker-title {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.oz_hid_carousel .ui-datepicker.ui-widget .ui-datepicker-next .ui-icon {
+	font-size:13px;
+}
+
+.oz_hid_carousel .ui-widget-content {
+	border:0px;
+	background:none;
+}
+
+.oz-form input[type="checkbox"] {
+	width:20px;
+	height:20px;
+}
+
+.oz_waiting_info, .oz_dialog_info {
+	position: absolute;
+	top: 0%;
+	left: 0;
+	width: 100%;
+	height:100%;
+	background: rgba(0, 0, 0, 0.2);
+	text-align: center;
+	z-index: 99;
+	margin: auto;
+}
+
+.oz_dialog_info {
+	z-index: 100;
+}
+
+.oz_waiting_info span {
+	display: inline-block;
+	color: #fff;
+	border-radius: 4px;
+	line-height: 16px;
+	font-size: 16px;
+	padding: 3px 10px;
+	background: rgba(70, 113, 244, 0.74);
+}
+
+.oz_dialog_info_win {
+    max-width: 100%;
+    width: 360px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 4px;
+    padding: 10px;
+	position:relative;
+    -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (max-width:767px) {
+	.oz_dialog_info_win {
+		margin-top: 10%;
+	}
+}
+
+.oz_dialog_info_win span {
+	display: block;
+    margin: 0 0 10px;
+    font-size: 18px;
+}
+
+.oz_hid_carousel .oz_text_cont ul li {
+	box-shadow: none;
+	padding: 0px;
+	border-radius: 0px;
+	width: auto;
+	margin: 0px;
+	background: none;
+	display: inherit;
+	text-align:left;
+	border:0px;
+}
+
+.oz_container .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    color: inherit;
+}
+
+
+.oz_flex {
+    display: flex;	
+	flex-wrap:wrap;
+}
+.oz_flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.oz_flex-end {
+	align-items: flex-end;
+}
+
+.oz_space-between {
+	justify-content: space-between;
+}
+
+.oz_w-100 {
+	width:100%;
+}
+
+.oz_w-50 {
+	width:50%;
+}
+  
+.oz_wh-100 {
+    width: 100%;
+    height: 100%;
+}
+
+.oz_h-100 {
+	height: 100%;
+}
+
+.oz_px-15 {
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.oz_mb-15 {
+	margin-bottom:15px;
+}
+
+.oz_my-5 {
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+.oz_my-10 {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.oz_my-15 {
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+.oz_mx-5 {
+	margin-left:5px;
+	margin-right:5px;
+}
+
+.oz_ml-5 {
+	margin-left:5px;
+}
+
+.oz_mr-5 {
+	margin-right:5px;
+}
+
+.oz_mx-10 {
+	margin-left:10px;
+	margin-right:10px;
+}
+
+.oz_ml-10 {
+	margin-left:10px;
+}
+
+.oz_mr-10 {
+	margin-right:10px;
+}
+
+.oz_ml-auto {
+	margin-left:auto;
+}
+
+.oz_m-auto {
+	margin:auto;
+}
+
+.oz_mr-auto {
+	margin-right:auto;
+}
+
+.oz_px-15 {
+	padding:0 15px;
+}
+
+.recur-schedule {
+	max-height: 400px;
+    overflow: auto;
+}
+
+body .oz_hid_carousel ul.oz_select.open.oz_select_top .oz_li_sub ul {
+	bottom: initial;
+    top: 0;	
+}
+
+body .ui-datepicker.ui-widget.oz_recur_date_selector {
+	background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.oz_recur-change-time option[disabled="disabled"] {
+	color:red;
+}
+
+.oz_recur_date_selector .ui-datepicker-calendar {
+	width:100% !important;
+}
+
+.oz_hid_carousel .oz_finalMessage ul li {
+    list-style: initial !important;
+    padding: initial !important;
+    box-shadow: initial !important;
+    border: initial !important;
+    padding: initial !important;
+    border-radius: initial !important;
+    margin-bottom: initial !important;
+    width: initial !important;
+    margin: initial !important;
+    background: initial !important;
+    display: block;
+	text-align: initial;
+    vertical-align: initial !important;
+}
